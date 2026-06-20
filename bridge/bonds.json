@@ -1,0 +1,13 @@
+{
+  "flpbxhqwoy7tdogcgj4kavnhri": {
+    "their_fingerprint": "flpbxhqwoy7tdogcgj4kavnhri",
+    "their_name": "flpbxhqw",
+    "level": 0,
+    "bonded_at": 1781944366.196955,
+    "last_seen": 1781944384.0561438,
+    "attention_count": 2,
+    "their_signature": null,
+    "our_signature": "7CikzS5nKMyA8fMuN7vI5VPowVOaug2/ZYp9Z/jGwwb2iI6gOLjNioOGiaD7kQ3xrks5K/05J0TRffbsG1JEDg==",
+    "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAd50IGWfF3+PEK/hNIylbq66wTCLRZBNSTiPmniwTAPA=\n-----END PUBLIC KEY-----\n"
+  }
+}

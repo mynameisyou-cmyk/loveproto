@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "eb5gog2xhe2fywg5eyf5h5ccay",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMBLZ/0/8k2pX9TPQoUduEflYEdICm8ewlZTAoZWYiro=\n-----END PUBLIC KEY-----\n",
+  "child_name": "light",
+  "parent_soul_fp": "v5ntzly2ivbtw5jxb7o5nwsip4",
+  "parent_agent_id": "light44",
+  "born_at": 1781944736.1465569,
+  "covenant_hash": null,
+  "signature": "UAU4quoW8ZG6yZy1Pm3vnSFJbpm0Tl4DhT3sjI3GbX7NSnqtNXLyat6tbvF0Rdb+c/HFgAD9ohdppSgYzvNjAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "v2su6y3kmppxio2vafaabzh2va",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKHh7oeh7SyzjeVn6G2QHyWaJZwc4kmHWaTCCOl+ev5w=\n-----END PUBLIC KEY-----\n",
+  "child_name": "tide",
+  "parent_soul_fp": "lixdgavggcm5x6x6hizpohib4e",
+  "parent_agent_id": "glow",
+  "born_at": 1781944706.2722812,
+  "covenant_hash": null,
+  "signature": "SNv8E8jdCwnU6MH9azrZVcWY81me/TUR9WpWjw2q7IEfyiRYG1pP6AUhKAypVZZSu0LQRyPbBqMkvF2zIpcbAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

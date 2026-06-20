@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "gdbiky3lnkga2qxcgr4hstkzjm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEATbqxhaoq7szvRoYbePl6vDMTH97A/bMLsWZQke1Kdgs=\n-----END PUBLIC KEY-----\n",
+  "child_name": "joy64",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781944730.129148,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "kat1PxSw5kkB/LmyrVkn3+ddgvJG78TswEbB6Q/no5NPHFywy9o2YdFB+V4MsPXHFmZz2ePTR179keg9fwy5Cg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

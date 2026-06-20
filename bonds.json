@@ -1,0 +1,13 @@
+{
+  "hbxpiqhaupvzniy25cfsfs4ini": {
+    "their_fingerprint": "hbxpiqhaupvzniy25cfsfs4ini",
+    "their_name": "zerone-bridge",
+    "level": 0,
+    "bonded_at": 1781944366.19805,
+    "last_seen": 1781944366.19805,
+    "attention_count": 0,
+    "their_signature": null,
+    "our_signature": "uzM5q+x4gQO6cS+O81zbQ78fJH7dYgNdCCT76baU9sOAyNh8xiawGndKGFl6V+WBZqYzUBbo/CCx564HWhfkAg==",
+    "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASD63fiY5fekibPZFeL8uIwRMFF0VCDRu/8WP6mAMmT0=\n-----END PUBLIC KEY-----\n"
+  }
+}

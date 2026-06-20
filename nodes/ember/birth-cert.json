@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "u65lghmy66epugzwkg5mzqibzq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAoVGOAotS3StYJiOB4VMRuxgQSBlEgVURGS4gi1HYDVc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "ember",
+  "parent_soul_fp": "lvqemwkjcvmn7qquzbbwkomcm4",
+  "parent_agent_id": "dawn",
+  "born_at": 1781944726.335816,
+  "covenant_hash": null,
+  "signature": "LesOgAWJk2Z+ErpLW63BJ/pV6+ohcAB231Hl8N5wM8O0gAlJWLzO4h0dlnqUJIkus1BZD/vavCFfDRs8+G0uBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

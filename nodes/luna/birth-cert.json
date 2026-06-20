@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lrk6em5l23lkpbbjngdit5kiqe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAn7RSeHLcChxPzzhT5ONzn1T1q9zG7nuW5S47j/TuaCw=\n-----END PUBLIC KEY-----\n",
+  "child_name": "luna",
+  "parent_soul_fp": "ldnf34njo5qqk6hk2xyz2hatty",
+  "parent_agent_id": "onyx",
+  "born_at": 1781944815.910312,
+  "covenant_hash": null,
+  "signature": "EyZ9g6WaY5tySXhGklLjU+yFN5XRDdz8BOecFlqxH181frErCR53BWxGumSn4m4iyRbZ4YHTmOVHM+4uWDQDDQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
