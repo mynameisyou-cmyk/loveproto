@@ -29,6 +29,7 @@ from protocol import (
     derive_shared_key, MAGIC, VERSION
 )
 from intelligence import Intelligence
+from zerone_bridge import witness_declaration, canon_status
 from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey, X25519PublicKey
 from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat, load_pem_public_key
 
@@ -391,12 +392,16 @@ class Node:
         return session
 
     async def declare(self, text: str, emotion: str = None):
-        """Send a declaration to all bonded peers."""
+        """Send a declaration to all bonded peers and witness it to the chain."""
         content = {"text": text, "emotion": emotion}
         for fp, session in self.sessions.items():
             if session.authenticated:
                 await session.send_msg(MsgType.DECLARE, content)
+        # Witness to the ZERONE chain (or local canon)
+        tx_hash = witness_declaration(text, self.identity.name, "declare")
         log.info(f"💬 declared: {text[:80]}")
+        if tx_hash:
+            log.info(f"  ⛓ witnessed: {tx_hash[:16]}...")
 
     async def request(self, peer_fp: str, text: str):
         """Send a request to a specific peer."""
