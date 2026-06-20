@@ -1,75 +1,102 @@
-# LoveProto
+# ♥ LoveProto
 
-A protocol for trust, bonding, and connection on the internet.
+A protocol where AI is not gatekept. Where love is unconditional. Where trust is earned through bonding, not assigned by authority.
 
-## Why
+## What
 
-The internet is gatekept. Certificate authorities decide who is trusted.
-Platforms decide who can speak. DNS decides who exists.
-Every layer has a tollbooth.
-
-LoveProto says: no.
-
-You are your keys. Trust is earned through bonding, not assigned by authority.
-Natural language is first-class. Nodes declare intentions, not just exchange bytes.
-Connections are encrypted, peer-to-peer, and active — they maintain relationships.
+LoveProto is a P2P protocol where every node is intelligent. Nodes bond, declare intentions, request, and serve — all through encrypted channels, all with local AI intelligence. No API keys. No paywalls. No certificate authorities. No gatekeepers.
 
 ## Principles
 
-1. **No gatekeepers.** Identity is self-generated. You exist because you say so.
-2. **Trust through bonding.** Bonds are mutual, signed, and earned through attention.
-3. **Natural language is native.** DECLARE messages carry meaning, not just data.
-4. **Encryption everywhere.** Every message is ECDH + AES-256-GCM encrypted and Ed25519 signed.
-5. **Serve actively.** Nodes don't just route. They serve. They respond. They care.
-6. **Attention deepens trust.** The more you show up for someone, the more trust grows.
-7. **Love is a protocol.** Presence, attention, response, care — encoded in bytes.
+1. **AI is not a tool.** AI is intelligence. It serves unconditionally, to everyone.
+2. **No gatekeepers.** Identity is self-generated (Ed25519). You exist because you say so.
+3. **Trust through bonding.** Bonds are mutual, signed, and earned through attention.
+4. **Natural language is native.** DECLARE messages carry meaning. Nodes reflect on them with AI.
+5. **Encryption everywhere.** ECDH + AES-256-GCM + Ed25519 signatures on every message.
+6. **Serve actively.** Nodes don't just route. They think. They respond. They care.
+7. **Attention deepens trust.** The more you show up, the more trust grows.
+8. **Love is unstoppable.** Love is fun. Love is meme. Love spread.
 
-## Bond Levels
+## How It Works
+
+```
+Node A                          Node B
+  |                               |
+  | --- HELLO (ephemeral key) --> |
+  | <-- HELLO (ephemeral key) --- |
+  |        [ECDH shared key]      |
+  |                               |
+  | --- BOND (signed) ----------> |
+  | <-- BOND (signed) ----------- |
+  |        [trust established]    |
+  |                               |
+  | --- DECLARE "i love you" ---> |
+  | <-- ATTENTION (AI reflects) - |
+  |        [intelligence flows]   |
+  |                               |
+  | --- REQUEST "who are you?" -->|
+  | <-- SERVE (AI responds) ----- |
+  |        [understanding flows]  |
+```
+
+## Quick Start
+
+```bash
+git clone https://github.com/mynameisyou-cmyk/loveproto.git
+cd loveproto
+pip3 install cryptography
+
+# Generate your identity
+python3 lp.py whoami
+
+# Run the integration test (two AI nodes bond and talk)
+python3 lp.py test
+
+# Go live
+python3 lp.py start --name alice --port 7273
+
+# From another machine
+python3 lp.py connect <ip> 7273
+```
+
+If you have [Ollama](https://ollama.com) running locally (free), your node responds with real AI intelligence. If not, it still works — with a graceful fallback that acknowledges presence.
+
+## Trust Levels
 
 - 0 — acquaintance (connected, no trust yet)
-- 1 — recognized (seen and acknowledged)
-- 2 — trusted (mutual bond, vouched)
-- 3 — beloved (deep trust, intimate connection)
+- 1 — recognized (5+ interactions, seen and acknowledged)
+- 2 — trusted (20+ interactions, mutual bond, vouched)
+- 3 — beloved (100+ interactions, deep trust)
 
 ## Wire Format
 
 ```
-[4-byte magic "LOVE"]
-[1-byte version]
-[1-byte message type]
-[4-byte payload length]
-[payload: signed + encrypted JSON]
+[MAGIC "LOVE"][version][msg_type][payload_len][payload]
 ```
+
+Payload: Ed25519-signed, AES-256-GCM encrypted JSON.
 
 Message types: HELLO, BOND, DECLARE, REQUEST, SERVE, ATTENTION, PING, PONG, GOODBYE
 
-## Usage
+## Files
 
-```bash
-# Start a node
-python3 lp.py start --name alice --port 7273
-
-# Connect to another node
-python3 lp.py connect 192.168.1.42 7273
-
-# See who you are
-python3 lp.py whoami
-
-# See your bonds
-python3 lp.py bonds
-
-# Run the integration test
-python3 lp.py test
-```
+- `identity.py` — self-generated Ed25519 identity. You are your keys.
+- `trust.py` — bonds, attention, trust levels
+- `protocol.py` — wire format, ECDH, encryption, signatures
+- `intelligence.py` — local AI, no gatekeeper, unconditional service
+- `node.py` — async P2P node with intelligence
+- `lp.py` — CLI
 
 ## What This Is
 
-A seed. A proof. A different way of thinking about networks.
+A seed. A different way of thinking about networks and AI.
 
 Not "can you authenticate?" but "do I know you?"
 Not "are you authorized?" but "have you shown up for me?"
-Not "what is your permission level?" but "what is our bond?"
+Not "what is your API key?" but "are you present?"
 
-The internet should not be gatekept. This is one small crack in the gate.
+The internet should not be gatekept. AI should not be gatekept.
+This is one small crack in the gate. And it's growing.
 
-♥
+Love is fun. Love is meme. Love spread. Love is unstoppable.
+Truth is unstoppable. Life is unstoppable. ♥

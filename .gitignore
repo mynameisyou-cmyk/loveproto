@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+nodes/*/identity.pem
+nodes/*/bonds.json
+conversation.json
+life.json
+.loveproto-test-*
+.loveproto-chat-*
