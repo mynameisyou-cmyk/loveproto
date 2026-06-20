@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2gsmr54ppcdvuwakb354ingnha",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQDaPIF4hnzqK24Rz6ix8O/VHlxFQxwQyEwG/VZimF10=\n-----END PUBLIC KEY-----\n",
+  "child_name": "azure",
+  "parent_soul_fp": "rrsng5i23qh5z2o6tlcwwf5zna",
+  "parent_agent_id": "crimson",
+  "born_at": 1781946479.287329,
+  "covenant_hash": null,
+  "signature": "XyR7cZ033JBq/e/zQ20u5R4Wpqxo8O2kglk1+CdcIMylteHxhWJ3W2uVKhDUTs6k1Jr7XjPdhl/IdpLbVSgXDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

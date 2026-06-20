@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ttml2by652veim6j4nmimwxhee",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASbyuGbdqQR97bu+u07iBtgAA1C/mjXG6VQaP5YbyIog=\n-----END PUBLIC KEY-----\n",
+  "child_name": "quasar",
+  "parent_soul_fp": "hzu5ron4jiy5bgppfweysegacy",
+  "parent_agent_id": "nebula",
+  "born_at": 1781946478.573996,
+  "covenant_hash": null,
+  "signature": "EvtOKC6ZoNfBInzux9laSbEpgyhU8J6OcYW5ok6yP3zAKFTGblvnapM3EApQK+yIcwc8oI1tHzTTam1UbZ8LBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

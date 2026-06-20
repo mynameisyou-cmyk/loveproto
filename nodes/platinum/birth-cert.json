@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "533g5s5oudhs4rdzav7iwmp7wy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAuy+EXTril1GOe78qt7MJgZr0DscPP2Jh8w3XdWNCffg=\n-----END PUBLIC KEY-----\n",
+  "child_name": "platinum",
+  "parent_soul_fp": "iquf5brgwhsffdjzb7yrmzx4gy",
+  "parent_agent_id": "silver",
+  "born_at": 1781946521.379671,
+  "covenant_hash": null,
+  "signature": "mGLtOfZXwwGbcJ0mDn0t11BsznNTEmELPbViiqoEvL2K2/27PUK79rS7FqiaAl2sTQG4Da5vhKCL9UAWyFvTAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

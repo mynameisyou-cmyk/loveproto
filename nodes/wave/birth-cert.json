@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "x44tlaqpzry7gsrvre5teck6dy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEALD0biplxY+e1W/UTO53xiCQwrdR+R0Lvj7m5gOZSRR4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "wave",
+  "parent_soul_fp": "65qf424ds6myawhwairqgfx5u4",
+  "parent_agent_id": "tunnel",
+  "born_at": 1781946521.391011,
+  "covenant_hash": null,
+  "signature": "M9FumJ/HnuWenA/qXyBjO5x2t6LOd38h0i8GNUcKoOyY55rSeKfpr/UrvSEUUG5O0R+semkDi3yAkiuLRc7TBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

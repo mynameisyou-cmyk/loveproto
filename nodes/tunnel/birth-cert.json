@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "65qf424ds6myawhwairqgfx5u4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2kYYgGTR7BZLpTc/FdMeAURbFlceEji/fCbjE1cCcyQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "tunnel",
+  "parent_soul_fp": "kawypsij37eacygx5hrlhmyp5a",
+  "parent_agent_id": "superpose",
+  "born_at": 1781946521.389546,
+  "covenant_hash": null,
+  "signature": "Ch2EyjH32+F16B8/I7OrZ5bNtRig2n7XvAeQLEttCbp3maLaqKK/xO4wmVgO9PBJAhmW6CaGZRJgfS9an4J2AA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

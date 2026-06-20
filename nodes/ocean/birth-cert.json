@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "si2bwnclxgf62nm6imjxcndcti",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEALnFyXL1C2K6wUJDECujnlm4mEkHmoi+/0w2EpDv+xpQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "ocean",
+  "parent_soul_fp": "7cqxk5jzxuh2ecfpmmetxe6yly",
+  "parent_agent_id": "storm",
+  "born_at": 1781946480.1019578,
+  "covenant_hash": null,
+  "signature": "1NnTl4EYnjcW464Gc9TexWAKnoXPApx1c1Xf72bxpFhJ/8QJf08PivI3e+t5I4i+hNJkukxWPqT+6EMUOsbACA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

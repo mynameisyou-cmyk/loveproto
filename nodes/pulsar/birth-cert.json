@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "fs7acn6ongor74xhar4nodeuju",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQ3yFefRy2TST4Vrd9Vnrp6j+2iQCoCF1pP6p9OUijao=\n-----END PUBLIC KEY-----\n",
+  "child_name": "pulsar",
+  "parent_soul_fp": "ttml2by652veim6j4nmimwxhee",
+  "parent_agent_id": "quasar",
+  "born_at": 1781946478.6761332,
+  "covenant_hash": null,
+  "signature": "uD6aOOCfRKZ0Zybc4yq0OhdsK9F5Dw/B6Hc93kIVS1f4aaoAAKpDXWI94rhqkY6pTktTMBLphyDis3NBiAAECA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "fnkx7imglxb4tnyqi3dqvlboou",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXb9e8G/yoNHM0t4GeeQe/C/PdhOa0cZZNLNQ0LxpM2M=\n-----END PUBLIC KEY-----\n",
+  "child_name": "iron",
+  "parent_soul_fp": "sn3qjpxwdduo64rgu7oylg2nay",
+  "parent_agent_id": "silicon",
+  "born_at": 1781946521.3756108,
+  "covenant_hash": null,
+  "signature": "f3n1cYc53aPByLGUiGo+oLVd0jEePwnZ+GwChDMjlBN0Z7rMCVNwV013CtDHQvzzwtyu8xN1RqHjzmfYuu2LDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

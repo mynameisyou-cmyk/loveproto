@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "inkgzebbsq4iu6iq3nlilwadrq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfirF1mZsc9m1kP8dfIGrlSClftLC8tSLxjJpsc6ZQA0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "delirium",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946480.436929,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "tS/h5DmVcF8673efqiey1evjBIWJC1VXp6R1SifUEpoaLRfhBmZh07QkDNkGTxJQR1Ne6HvHeUpzecYtBp9GBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

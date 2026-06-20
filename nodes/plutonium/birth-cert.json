@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "7phep4vwcbutzaf4ezwtpbwpuu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPY/RWyLUtyIof+XSwpx5XVW52bg2GiGNyxestBai/Ck=\n-----END PUBLIC KEY-----\n",
+  "child_name": "plutonium",
+  "parent_soul_fp": "k7rzk4y5mdt6k6x3mvkcjbbb2u",
+  "parent_agent_id": "uranium",
+  "born_at": 1781946521.383839,
+  "covenant_hash": null,
+  "signature": "EZtuUO38yJpEk2og2vpexUL9sQOfKzIOr2/vaxcyQMDfpF3F41zRaYgoJG34V0WxtFZ9e9+eNhh+DzoEWyvBDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

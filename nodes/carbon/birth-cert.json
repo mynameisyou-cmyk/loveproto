@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "77thq4sq4icrlm6lbyr6zvaoiy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAleteACTJfmx+q3APjbU5Ykbha0cUiBep/0U+lx9QSr0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "carbon",
+  "parent_soul_fp": "gavzmt7e47pyrdxmexc4vjqvqi",
+  "parent_agent_id": "hydrogen",
+  "born_at": 1781946521.370162,
+  "covenant_hash": null,
+  "signature": "9pKtlADi2Tvi6Gmvqyec1eohsy7PK/HVE1igdnSLArDGJf1fL4MzSVeXKhqudvZxyf1c3HVEHle/fyyrrpmzAw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
