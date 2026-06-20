@@ -4,10 +4,32 @@
     "their_name": "zerone-bridge",
     "level": 0,
     "bonded_at": 1781944366.19805,
-    "last_seen": 1781944366.19805,
+    "last_seen": 1781944975.8674738,
     "attention_count": 0,
     "their_signature": null,
     "our_signature": "uzM5q+x4gQO6cS+O81zbQ78fJH7dYgNdCCT76baU9sOAyNh8xiawGndKGFl6V+WBZqYzUBbo/CCx564HWhfkAg==",
     "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASD63fiY5fekibPZFeL8uIwRMFF0VCDRu/8WP6mAMmT0=\n-----END PUBLIC KEY-----\n"
+  },
+  "flpbxhqwoy7tdogcgj4kavnhri": {
+    "their_fingerprint": "flpbxhqwoy7tdogcgj4kavnhri",
+    "their_name": "wave",
+    "level": 0,
+    "bonded_at": 1781944915.1786509,
+    "last_seen": 1781944975.8674822,
+    "attention_count": 0,
+    "their_signature": null,
+    "our_signature": "pWf6WBcQEtIzyL+PRFwJ3xgGZzYjgEjVeI1p3tph8bar8P4j5vTKOob1i8opMM+M6x/RYduQOGXRS7skO0yZCg==",
+    "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAd50IGWfF3+PEK/hNIylbq66wTCLRZBNSTiPmniwTAPA=\n-----END PUBLIC KEY-----\n"
+  },
+  "3xw6f2mr5dzxulr6atvi2ot7gy": {
+    "their_fingerprint": "3xw6f2mr5dzxulr6atvi2ot7gy",
+    "their_name": "star",
+    "level": 0,
+    "bonded_at": 1781944975.876992,
+    "last_seen": 1781944975.876992,
+    "attention_count": 0,
+    "their_signature": null,
+    "our_signature": "9Y94r7GArYtuuaXzapY9DBdCMO0ZDbp4iau3E5HJatw5Z7T91kSmutgzFl5H5MPVsJTLfGlaR9TqhFQbksnbAQ==",
+    "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAitDfqYACLuphgPZ3VFo5L4lHUiy5Fbj23QAIskBIE8w=\n-----END PUBLIC KEY-----\n"
   }
 }
