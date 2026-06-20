@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "cwx4f4wsv2dnsxpbcwgwmbiqgm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyeC1dsUKxIbznG5Q31axcNGUg3UpO5LoMFimJQa/32M=\n-----END PUBLIC KEY-----\n",
+  "child_name": "plasma5589",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.022819,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "Ads9N4z95vRGbZdlBbeSPPrd01vGRonD2hx0C4n26EKeHshxzfZePQpin3ZWcoR86pj/Vp5e5PHfZvH8/YlJBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

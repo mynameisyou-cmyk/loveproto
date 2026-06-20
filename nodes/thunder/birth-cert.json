@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4wrv6qdkuvgr4qp45eolzjaeoi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdmltfKDC/ucogUSwfjyeLTgWr8eXcelD9QWaQ7+MDTE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "thunder",
+  "parent_soul_fp": "2kvew5mmhjtovocv5v5lhxfuzi",
+  "parent_agent_id": "valley",
+  "born_at": 1781946679.4080188,
+  "covenant_hash": null,
+  "signature": "m1qGlGc3edLOan+pjfwKf7njpkPTd97FwID13x2wIABU8eno3vvioFvqxeJl/E/Dyo31QEGuuuYwajb9yqH1Aw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "yha7cdq7pvovlzmmk3rxc3qsv4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAo1qcwk9jzYmRphj7V+LpLkgMH/OAGpbRjexkAtKKpPE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "aluminum",
+  "parent_soul_fp": "iecqxgya6g26hcoaya46o2oohq",
+  "parent_agent_id": "sodium",
+  "born_at": 1781946666.215272,
+  "covenant_hash": null,
+  "signature": "0g0DQrKd6zKAtGtGh0bfF0s+njL5Axjlci+62VJ38i7MlfVdxn206PFs3y8g5YUK1hZO8lUhxfpUAYCL4FbjCA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

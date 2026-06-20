@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "3cg6gq6ipormrptkfyfcidg7pe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEABjQHuPJBDLHrgMfJVTYjvjTGbBmILZJ8z/rm1URocuY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "planet7684",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946672.983212,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "QlOIrFKkgVCbMOQEhQvIr2uTcoLOr1B+L/3tZQ+AqKLVeofKnjW5ddjKeaNIGfgKawcZsJvBOtaxlmaIIrgVBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

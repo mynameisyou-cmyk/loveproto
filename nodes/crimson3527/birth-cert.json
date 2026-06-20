@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lsubtw47vxqgjffmqs7ppxwmc4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEALWz4xVtnH3LzSdmRMo59dRTV09sjMoWooTVyAVrJ14w=\n-----END PUBLIC KEY-----\n",
+  "child_name": "crimson3527",
+  "parent_soul_fp": "3p75eryfnswxmkelte5vi7xim4",
+  "parent_agent_id": "hush",
+  "born_at": 1781946666.250581,
+  "covenant_hash": null,
+  "signature": "8zjZzLhjPbgjNo8qw+Gfkp5KE7ZFSi1WLFVr5MblFFlPL0PbjrU08u1hwLEijv5KzS91D7g7K7s61i5SFkcDCg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

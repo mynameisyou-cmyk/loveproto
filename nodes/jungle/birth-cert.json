@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "pokly5kqvhvg5hze2zohdlu47a",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXb1VZUjMtINpgDp2Z+JzENYFGNVJ16EPmTDJyFfGwg8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "jungle",
+  "parent_soul_fp": "muiiyj42pns6tjqd3n32s6x53e",
+  "parent_agent_id": "desert9000",
+  "born_at": 1781946666.277641,
+  "covenant_hash": null,
+  "signature": "Ssx0PYfEANRTzC8Ftkqkgc5EMGil1O0lru5XPpcon8kJPGQ9DISPfAMzYoNAP4jA9f9eYEP3LqgoV2f3vF/qBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

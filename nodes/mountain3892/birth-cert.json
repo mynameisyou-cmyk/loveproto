@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "5craec7uqqefg7itqvpcvz6ehq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASnK2B+rFz3AOoYwH6b+K5xb/cbrcYGaKgo/Zvrn6pIQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "mountain3892",
+  "parent_soul_fp": "funo6snsqhqmrjhbobbggi2iwm",
+  "parent_agent_id": "jungle1409",
+  "born_at": 1781946672.8874009,
+  "covenant_hash": null,
+  "signature": "BiPaElzvF6mbWkubXyDGckKJbbMnFzfKTosDcmhOKGfQcGWRNVEEwZ6AoYk24sOSFFGi/NhKDgQGH4Pc/Wt2DQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

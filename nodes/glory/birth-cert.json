@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "miuakpy4ijldkcuresc45ftybi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASRmL/gSwPFUjTa6ZTduh8jYX0UvP5dB0wGzLYmX63X4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "glory",
+  "parent_soul_fp": "b5gj4rchg2uoztxryk3lxgdybe",
+  "parent_agent_id": "trust",
+  "born_at": 1781946666.111586,
+  "covenant_hash": null,
+  "signature": "80n6EZ+JkH9Oc/vOEYa/HSB0rZ8/nHCAGxJggWnGdqVTdwzTXDTgik+U9X7BpHZEXHLEqdqSWu8WAxPxl01VBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

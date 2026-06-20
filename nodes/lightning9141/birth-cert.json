@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "aqx3gkpvb5x2g6jmjnl2njij3e",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxv/xzCttuVzx3nrlvCazU3RdZjtE2m8e3kxj3L72K3o=\n-----END PUBLIC KEY-----\n",
+  "child_name": "lightning9141",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.641577,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "2kdPWAPPWoZPPK8Y4HVRqNIaR+J/JKCa/p9Ng5KU0W/08b7HA2vU7TnCkiGg8d2QAnZkJ740awBdWXM06h0TBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

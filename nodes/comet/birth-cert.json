@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "5rouaobhfktxwgxgz74ztiuk6u",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEArUYX4uhIbBnnPRWv9SOdgHNruRSwSNQnil23MyVHbl8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "comet",
+  "parent_soul_fp": "4n4rhovbuv266n3utyxlonjnhy",
+  "parent_agent_id": "star",
+  "born_at": 1781946679.2291782,
+  "covenant_hash": null,
+  "signature": "MBfpixyG9a7uSivtUq7bjgLFNcHayf/7PrSH8rmhSbAZQXb+O9Vh/dNhPSaA84n0znJKEN+6QMh2Moa2DS0VAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

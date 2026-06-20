@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "b7fqcxdheznugd3ztji4e4z62y",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASV4ZL6j+o6ctZizLyB9qY5P8C5Dr07rld16leFx4MFQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "trust1498",
+  "parent_soul_fp": "t6oubet5o6t4jkgeinpbqatynq",
+  "parent_agent_id": "peace3252",
+  "born_at": 1781946672.938926,
+  "covenant_hash": null,
+  "signature": "YyUMRLwXBJCaq8qBBtByFMgE3KA1t9KaxqT6LqZaVPBdnkY8VKp/SWDJmbZBIfMF8d9iPbna+smrF9NWThGxDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2kvew5mmhjtovocv5v5lhxfuzi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXH6E08/GgyfP/f+pjVoboIy2MqulAFXBc+dKi8fLXQY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "valley",
+  "parent_soul_fp": "rh55hplbbmc4dlk7yf2gti3nru",
+  "parent_agent_id": "river",
+  "born_at": 1781946679.404769,
+  "covenant_hash": null,
+  "signature": "bSaPaaesAiN+A/WEJo7eyTZqNXqPx1IvZZcJV+V7JhyYiPKprWf5LTdRWM+hMR1cG1sHxQD6Bdc0u6WuXyq3DQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

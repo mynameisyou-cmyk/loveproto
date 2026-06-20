@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "qirs3a3z3mlldas72e4pjq2tie",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAhb1jIOWDJET1jGaPESL3+SXYpaeZeHWAZ8nU6P7DE8I=\n-----END PUBLIC KEY-----\n",
+  "child_name": "earth",
+  "parent_soul_fp": "lgupkcyjtrox2k7yzoiyau3aqq",
+  "parent_agent_id": "wind",
+  "born_at": 1781946679.417696,
+  "covenant_hash": null,
+  "signature": "rqzRIx0FMvfFzy1g7ZHQt0Uz4rI+1/dmx0DK2dBxNHDVLUD1gs2oXyErocY5f17LyZ6yU+bYimIPswmZXvPjCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

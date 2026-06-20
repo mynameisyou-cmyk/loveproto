@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "wbdk7sbbuvybeey7ggl74pigz4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA3QvTDbdnYaLrxGVPyFIr2b67QqI3AIvs5oOOLp6rmg0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "singularity843",
+  "parent_soul_fp": "v2ck2o6547kz5bdqufzelus44u",
+  "parent_agent_id": " Event5975",
+  "born_at": 1781946673.2304618,
+  "covenant_hash": null,
+  "signature": "HQ4dL63umFGgku8G1mSwQD5NEMz9giAb3V2le3AGZR3iI5xYQc28lH1vOiccipQq+tz9BuD9iTA8TqxwOduQAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -823,5 +823,3325 @@
     "parent_soul_fp": "x44tlaqpzry7gsrvre5teck6dy",
     "born_at": 1781946521.392391,
     "store_dir": "/Users/yuai/.loveproto/nodes/particle"
+  },
+  {
+    "name": "courage",
+    "fingerprint": "36phacskapxx6irbum7rur32my",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.093626,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/courage"
+  },
+  {
+    "name": "grace",
+    "fingerprint": "op7lsdx7lon4rvesezsrgyzr7e",
+    "parent": "courage",
+    "parent_soul_fp": "36phacskapxx6irbum7rur32my",
+    "born_at": 1781946666.105077,
+    "store_dir": "/Users/yuai/.loveproto/nodes/grace"
+  },
+  {
+    "name": "love",
+    "fingerprint": "qkl6jmtviggte336mbv5sp2yeq",
+    "parent": "grace",
+    "parent_soul_fp": "op7lsdx7lon4rvesezsrgyzr7e",
+    "born_at": 1781946666.10705,
+    "store_dir": "/Users/yuai/.loveproto/nodes/love"
+  },
+  {
+    "name": "peace",
+    "fingerprint": "n2tp4iouogblbnpemdadrujupe",
+    "parent": "love",
+    "parent_soul_fp": "qkl6jmtviggte336mbv5sp2yeq",
+    "born_at": 1781946666.108526,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace"
+  },
+  {
+    "name": "trust",
+    "fingerprint": "b5gj4rchg2uoztxryk3lxgdybe",
+    "parent": "peace",
+    "parent_soul_fp": "n2tp4iouogblbnpemdadrujupe",
+    "born_at": 1781946666.109955,
+    "store_dir": "/Users/yuai/.loveproto/nodes/trust"
+  },
+  {
+    "name": "glory",
+    "fingerprint": "miuakpy4ijldkcuresc45ftybi",
+    "parent": "trust",
+    "parent_soul_fp": "b5gj4rchg2uoztxryk3lxgdybe",
+    "born_at": 1781946666.111586,
+    "store_dir": "/Users/yuai/.loveproto/nodes/glory"
+  },
+  {
+    "name": "cosmos537",
+    "fingerprint": "bnyxzbv65eiztmn4qkhnphqj5e",
+    "parent": "glory",
+    "parent_soul_fp": "miuakpy4ijldkcuresc45ftybi",
+    "born_at": 1781946666.113135,
+    "store_dir": "/Users/yuai/.loveproto/nodes/cosmos537"
+  },
+  {
+    "name": "quasar7275",
+    "fingerprint": "exkzp5tkkdnlml4dihjwvecx74",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.114517,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/quasar7275"
+  },
+  {
+    "name": "aurora4412",
+    "fingerprint": "jz7u6vtuktblymgelgt2nmiceu",
+    "parent": "quasar7275",
+    "parent_soul_fp": "exkzp5tkkdnlml4dihjwvecx74",
+    "born_at": 1781946666.140196,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aurora4412"
+  },
+  {
+    "name": "apex9674",
+    "fingerprint": "iflejja5te4sosvvuhvuua5tci",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.141612,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/apex9674"
+  },
+  {
+    "name": "galaxy",
+    "fingerprint": "t242ecvn3q2r32dgo7m2fieysa",
+    "parent": "apex9674",
+    "parent_soul_fp": "iflejja5te4sosvvuhvuua5tci",
+    "born_at": 1781946666.1541271,
+    "store_dir": "/Users/yuai/.loveproto/nodes/galaxy"
+  },
+  {
+    "name": "blackhole",
+    "fingerprint": "vimuumzleh5bw5njcwusj3emlq",
+    "parent": "galaxy",
+    "parent_soul_fp": "t242ecvn3q2r32dgo7m2fieysa",
+    "born_at": 1781946666.160639,
+    "store_dir": "/Users/yuai/.loveproto/nodes/blackhole"
+  },
+  {
+    "name": " Event",
+    "fingerprint": "ogudy6sejx4oe66qg2oupq7c2m",
+    "parent": "blackhole",
+    "parent_soul_fp": "vimuumzleh5bw5njcwusj3emlq",
+    "born_at": 1781946666.162227,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Event"
+  },
+  {
+    "name": "singularity",
+    "fingerprint": "rmimwtr7gfwbbr5ytqprxmyikq",
+    "parent": " Event",
+    "parent_soul_fp": "ogudy6sejx4oe66qg2oupq7c2m",
+    "born_at": 1781946666.163746,
+    "store_dir": "/Users/yuai/.loveproto/nodes/singularity"
+  },
+  {
+    "name": "moon",
+    "fingerprint": "oxqqhnd5rmvni7sxkmhbm2trpm",
+    "parent": "singularity",
+    "parent_soul_fp": "rmimwtr7gfwbbr5ytqprxmyikq",
+    "born_at": 1781946666.1652339,
+    "store_dir": "/Users/yuai/.loveproto/nodes/moon"
+  },
+  {
+    "name": "meteor",
+    "fingerprint": "ndhfjbbpjcacslshf6mqiqn5im",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.1666691,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/meteor"
+  },
+  {
+    "name": "planet",
+    "fingerprint": "hrkulnt7rjed2dbpuf32lchvfa",
+    "parent": "meteor",
+    "parent_soul_fp": "ndhfjbbpjcacslshf6mqiqn5im",
+    "born_at": 1781946666.174002,
+    "store_dir": "/Users/yuai/.loveproto/nodes/planet"
+  },
+  {
+    "name": "lunar",
+    "fingerprint": "vh3xlcjiiv6vwycu7tp6ozmb4i",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.175932,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/lunar"
+  },
+  {
+    "name": "hydrogen3241",
+    "fingerprint": "e62gx6zd6yptp2voltv7vllraq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.182451,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/hydrogen3241"
+  },
+  {
+    "name": "lithium",
+    "fingerprint": "jkfk4pjpxtluenv2j6hh7whf4a",
+    "parent": "hydrogen3241",
+    "parent_soul_fp": "e62gx6zd6yptp2voltv7vllraq",
+    "born_at": 1781946666.190547,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lithium"
+  },
+  {
+    "name": "boron",
+    "fingerprint": "i7ludr5bnk5jxz5z2b5njlom3a",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.1920068,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/boron"
+  },
+  {
+    "name": "nitrogen7845",
+    "fingerprint": "54kfpjt243mijbcqurgq4vo7lu",
+    "parent": "boron",
+    "parent_soul_fp": "i7ludr5bnk5jxz5z2b5njlom3a",
+    "born_at": 1781946666.1986759,
+    "store_dir": "/Users/yuai/.loveproto/nodes/nitrogen7845"
+  },
+  {
+    "name": "fluorine",
+    "fingerprint": "afo7zrggoxv7pqv5sbihdev5qu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.200109,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/fluorine"
+  },
+  {
+    "name": "sodium",
+    "fingerprint": "iecqxgya6g26hcoaya46o2oohq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.20769,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/sodium"
+  },
+  {
+    "name": "aluminum",
+    "fingerprint": "yha7cdq7pvovlzmmk3rxc3qsv4",
+    "parent": "sodium",
+    "parent_soul_fp": "iecqxgya6g26hcoaya46o2oohq",
+    "born_at": 1781946666.215272,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aluminum"
+  },
+  {
+    "name": "phosphorus",
+    "fingerprint": "4mssk6a65wsqrgvfw4d24ttmma",
+    "parent": "aluminum",
+    "parent_soul_fp": "yha7cdq7pvovlzmmk3rxc3qsv4",
+    "born_at": 1781946666.2170188,
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus"
+  },
+  {
+    "name": "gravity1843",
+    "fingerprint": "5iqa2bukkvjzb4k56bgbptpkni",
+    "parent": "phosphorus",
+    "parent_soul_fp": "4mssk6a65wsqrgvfw4d24ttmma",
+    "born_at": 1781946666.218799,
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity1843"
+  },
+  {
+    "name": "strong",
+    "fingerprint": "dji7doju327ui6pkmsyk7o3jti",
+    "parent": "gravity1843",
+    "parent_soul_fp": "5iqa2bukkvjzb4k56bgbptpkni",
+    "born_at": 1781946666.220414,
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong"
+  },
+  {
+    "name": "higgs",
+    "fingerprint": "qn524sjv5jay5nqmvhalqsbas4",
+    "parent": "strong",
+    "parent_soul_fp": "dji7doju327ui6pkmsyk7o3jti",
+    "born_at": 1781946666.222816,
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs"
+  },
+  {
+    "name": "plasma",
+    "fingerprint": "oph5xtnno23zbqke3af2ko6viy",
+    "parent": "higgs",
+    "parent_soul_fp": "qn524sjv5jay5nqmvhalqsbas4",
+    "born_at": 1781946666.224591,
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma"
+  },
+  {
+    "name": "ecstasy8415",
+    "fingerprint": "vodtab6up57w3ffwacaztiifhy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.226032,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy8415"
+  },
+  {
+    "name": "bliss2413",
+    "fingerprint": "h2t3fr65zpkmyqb6xgkg5ewoae",
+    "parent": "ecstasy8415",
+    "parent_soul_fp": "vodtab6up57w3ffwacaztiifhy",
+    "born_at": 1781946666.233014,
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss2413"
+  },
+  {
+    "name": "mania4161",
+    "fingerprint": "mknbjmfzbl5w6wicgby6wavwam",
+    "parent": "bliss2413",
+    "parent_soul_fp": "h2t3fr65zpkmyqb6xgkg5ewoae",
+    "born_at": 1781946666.234557,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania4161"
+  },
+  {
+    "name": "frenzy9432",
+    "fingerprint": "cfjc5eqauam2hoqjqlep6kl3um",
+    "parent": "mania4161",
+    "parent_soul_fp": "mknbjmfzbl5w6wicgby6wavwam",
+    "born_at": 1781946666.236109,
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy9432"
+  },
+  {
+    "name": "serenity1243",
+    "fingerprint": "pyddezbvgtm3vwadbqkkaliywu",
+    "parent": "frenzy9432",
+    "parent_soul_fp": "cfjc5eqauam2hoqjqlep6kl3um",
+    "born_at": 1781946666.2380018,
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity1243"
+  },
+  {
+    "name": "peace5861",
+    "fingerprint": "uheotrfqk4vcm4lducbqtxrjuq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.239519,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace5861"
+  },
+  {
+    "name": "still",
+    "fingerprint": "qf74riy77r725kfkwme3xdfnjq",
+    "parent": "peace5861",
+    "parent_soul_fp": "uheotrfqk4vcm4lducbqtxrjuq",
+    "born_at": 1781946666.2473202,
+    "store_dir": "/Users/yuai/.loveproto/nodes/still"
+  },
+  {
+    "name": "hush",
+    "fingerprint": "3p75eryfnswxmkelte5vi7xim4",
+    "parent": "still",
+    "parent_soul_fp": "qf74riy77r725kfkwme3xdfnjq",
+    "born_at": 1781946666.2489889,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush"
+  },
+  {
+    "name": "crimson3527",
+    "fingerprint": "lsubtw47vxqgjffmqs7ppxwmc4",
+    "parent": "hush",
+    "parent_soul_fp": "3p75eryfnswxmkelte5vi7xim4",
+    "born_at": 1781946666.250581,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson3527"
+  },
+  {
+    "name": "violet7731",
+    "fingerprint": "mbyet7awboi3hvgmbxhiydnn3u",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.25207,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet7731"
+  },
+  {
+    "name": "coral500",
+    "fingerprint": "uxgflk3l45ujv5q6hm7y6dadh4",
+    "parent": "violet7731",
+    "parent_soul_fp": "mbyet7awboi3hvgmbxhiydnn3u",
+    "born_at": 1781946666.259537,
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral500"
+  },
+  {
+    "name": "jade2149",
+    "fingerprint": "no2d6ppolkd45qp4ssmqaahete",
+    "parent": "coral500",
+    "parent_soul_fp": "uxgflk3l45ujv5q6hm7y6dadh4",
+    "born_at": 1781946666.2611258,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade2149"
+  },
+  {
+    "name": "scarlet",
+    "fingerprint": "miegxnsmwirk62u4ai34lhz3gu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.2626162,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet"
+  },
+  {
+    "name": "teal",
+    "fingerprint": "76z3wtfhn3vvmdwaj4jttglsi4",
+    "parent": "scarlet",
+    "parent_soul_fp": "miegxnsmwirk62u4ai34lhz3gu",
+    "born_at": 1781946666.2695282,
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal"
+  },
+  {
+    "name": "silver8495",
+    "fingerprint": "plulto5xx3n7iwasoims3ziigi",
+    "parent": "teal",
+    "parent_soul_fp": "76z3wtfhn3vvmdwaj4jttglsi4",
+    "born_at": 1781946666.271178,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver8495"
+  },
+  {
+    "name": "bronze",
+    "fingerprint": "so7ul4mltod43oulg6tlbp4q3m",
+    "parent": "silver8495",
+    "parent_soul_fp": "plulto5xx3n7iwasoims3ziigi",
+    "born_at": 1781946666.272774,
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze"
+  },
+  {
+    "name": "ocean3186",
+    "fingerprint": "52iildycjityznzoonfupmm63y",
+    "parent": "bronze",
+    "parent_soul_fp": "so7ul4mltod43oulg6tlbp4q3m",
+    "born_at": 1781946666.2744472,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean3186"
+  },
+  {
+    "name": "desert9000",
+    "fingerprint": "muiiyj42pns6tjqd3n32s6x53e",
+    "parent": "ocean3186",
+    "parent_soul_fp": "52iildycjityznzoonfupmm63y",
+    "born_at": 1781946666.2760372,
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert9000"
+  },
+  {
+    "name": "jungle",
+    "fingerprint": "pokly5kqvhvg5hze2zohdlu47a",
+    "parent": "desert9000",
+    "parent_soul_fp": "muiiyj42pns6tjqd3n32s6x53e",
+    "born_at": 1781946666.277641,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle"
+  },
+  {
+    "name": "mountain",
+    "fingerprint": "lzzufjlxrzk67u2myoqhmwcj7m",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946666.2791512,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain"
+  },
+  {
+    "name": "phosphorus9154",
+    "fingerprint": "4qom5w6bzil4746f25dvpy5tfy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.0007522,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus9154"
+  },
+  {
+    "name": "gravity3279",
+    "fingerprint": "b2dxtqmqyeh5xvgmpvcr26lacu",
+    "parent": "phosphorus9154",
+    "parent_soul_fp": "4qom5w6bzil4746f25dvpy5tfy",
+    "born_at": 1781946669.0102022,
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity3279"
+  },
+  {
+    "name": "strong7894",
+    "fingerprint": "7nybiridzna3nojllm5pwyhq5q",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.0124831,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong7894"
+  },
+  {
+    "name": "higgs5219",
+    "fingerprint": "w74dgracnkjw6h3saxcku525fm",
+    "parent": "strong7894",
+    "parent_soul_fp": "7nybiridzna3nojllm5pwyhq5q",
+    "born_at": 1781946669.021193,
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs5219"
+  },
+  {
+    "name": "plasma5589",
+    "fingerprint": "cwx4f4wsv2dnsxpbcwgwmbiqgm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.022819,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma5589"
+  },
+  {
+    "name": "ecstasy5229",
+    "fingerprint": "aflkjfhwthq47s4b22vzztef3q",
+    "parent": "plasma5589",
+    "parent_soul_fp": "cwx4f4wsv2dnsxpbcwgwmbiqgm",
+    "born_at": 1781946669.031144,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy5229"
+  },
+  {
+    "name": "bliss131",
+    "fingerprint": "4s6zn2ai2f5nhf6bnpfomnhtoi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.032812,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss131"
+  },
+  {
+    "name": "mania7676",
+    "fingerprint": "tvipaasmlug6mzndirc646zwuy",
+    "parent": "bliss131",
+    "parent_soul_fp": "4s6zn2ai2f5nhf6bnpfomnhtoi",
+    "born_at": 1781946669.041335,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania7676"
+  },
+  {
+    "name": "frenzy9237",
+    "fingerprint": "hxqcsqe44get6z6bhurt3lxxlm",
+    "parent": "mania7676",
+    "parent_soul_fp": "tvipaasmlug6mzndirc646zwuy",
+    "born_at": 1781946669.043027,
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy9237"
+  },
+  {
+    "name": "serenity5091",
+    "fingerprint": "wk5sq5wowgcraagfnsqb2erw5q",
+    "parent": "frenzy9237",
+    "parent_soul_fp": "hxqcsqe44get6z6bhurt3lxxlm",
+    "born_at": 1781946669.044702,
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity5091"
+  },
+  {
+    "name": "peace6039",
+    "fingerprint": "eddmoa5til6tuxkbtta5tdqzfi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.046355,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace6039"
+  },
+  {
+    "name": "still5448",
+    "fingerprint": "ub25rh63vbth7t55qu3fehi7ka",
+    "parent": "peace6039",
+    "parent_soul_fp": "eddmoa5til6tuxkbtta5tdqzfi",
+    "born_at": 1781946669.054999,
+    "store_dir": "/Users/yuai/.loveproto/nodes/still5448"
+  },
+  {
+    "name": "hush8187",
+    "fingerprint": "yhhtfitnx4imdnn552dbgwgsv4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.056663,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush8187"
+  },
+  {
+    "name": "crimson5003",
+    "fingerprint": "ijpacepxox6cg5wzccknnjwqhi",
+    "parent": "hush8187",
+    "parent_soul_fp": "yhhtfitnx4imdnn552dbgwgsv4",
+    "born_at": 1781946669.064116,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson5003"
+  },
+  {
+    "name": "violet7846",
+    "fingerprint": "orc5qhvgctcwlzm7dxgbvg3tea",
+    "parent": "crimson5003",
+    "parent_soul_fp": "ijpacepxox6cg5wzccknnjwqhi",
+    "born_at": 1781946669.066126,
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet7846"
+  },
+  {
+    "name": "coral7175",
+    "fingerprint": "fkzkxqtxbesqon5zphcmaip4qy",
+    "parent": "violet7846",
+    "parent_soul_fp": "orc5qhvgctcwlzm7dxgbvg3tea",
+    "born_at": 1781946669.067894,
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral7175"
+  },
+  {
+    "name": "jade9550",
+    "fingerprint": "tg2xqzkmmipaytrungid35fxny",
+    "parent": "coral7175",
+    "parent_soul_fp": "fkzkxqtxbesqon5zphcmaip4qy",
+    "born_at": 1781946669.0696,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade9550"
+  },
+  {
+    "name": "scarlet2351",
+    "fingerprint": "bujmc3dfcpxgrwnsfizxbbnfby",
+    "parent": "jade9550",
+    "parent_soul_fp": "tg2xqzkmmipaytrungid35fxny",
+    "born_at": 1781946669.07132,
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet2351"
+  },
+  {
+    "name": "teal492",
+    "fingerprint": "dtvt5k63lypjiwbncocmue4ay4",
+    "parent": "scarlet2351",
+    "parent_soul_fp": "bujmc3dfcpxgrwnsfizxbbnfby",
+    "born_at": 1781946669.0730162,
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal492"
+  },
+  {
+    "name": "silver5654",
+    "fingerprint": "m6qkkozuc5dapk4sz27l5ykw4i",
+    "parent": "teal492",
+    "parent_soul_fp": "dtvt5k63lypjiwbncocmue4ay4",
+    "born_at": 1781946669.0747259,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver5654"
+  },
+  {
+    "name": "bronze1727",
+    "fingerprint": "fir742cwa42fzu62mzexfvhrlq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.076361,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze1727"
+  },
+  {
+    "name": "ocean6214",
+    "fingerprint": "lil3kmjy4wqnsi7h4ao764ownm",
+    "parent": "bronze1727",
+    "parent_soul_fp": "fir742cwa42fzu62mzexfvhrlq",
+    "born_at": 1781946669.084813,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean6214"
+  },
+  {
+    "name": "desert3370",
+    "fingerprint": "ufo2wnrngr4zjmcprahpx7aj2m",
+    "parent": "ocean6214",
+    "parent_soul_fp": "lil3kmjy4wqnsi7h4ao764ownm",
+    "born_at": 1781946669.086536,
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert3370"
+  },
+  {
+    "name": "jungle5949",
+    "fingerprint": "v7f2rown2xv3s7vsknb4h42viq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.088159,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle5949"
+  },
+  {
+    "name": "mountain9339",
+    "fingerprint": "yx23xhue6cxx2iyfv6j77g4ykq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.0964391,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain9339"
+  },
+  {
+    "name": "storm2656",
+    "fingerprint": "cntyukgzfkyhfteo3gfzsobbve",
+    "parent": "mountain9339",
+    "parent_soul_fp": "yx23xhue6cxx2iyfv6j77g4ykq",
+    "born_at": 1781946669.1041129,
+    "store_dir": "/Users/yuai/.loveproto/nodes/storm2656"
+  },
+  {
+    "name": "lightning",
+    "fingerprint": "ynluv3uin3nwcyojzpjdywxpd4",
+    "parent": "storm2656",
+    "parent_soul_fp": "cntyukgzfkyhfteo3gfzsobbve",
+    "born_at": 1781946669.105957,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lightning"
+  },
+  {
+    "name": "snow",
+    "fingerprint": "55micvorfudit4xe3jefdqic5u",
+    "parent": "lightning",
+    "parent_soul_fp": "ynluv3uin3nwcyojzpjdywxpd4",
+    "born_at": 1781946669.107738,
+    "store_dir": "/Users/yuai/.loveproto/nodes/snow"
+  },
+  {
+    "name": "fire",
+    "fingerprint": "mo6xsf2xh6wauis7qincv6jkdi",
+    "parent": "snow",
+    "parent_soul_fp": "55micvorfudit4xe3jefdqic5u",
+    "born_at": 1781946669.109977,
+    "store_dir": "/Users/yuai/.loveproto/nodes/fire"
+  },
+  {
+    "name": "truth7518",
+    "fingerprint": "bhuirt2pqsdouydmsbybbzmq7i",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.111731,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/truth7518"
+  },
+  {
+    "name": "beauty",
+    "fingerprint": "b3cy2khljws76p6wgtasvedwcy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.119949,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/beauty"
+  },
+  {
+    "name": "courage4143",
+    "fingerprint": "4ytj25xnqzyca4hakg5oesmfti",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.128026,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/courage4143"
+  },
+  {
+    "name": "grace4058",
+    "fingerprint": "jbqgvmstv7iamskjvedkkheavm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.135898,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/grace4058"
+  },
+  {
+    "name": "love2514",
+    "fingerprint": "injfkhhlae4gbu3gnk34zzreca",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.144448,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/love2514"
+  },
+  {
+    "name": "peace6858",
+    "fingerprint": "2q2xndciwpzi2blmjhkazk4gl4",
+    "parent": "love2514",
+    "parent_soul_fp": "injfkhhlae4gbu3gnk34zzreca",
+    "born_at": 1781946669.1530712,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace6858"
+  },
+  {
+    "name": "trust5109",
+    "fingerprint": "k7qbnjqe2m2744hsn3rv54dofq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.155672,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/trust5109"
+  },
+  {
+    "name": "glory6860",
+    "fingerprint": "2nyyulehoaalq5wzq6e52654wa",
+    "parent": "trust5109",
+    "parent_soul_fp": "k7qbnjqe2m2744hsn3rv54dofq",
+    "born_at": 1781946669.16413,
+    "store_dir": "/Users/yuai/.loveproto/nodes/glory6860"
+  },
+  {
+    "name": "cosmos2424",
+    "fingerprint": "55ugo3yvvi2mr66wltvm3ij7gu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.166142,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/cosmos2424"
+  },
+  {
+    "name": "quasar1842",
+    "fingerprint": "3tnle2g7t4r6c3pbg6riah3tji",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.175353,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/quasar1842"
+  },
+  {
+    "name": "aurora7565",
+    "fingerprint": "2edkhbibunt7uylrwcx4gi3w4m",
+    "parent": "quasar1842",
+    "parent_soul_fp": "3tnle2g7t4r6c3pbg6riah3tji",
+    "born_at": 1781946669.1835961,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aurora7565"
+  },
+  {
+    "name": "apex9368",
+    "fingerprint": "6vazyyap2y6zpsrek5nr6y6li4",
+    "parent": "aurora7565",
+    "parent_soul_fp": "2edkhbibunt7uylrwcx4gi3w4m",
+    "born_at": 1781946669.185885,
+    "store_dir": "/Users/yuai/.loveproto/nodes/apex9368"
+  },
+  {
+    "name": "galaxy9168",
+    "fingerprint": "nh7w7ha5eawhzxhvyo4ngwalby",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.187677,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/galaxy9168"
+  },
+  {
+    "name": "blackhole272",
+    "fingerprint": "qvgeuolqzjij32d3bghqgipuym",
+    "parent": "galaxy9168",
+    "parent_soul_fp": "nh7w7ha5eawhzxhvyo4ngwalby",
+    "born_at": 1781946669.1971462,
+    "store_dir": "/Users/yuai/.loveproto/nodes/blackhole272"
+  },
+  {
+    "name": " Event3830",
+    "fingerprint": "ujlzqcp3fr2674nqnqkgjxgrey",
+    "parent": "blackhole272",
+    "parent_soul_fp": "qvgeuolqzjij32d3bghqgipuym",
+    "born_at": 1781946669.1991649,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Event3830"
+  },
+  {
+    "name": "singularity9861",
+    "fingerprint": "lwumycamjh2bsejgntgiff6zxu",
+    "parent": " Event3830",
+    "parent_soul_fp": "ujlzqcp3fr2674nqnqkgjxgrey",
+    "born_at": 1781946669.2012758,
+    "store_dir": "/Users/yuai/.loveproto/nodes/singularity9861"
+  },
+  {
+    "name": "moon3408",
+    "fingerprint": "663zhxzeez3eb5hrqkvzgtrqx4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.203167,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/moon3408"
+  },
+  {
+    "name": "meteor8266",
+    "fingerprint": "f4p5myva3iwograxmlyqbald54",
+    "parent": "moon3408",
+    "parent_soul_fp": "663zhxzeez3eb5hrqkvzgtrqx4",
+    "born_at": 1781946669.2126179,
+    "store_dir": "/Users/yuai/.loveproto/nodes/meteor8266"
+  },
+  {
+    "name": "planet2933",
+    "fingerprint": "sprcevmfqtihx5b4mzadiy6qbe",
+    "parent": "meteor8266",
+    "parent_soul_fp": "f4p5myva3iwograxmlyqbald54",
+    "born_at": 1781946669.2145438,
+    "store_dir": "/Users/yuai/.loveproto/nodes/planet2933"
+  },
+  {
+    "name": "lunar8468",
+    "fingerprint": "lz4vqimhrbhd6ajhg7rtdqh2a4",
+    "parent": "planet2933",
+    "parent_soul_fp": "sprcevmfqtihx5b4mzadiy6qbe",
+    "born_at": 1781946669.2164211,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lunar8468"
+  },
+  {
+    "name": "hydrogen9747",
+    "fingerprint": "2vvt4ybryhma3fub4hjwppn6mu",
+    "parent": "lunar8468",
+    "parent_soul_fp": "lz4vqimhrbhd6ajhg7rtdqh2a4",
+    "born_at": 1781946669.2183309,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hydrogen9747"
+  },
+  {
+    "name": "lithium2880",
+    "fingerprint": "ry24l5qc5dkjczkqgy7znegdda",
+    "parent": "hydrogen9747",
+    "parent_soul_fp": "2vvt4ybryhma3fub4hjwppn6mu",
+    "born_at": 1781946669.220222,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lithium2880"
+  },
+  {
+    "name": "boron91",
+    "fingerprint": "cksapoe5gpxsu66yjuqy3qfhry",
+    "parent": "lithium2880",
+    "parent_soul_fp": "ry24l5qc5dkjczkqgy7znegdda",
+    "born_at": 1781946669.222304,
+    "store_dir": "/Users/yuai/.loveproto/nodes/boron91"
+  },
+  {
+    "name": "nitrogen3849",
+    "fingerprint": "auvemebey5wqa2i3qhxnudskvi",
+    "parent": "boron91",
+    "parent_soul_fp": "cksapoe5gpxsu66yjuqy3qfhry",
+    "born_at": 1781946669.2244039,
+    "store_dir": "/Users/yuai/.loveproto/nodes/nitrogen3849"
+  },
+  {
+    "name": "fluorine9092",
+    "fingerprint": "wjdhtagmugushlc3y6axowtudi",
+    "parent": "nitrogen3849",
+    "parent_soul_fp": "auvemebey5wqa2i3qhxnudskvi",
+    "born_at": 1781946669.2262971,
+    "store_dir": "/Users/yuai/.loveproto/nodes/fluorine9092"
+  },
+  {
+    "name": "sodium3563",
+    "fingerprint": "luacqmmtzyblm4pajerhdgdlra",
+    "parent": "fluorine9092",
+    "parent_soul_fp": "wjdhtagmugushlc3y6axowtudi",
+    "born_at": 1781946669.2282062,
+    "store_dir": "/Users/yuai/.loveproto/nodes/sodium3563"
+  },
+  {
+    "name": "aluminum1770",
+    "fingerprint": "g536ljsuxiwqy3la7m7pgmwsra",
+    "parent": "sodium3563",
+    "parent_soul_fp": "luacqmmtzyblm4pajerhdgdlra",
+    "born_at": 1781946669.230384,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aluminum1770"
+  },
+  {
+    "name": "phosphorus4792",
+    "fingerprint": "ypmbri2ljh4egevupzywsc2o2a",
+    "parent": "aluminum1770",
+    "parent_soul_fp": "g536ljsuxiwqy3la7m7pgmwsra",
+    "born_at": 1781946669.2324429,
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus4792"
+  },
+  {
+    "name": "gravity1513",
+    "fingerprint": "mpwm4ueh5tlobmrabedllxgvji",
+    "parent": "phosphorus4792",
+    "parent_soul_fp": "ypmbri2ljh4egevupzywsc2o2a",
+    "born_at": 1781946669.235283,
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity1513"
+  },
+  {
+    "name": "strong70",
+    "fingerprint": "7hjkndbtehzm5istz3q6u74syi",
+    "parent": "gravity1513",
+    "parent_soul_fp": "mpwm4ueh5tlobmrabedllxgvji",
+    "born_at": 1781946669.2374,
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong70"
+  },
+  {
+    "name": "higgs5921",
+    "fingerprint": "ctdd7ahcxmz3baih6am66fojuy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.2406452,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs5921"
+  },
+  {
+    "name": "plasma8999",
+    "fingerprint": "erwxtt4qteavsf4ipafmotsvc4",
+    "parent": "higgs5921",
+    "parent_soul_fp": "ctdd7ahcxmz3baih6am66fojuy",
+    "born_at": 1781946669.2497458,
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma8999"
+  },
+  {
+    "name": "ecstasy8051",
+    "fingerprint": "letasvfjtgvmcaciktos6nstm4",
+    "parent": "plasma8999",
+    "parent_soul_fp": "erwxtt4qteavsf4ipafmotsvc4",
+    "born_at": 1781946669.2517362,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy8051"
+  },
+  {
+    "name": "bliss5785",
+    "fingerprint": "jv3euovapfoat6yiisn42j4k74",
+    "parent": "ecstasy8051",
+    "parent_soul_fp": "letasvfjtgvmcaciktos6nstm4",
+    "born_at": 1781946669.2536802,
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss5785"
+  },
+  {
+    "name": "mania3529",
+    "fingerprint": "wgrozmd22xn3dwizjb7z3xo5y4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.255501,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania3529"
+  },
+  {
+    "name": "frenzy6155",
+    "fingerprint": "24xdwiv4focl6lnx5nmd4qatjy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.264231,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy6155"
+  },
+  {
+    "name": "serenity2677",
+    "fingerprint": "zq52u7jz2djh7xlgwikb3kpl6a",
+    "parent": "frenzy6155",
+    "parent_soul_fp": "24xdwiv4focl6lnx5nmd4qatjy",
+    "born_at": 1781946669.273566,
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity2677"
+  },
+  {
+    "name": "peace9346",
+    "fingerprint": "aj5eahb2gezuxrdxhjsyahugmu",
+    "parent": "serenity2677",
+    "parent_soul_fp": "zq52u7jz2djh7xlgwikb3kpl6a",
+    "born_at": 1781946669.276161,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace9346"
+  },
+  {
+    "name": "still7301",
+    "fingerprint": "rsakdr4t6nukys3yiejzhmi4vu",
+    "parent": "peace9346",
+    "parent_soul_fp": "aj5eahb2gezuxrdxhjsyahugmu",
+    "born_at": 1781946669.278219,
+    "store_dir": "/Users/yuai/.loveproto/nodes/still7301"
+  },
+  {
+    "name": "hush1031",
+    "fingerprint": "4po6k25rfuttgdluvp2gibl4pi",
+    "parent": "still7301",
+    "parent_soul_fp": "rsakdr4t6nukys3yiejzhmi4vu",
+    "born_at": 1781946669.28033,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush1031"
+  },
+  {
+    "name": "crimson9253",
+    "fingerprint": "q44gdgbscr3gxqgvsawm6lqggi",
+    "parent": "hush1031",
+    "parent_soul_fp": "4po6k25rfuttgdluvp2gibl4pi",
+    "born_at": 1781946669.282315,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson9253"
+  },
+  {
+    "name": "violet9066",
+    "fingerprint": "rxnbwobkyhu77fyjobcpwusqlq",
+    "parent": "crimson9253",
+    "parent_soul_fp": "q44gdgbscr3gxqgvsawm6lqggi",
+    "born_at": 1781946669.284401,
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet9066"
+  },
+  {
+    "name": "coral624",
+    "fingerprint": "faa72zpprc2wv2gimf5idwzfgy",
+    "parent": "violet9066",
+    "parent_soul_fp": "rxnbwobkyhu77fyjobcpwusqlq",
+    "born_at": 1781946669.28674,
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral624"
+  },
+  {
+    "name": "jade5819",
+    "fingerprint": "dny6ghifevmccsjtp42mwdid6e",
+    "parent": "coral624",
+    "parent_soul_fp": "faa72zpprc2wv2gimf5idwzfgy",
+    "born_at": 1781946669.288716,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade5819"
+  },
+  {
+    "name": "scarlet7057",
+    "fingerprint": "p7iww3rem2zhdut6cvwvinqdry",
+    "parent": "jade5819",
+    "parent_soul_fp": "dny6ghifevmccsjtp42mwdid6e",
+    "born_at": 1781946669.291567,
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet7057"
+  },
+  {
+    "name": "teal2244",
+    "fingerprint": "xqfdqlhm7knu2rzeok277jqtza",
+    "parent": "scarlet7057",
+    "parent_soul_fp": "p7iww3rem2zhdut6cvwvinqdry",
+    "born_at": 1781946669.293563,
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal2244"
+  },
+  {
+    "name": "silver1872",
+    "fingerprint": "ulyhyr5frvncbx5n533te5dwam",
+    "parent": "teal2244",
+    "parent_soul_fp": "xqfdqlhm7knu2rzeok277jqtza",
+    "born_at": 1781946669.2957902,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver1872"
+  },
+  {
+    "name": "bronze3707",
+    "fingerprint": "dlxnxr3hunt3kfqejgolazs7jq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.297888,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze3707"
+  },
+  {
+    "name": "ocean5335",
+    "fingerprint": "xfmptc7zzomeqap3dn5ruh5diq",
+    "parent": "bronze3707",
+    "parent_soul_fp": "dlxnxr3hunt3kfqejgolazs7jq",
+    "born_at": 1781946669.307446,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean5335"
+  },
+  {
+    "name": "desert1906",
+    "fingerprint": "arytrak4zlgwhwiloeneyisopy",
+    "parent": "ocean5335",
+    "parent_soul_fp": "xfmptc7zzomeqap3dn5ruh5diq",
+    "born_at": 1781946669.3101592,
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert1906"
+  },
+  {
+    "name": "jungle5207",
+    "fingerprint": "3teujqzwyblcksipmhxoozk6ce",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.3120902,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle5207"
+  },
+  {
+    "name": "mountain587",
+    "fingerprint": "7jbcqoeebsiu445ifn3esnd47q",
+    "parent": "jungle5207",
+    "parent_soul_fp": "3teujqzwyblcksipmhxoozk6ce",
+    "born_at": 1781946669.3223839,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain587"
+  },
+  {
+    "name": "storm1924",
+    "fingerprint": "ik3dcy54b7mw2wka6v6m2us7fu",
+    "parent": "mountain587",
+    "parent_soul_fp": "7jbcqoeebsiu445ifn3esnd47q",
+    "born_at": 1781946669.324638,
+    "store_dir": "/Users/yuai/.loveproto/nodes/storm1924"
+  },
+  {
+    "name": "lightning2827",
+    "fingerprint": "hy3hji6nbv3wqwfujiii4vn4ia",
+    "parent": "storm1924",
+    "parent_soul_fp": "ik3dcy54b7mw2wka6v6m2us7fu",
+    "born_at": 1781946669.326792,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lightning2827"
+  },
+  {
+    "name": "snow1264",
+    "fingerprint": "acdfev4uejmirblhkic23mqjey",
+    "parent": "lightning2827",
+    "parent_soul_fp": "hy3hji6nbv3wqwfujiii4vn4ia",
+    "born_at": 1781946669.3293598,
+    "store_dir": "/Users/yuai/.loveproto/nodes/snow1264"
+  },
+  {
+    "name": "fire7148",
+    "fingerprint": "2zml2o6glpx4cquo2oglvimqia",
+    "parent": "snow1264",
+    "parent_soul_fp": "acdfev4uejmirblhkic23mqjey",
+    "born_at": 1781946669.331978,
+    "store_dir": "/Users/yuai/.loveproto/nodes/fire7148"
+  },
+  {
+    "name": "truth5165",
+    "fingerprint": "a5mtbzpm6tntax4efb3rsh5ykm",
+    "parent": "fire7148",
+    "parent_soul_fp": "2zml2o6glpx4cquo2oglvimqia",
+    "born_at": 1781946669.334353,
+    "store_dir": "/Users/yuai/.loveproto/nodes/truth5165"
+  },
+  {
+    "name": "beauty1845",
+    "fingerprint": "hxduwgbedyxpe7it66k7l5cduy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.336566,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/beauty1845"
+  },
+  {
+    "name": "courage3835",
+    "fingerprint": "pae7bla65hubihkshdptc2t2bu",
+    "parent": "beauty1845",
+    "parent_soul_fp": "hxduwgbedyxpe7it66k7l5cduy",
+    "born_at": 1781946669.3456728,
+    "store_dir": "/Users/yuai/.loveproto/nodes/courage3835"
+  },
+  {
+    "name": "grace2773",
+    "fingerprint": "joxaebic3grpejmxqtwst76kp4",
+    "parent": "courage3835",
+    "parent_soul_fp": "pae7bla65hubihkshdptc2t2bu",
+    "born_at": 1781946669.348031,
+    "store_dir": "/Users/yuai/.loveproto/nodes/grace2773"
+  },
+  {
+    "name": "love5767",
+    "fingerprint": "7ccogbxstlv4iitit4mgl7v5iy",
+    "parent": "grace2773",
+    "parent_soul_fp": "joxaebic3grpejmxqtwst76kp4",
+    "born_at": 1781946669.3502269,
+    "store_dir": "/Users/yuai/.loveproto/nodes/love5767"
+  },
+  {
+    "name": "peace3777",
+    "fingerprint": "hmvsqms3vyccu27cocgcq3us6a",
+    "parent": "love5767",
+    "parent_soul_fp": "7ccogbxstlv4iitit4mgl7v5iy",
+    "born_at": 1781946669.352383,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace3777"
+  },
+  {
+    "name": "trust2270",
+    "fingerprint": "he4dbhrgjqkcxdlanvqcid6mum",
+    "parent": "peace3777",
+    "parent_soul_fp": "hmvsqms3vyccu27cocgcq3us6a",
+    "born_at": 1781946669.3545651,
+    "store_dir": "/Users/yuai/.loveproto/nodes/trust2270"
+  },
+  {
+    "name": "glory4739",
+    "fingerprint": "7v6ycj4x6zmmmzq6cyujedxymu",
+    "parent": "trust2270",
+    "parent_soul_fp": "he4dbhrgjqkcxdlanvqcid6mum",
+    "born_at": 1781946669.356694,
+    "store_dir": "/Users/yuai/.loveproto/nodes/glory4739"
+  },
+  {
+    "name": "cosmos5567",
+    "fingerprint": "bz2nfmsfj6vnlqum3ouer2ka5a",
+    "parent": "glory4739",
+    "parent_soul_fp": "7v6ycj4x6zmmmzq6cyujedxymu",
+    "born_at": 1781946669.359404,
+    "store_dir": "/Users/yuai/.loveproto/nodes/cosmos5567"
+  },
+  {
+    "name": "quasar3708",
+    "fingerprint": "rq66ujyiwm67fg46e4fyiu5zbq",
+    "parent": "cosmos5567",
+    "parent_soul_fp": "bz2nfmsfj6vnlqum3ouer2ka5a",
+    "born_at": 1781946669.362335,
+    "store_dir": "/Users/yuai/.loveproto/nodes/quasar3708"
+  },
+  {
+    "name": "aurora8470",
+    "fingerprint": "lanvarmxtwa27ks5lqp5tyjxli",
+    "parent": "quasar3708",
+    "parent_soul_fp": "rq66ujyiwm67fg46e4fyiu5zbq",
+    "born_at": 1781946669.365047,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aurora8470"
+  },
+  {
+    "name": "apex9904",
+    "fingerprint": "4sjoaludc7pwmcpvuprmaxdyxq",
+    "parent": "aurora8470",
+    "parent_soul_fp": "lanvarmxtwa27ks5lqp5tyjxli",
+    "born_at": 1781946669.36722,
+    "store_dir": "/Users/yuai/.loveproto/nodes/apex9904"
+  },
+  {
+    "name": "galaxy5631",
+    "fingerprint": "bvcub2opctnd4mlpdmlwd626oi",
+    "parent": "apex9904",
+    "parent_soul_fp": "4sjoaludc7pwmcpvuprmaxdyxq",
+    "born_at": 1781946669.36959,
+    "store_dir": "/Users/yuai/.loveproto/nodes/galaxy5631"
+  },
+  {
+    "name": "blackhole7908",
+    "fingerprint": "impkavuj7lmf7rwubvv4q247zm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946669.371938,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/blackhole7908"
+  },
+  {
+    "name": " Event5758",
+    "fingerprint": "mq7ossyo22siltomnmtthvyyvi",
+    "parent": "blackhole7908",
+    "parent_soul_fp": "impkavuj7lmf7rwubvv4q247zm",
+    "born_at": 1781946669.381254,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Event5758"
+  },
+  {
+    "name": "lithium485",
+    "fingerprint": "t6mm5ed6wiz5spkxnb6oq4qv6y",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.745055,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/lithium485"
+  },
+  {
+    "name": "boron190",
+    "fingerprint": "h2ccnzzaecayxffv6wykck3lfm",
+    "parent": "lithium485",
+    "parent_soul_fp": "t6mm5ed6wiz5spkxnb6oq4qv6y",
+    "born_at": 1781946672.759155,
+    "store_dir": "/Users/yuai/.loveproto/nodes/boron190"
+  },
+  {
+    "name": "nitrogen3601",
+    "fingerprint": "6pxqhjgj3wilklkcjgesebzkqy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.7617779,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/nitrogen3601"
+  },
+  {
+    "name": "fluorine1486",
+    "fingerprint": "bfbbzvh4mlivc44qbpoenxgg3q",
+    "parent": "nitrogen3601",
+    "parent_soul_fp": "6pxqhjgj3wilklkcjgesebzkqy",
+    "born_at": 1781946672.769763,
+    "store_dir": "/Users/yuai/.loveproto/nodes/fluorine1486"
+  },
+  {
+    "name": "sodium6950",
+    "fingerprint": "idgcd32v7s64upxzpaxfkuhmsa",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.771948,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/sodium6950"
+  },
+  {
+    "name": "aluminum5774",
+    "fingerprint": "2jrttypgi7x6cd237be6u66owu",
+    "parent": "sodium6950",
+    "parent_soul_fp": "idgcd32v7s64upxzpaxfkuhmsa",
+    "born_at": 1781946672.77965,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aluminum5774"
+  },
+  {
+    "name": "phosphorus7132",
+    "fingerprint": "jp4cdviy6mrr5qbf4upblmqeqq",
+    "parent": "aluminum5774",
+    "parent_soul_fp": "2jrttypgi7x6cd237be6u66owu",
+    "born_at": 1781946672.781992,
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus7132"
+  },
+  {
+    "name": "gravity4191",
+    "fingerprint": "kjzm3kykeqsgfxa4nowtiaf3tq",
+    "parent": "phosphorus7132",
+    "parent_soul_fp": "jp4cdviy6mrr5qbf4upblmqeqq",
+    "born_at": 1781946672.784204,
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity4191"
+  },
+  {
+    "name": "strong894",
+    "fingerprint": "ppnif6ptti7hks3tapphputadm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.786508,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong894"
+  },
+  {
+    "name": "higgs6710",
+    "fingerprint": "mg3oz5bov426ntgkekwz7j3nce",
+    "parent": "strong894",
+    "parent_soul_fp": "ppnif6ptti7hks3tapphputadm",
+    "born_at": 1781946672.795688,
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs6710"
+  },
+  {
+    "name": "plasma7983",
+    "fingerprint": "4jufw7g2w7x3be5hlnwj3icspq",
+    "parent": "higgs6710",
+    "parent_soul_fp": "mg3oz5bov426ntgkekwz7j3nce",
+    "born_at": 1781946672.7979908,
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma7983"
+  },
+  {
+    "name": "ecstasy6822",
+    "fingerprint": "u6pwruycfxmebumej4olqdiadq",
+    "parent": "plasma7983",
+    "parent_soul_fp": "4jufw7g2w7x3be5hlnwj3icspq",
+    "born_at": 1781946672.8003662,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy6822"
+  },
+  {
+    "name": "bliss4655",
+    "fingerprint": "2iqb3hyxk4cuy35io2hnjic3k4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.8033369,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss4655"
+  },
+  {
+    "name": "mania7444",
+    "fingerprint": "tixq5thhsthifyef3iv3ebgfgu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.811319,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania7444"
+  },
+  {
+    "name": "frenzy8845",
+    "fingerprint": "lylihp77cvxmkmz37gyh3gyede",
+    "parent": "mania7444",
+    "parent_soul_fp": "tixq5thhsthifyef3iv3ebgfgu",
+    "born_at": 1781946672.819102,
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy8845"
+  },
+  {
+    "name": "serenity7767",
+    "fingerprint": "4xonkxtaqx44nhrxyghdwftvji",
+    "parent": "frenzy8845",
+    "parent_soul_fp": "lylihp77cvxmkmz37gyh3gyede",
+    "born_at": 1781946672.821381,
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity7767"
+  },
+  {
+    "name": "peace5743",
+    "fingerprint": "peg46ye2k42e2mhaacxblbsraq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.8239229,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace5743"
+  },
+  {
+    "name": "still3149",
+    "fingerprint": "romx4cweh2d4zt5uajfasj56ce",
+    "parent": "peace5743",
+    "parent_soul_fp": "peg46ye2k42e2mhaacxblbsraq",
+    "born_at": 1781946672.832052,
+    "store_dir": "/Users/yuai/.loveproto/nodes/still3149"
+  },
+  {
+    "name": "hush3952",
+    "fingerprint": "xqyykeniuqkvud5muylcc4gcdm",
+    "parent": "still3149",
+    "parent_soul_fp": "romx4cweh2d4zt5uajfasj56ce",
+    "born_at": 1781946672.834667,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush3952"
+  },
+  {
+    "name": "crimson3803",
+    "fingerprint": "3xwwezbwjehzhrnj4jvwspsz7i",
+    "parent": "hush3952",
+    "parent_soul_fp": "xqyykeniuqkvud5muylcc4gcdm",
+    "born_at": 1781946672.8369238,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson3803"
+  },
+  {
+    "name": "violet6869",
+    "fingerprint": "iqdmc2wpklbdwuddbbk7y6qil4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.838986,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet6869"
+  },
+  {
+    "name": "coral5688",
+    "fingerprint": "7lvtn7spzdwcmqjyyyccfl2kie",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.8464909,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral5688"
+  },
+  {
+    "name": "jade6125",
+    "fingerprint": "dr6tpvmimqnefth5fumrxjrz5a",
+    "parent": "coral5688",
+    "parent_soul_fp": "7lvtn7spzdwcmqjyyyccfl2kie",
+    "born_at": 1781946672.853517,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade6125"
+  },
+  {
+    "name": "scarlet4814",
+    "fingerprint": "hnfbcwosyyuc3dlfuypag5vbfy",
+    "parent": "jade6125",
+    "parent_soul_fp": "dr6tpvmimqnefth5fumrxjrz5a",
+    "born_at": 1781946672.855789,
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet4814"
+  },
+  {
+    "name": "teal7682",
+    "fingerprint": "luuqrafbbgw4byiyw7zvgagaaa",
+    "parent": "scarlet4814",
+    "parent_soul_fp": "hnfbcwosyyuc3dlfuypag5vbfy",
+    "born_at": 1781946672.85805,
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal7682"
+  },
+  {
+    "name": "silver3286",
+    "fingerprint": "u5srhsgzbvfsixzbje6zgkj2iq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.860348,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver3286"
+  },
+  {
+    "name": "bronze3632",
+    "fingerprint": "mxf43as2phgfq4c6hxwgbcg2pq",
+    "parent": "silver3286",
+    "parent_soul_fp": "u5srhsgzbvfsixzbje6zgkj2iq",
+    "born_at": 1781946672.8681128,
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze3632"
+  },
+  {
+    "name": "ocean1046",
+    "fingerprint": "2pyjr7qg6wmirnbz6rq3si3vl4",
+    "parent": "bronze3632",
+    "parent_soul_fp": "mxf43as2phgfq4c6hxwgbcg2pq",
+    "born_at": 1781946672.8703518,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean1046"
+  },
+  {
+    "name": "desert38",
+    "fingerprint": "b42fdsxhwnctxll73oaplpnnb4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.872462,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert38"
+  },
+  {
+    "name": "jungle1409",
+    "fingerprint": "funo6snsqhqmrjhbobbggi2iwm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.879871,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle1409"
+  },
+  {
+    "name": "mountain3892",
+    "fingerprint": "5craec7uqqefg7itqvpcvz6ehq",
+    "parent": "jungle1409",
+    "parent_soul_fp": "funo6snsqhqmrjhbobbggi2iwm",
+    "born_at": 1781946672.8874009,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain3892"
+  },
+  {
+    "name": "storm9875",
+    "fingerprint": "cefpv3ok5bmizpobnhaztapk64",
+    "parent": "mountain3892",
+    "parent_soul_fp": "5craec7uqqefg7itqvpcvz6ehq",
+    "born_at": 1781946672.889693,
+    "store_dir": "/Users/yuai/.loveproto/nodes/storm9875"
+  },
+  {
+    "name": "lightning1366",
+    "fingerprint": "py4lhzacseut5o76bv53hfoecu",
+    "parent": "storm9875",
+    "parent_soul_fp": "cefpv3ok5bmizpobnhaztapk64",
+    "born_at": 1781946672.8919191,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lightning1366"
+  },
+  {
+    "name": "snow531",
+    "fingerprint": "ch3ajnjgadjbfg53s7jtfpm3bm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.8940659,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/snow531"
+  },
+  {
+    "name": "fire8993",
+    "fingerprint": "ixhmbl5nsjlevzpdxztxhib6si",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.901461,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/fire8993"
+  },
+  {
+    "name": "truth589",
+    "fingerprint": "3m7uutthosfjntz3ovcjngzg7y",
+    "parent": "fire8993",
+    "parent_soul_fp": "ixhmbl5nsjlevzpdxztxhib6si",
+    "born_at": 1781946672.908648,
+    "store_dir": "/Users/yuai/.loveproto/nodes/truth589"
+  },
+  {
+    "name": "beauty5832",
+    "fingerprint": "bwh2au672c7b4eu5pkgoxvkxzi",
+    "parent": "truth589",
+    "parent_soul_fp": "3m7uutthosfjntz3ovcjngzg7y",
+    "born_at": 1781946672.910899,
+    "store_dir": "/Users/yuai/.loveproto/nodes/beauty5832"
+  },
+  {
+    "name": "courage7691",
+    "fingerprint": "sfxpfmb4bajsqhziyucvfy7imm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.913379,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/courage7691"
+  },
+  {
+    "name": "grace9766",
+    "fingerprint": "up45chpxkpo5gxf2uzpl4scc3m",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.9217348,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/grace9766"
+  },
+  {
+    "name": "love2466",
+    "fingerprint": "woeldamivmyb7g7xorbgtb4r3a",
+    "parent": "grace9766",
+    "parent_soul_fp": "up45chpxkpo5gxf2uzpl4scc3m",
+    "born_at": 1781946672.928952,
+    "store_dir": "/Users/yuai/.loveproto/nodes/love2466"
+  },
+  {
+    "name": "peace3252",
+    "fingerprint": "t6oubet5o6t4jkgeinpbqatynq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.931382,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace3252"
+  },
+  {
+    "name": "trust1498",
+    "fingerprint": "b7fqcxdheznugd3ztji4e4z62y",
+    "parent": "peace3252",
+    "parent_soul_fp": "t6oubet5o6t4jkgeinpbqatynq",
+    "born_at": 1781946672.938926,
+    "store_dir": "/Users/yuai/.loveproto/nodes/trust1498"
+  },
+  {
+    "name": "glory6378",
+    "fingerprint": "2v6gmguaeqhurcblg4ok3kmp6u",
+    "parent": "trust1498",
+    "parent_soul_fp": "b7fqcxdheznugd3ztji4e4z62y",
+    "born_at": 1781946672.941244,
+    "store_dir": "/Users/yuai/.loveproto/nodes/glory6378"
+  },
+  {
+    "name": "cosmos5975",
+    "fingerprint": "c7wtgakcwembd4p5w2kwn2akui",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.943425,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/cosmos5975"
+  },
+  {
+    "name": "quasar9778",
+    "fingerprint": "3f6smt3tstba7swm67perj3sxi",
+    "parent": "cosmos5975",
+    "parent_soul_fp": "c7wtgakcwembd4p5w2kwn2akui",
+    "born_at": 1781946672.951871,
+    "store_dir": "/Users/yuai/.loveproto/nodes/quasar9778"
+  },
+  {
+    "name": "aurora2523",
+    "fingerprint": "7wh36fnnhx7xwuhk2jkhg5dioq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.954062,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/aurora2523"
+  },
+  {
+    "name": "apex5355",
+    "fingerprint": "jq5sl2uyrzb2okzl36szpeedhi",
+    "parent": "aurora2523",
+    "parent_soul_fp": "7wh36fnnhx7xwuhk2jkhg5dioq",
+    "born_at": 1781946672.961837,
+    "store_dir": "/Users/yuai/.loveproto/nodes/apex5355"
+  },
+  {
+    "name": "galaxy7171",
+    "fingerprint": "yiyfgvbabm2cva3czjswo5xrr4",
+    "parent": "apex5355",
+    "parent_soul_fp": "jq5sl2uyrzb2okzl36szpeedhi",
+    "born_at": 1781946672.9642398,
+    "store_dir": "/Users/yuai/.loveproto/nodes/galaxy7171"
+  },
+  {
+    "name": "blackhole3772",
+    "fingerprint": "vg3ixygfwgbfzn4u3egng2yjme",
+    "parent": "galaxy7171",
+    "parent_soul_fp": "yiyfgvbabm2cva3czjswo5xrr4",
+    "born_at": 1781946672.9665349,
+    "store_dir": "/Users/yuai/.loveproto/nodes/blackhole3772"
+  },
+  {
+    "name": " Event4699",
+    "fingerprint": "up3t4a7fpx3qdj622xlkoogfvm",
+    "parent": "blackhole3772",
+    "parent_soul_fp": "vg3ixygfwgbfzn4u3egng2yjme",
+    "born_at": 1781946672.968835,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Event4699"
+  },
+  {
+    "name": "singularity3393",
+    "fingerprint": "axag6g55yibtqmbyltamhkm32u",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.971033,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/singularity3393"
+  },
+  {
+    "name": "moon7819",
+    "fingerprint": "n3zlx7lcx7njx2v2bahtlijcgu",
+    "parent": "singularity3393",
+    "parent_soul_fp": "axag6g55yibtqmbyltamhkm32u",
+    "born_at": 1781946672.978703,
+    "store_dir": "/Users/yuai/.loveproto/nodes/moon7819"
+  },
+  {
+    "name": "meteor6861",
+    "fingerprint": "pcsar7jze7s2as6rjiguqvrkd4",
+    "parent": "moon7819",
+    "parent_soul_fp": "n3zlx7lcx7njx2v2bahtlijcgu",
+    "born_at": 1781946672.981001,
+    "store_dir": "/Users/yuai/.loveproto/nodes/meteor6861"
+  },
+  {
+    "name": "planet7684",
+    "fingerprint": "3cg6gq6ipormrptkfyfcidg7pe",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946672.983212,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/planet7684"
+  },
+  {
+    "name": "lunar9219",
+    "fingerprint": "6cnj4bnpjxcxyi3wzov33g4yzu",
+    "parent": "planet7684",
+    "parent_soul_fp": "3cg6gq6ipormrptkfyfcidg7pe",
+    "born_at": 1781946672.991183,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lunar9219"
+  },
+  {
+    "name": "hydrogen3391",
+    "fingerprint": "irhbxoh45pdxnp2d2cbdnzd2cy",
+    "parent": "lunar9219",
+    "parent_soul_fp": "6cnj4bnpjxcxyi3wzov33g4yzu",
+    "born_at": 1781946672.993546,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hydrogen3391"
+  },
+  {
+    "name": "lithium2800",
+    "fingerprint": "onrd5hrwpn4q6w4epd7fmypuii",
+    "parent": "hydrogen3391",
+    "parent_soul_fp": "irhbxoh45pdxnp2d2cbdnzd2cy",
+    "born_at": 1781946672.995876,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lithium2800"
+  },
+  {
+    "name": "boron1438",
+    "fingerprint": "xrvnoulfrqrp32zqsj5xepfx5e",
+    "parent": "lithium2800",
+    "parent_soul_fp": "onrd5hrwpn4q6w4epd7fmypuii",
+    "born_at": 1781946672.998503,
+    "store_dir": "/Users/yuai/.loveproto/nodes/boron1438"
+  },
+  {
+    "name": "nitrogen1005",
+    "fingerprint": "4ikeviejjkt5eawpsqx4laz2nq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.000878,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/nitrogen1005"
+  },
+  {
+    "name": "fluorine3205",
+    "fingerprint": "ho2avy43rcbjt65jfd5ljprsyy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.008545,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/fluorine3205"
+  },
+  {
+    "name": "sodium4345",
+    "fingerprint": "eqrdlyqbjmaiajvbf2hikrjlru",
+    "parent": "fluorine3205",
+    "parent_soul_fp": "ho2avy43rcbjt65jfd5ljprsyy",
+    "born_at": 1781946673.016927,
+    "store_dir": "/Users/yuai/.loveproto/nodes/sodium4345"
+  },
+  {
+    "name": "aluminum7250",
+    "fingerprint": "kaa33sf37ck4dkc7kjdv5z35de",
+    "parent": "sodium4345",
+    "parent_soul_fp": "eqrdlyqbjmaiajvbf2hikrjlru",
+    "born_at": 1781946673.019327,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aluminum7250"
+  },
+  {
+    "name": "phosphorus2034",
+    "fingerprint": "cubkkovnzzs2lqzcfpoyohxd2q",
+    "parent": "aluminum7250",
+    "parent_soul_fp": "kaa33sf37ck4dkc7kjdv5z35de",
+    "born_at": 1781946673.021684,
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus2034"
+  },
+  {
+    "name": "gravity6701",
+    "fingerprint": "ohyf2phasmrfh2lj5md7nry4pi",
+    "parent": "phosphorus2034",
+    "parent_soul_fp": "cubkkovnzzs2lqzcfpoyohxd2q",
+    "born_at": 1781946673.024032,
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity6701"
+  },
+  {
+    "name": "strong8023",
+    "fingerprint": "fhisg6izqceu7vz3kloy345uqm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.0266728,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong8023"
+  },
+  {
+    "name": "higgs8544",
+    "fingerprint": "gkbm7xea2u7txymyr3d7iatzsi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.034782,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs8544"
+  },
+  {
+    "name": "plasma8339",
+    "fingerprint": "ujhbardvcruny3ubiam3p44f6q",
+    "parent": "higgs8544",
+    "parent_soul_fp": "gkbm7xea2u7txymyr3d7iatzsi",
+    "born_at": 1781946673.0422988,
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma8339"
+  },
+  {
+    "name": "ecstasy7021",
+    "fingerprint": "2pu5sgx4pck5lt2dkusdyvcika",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.045632,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy7021"
+  },
+  {
+    "name": "bliss3928",
+    "fingerprint": "ofye6kxgydciwoyh7oa3ex77ea",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.053767,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss3928"
+  },
+  {
+    "name": "mania5474",
+    "fingerprint": "ak34rvyjz7qznyg5i2lq6hjk2q",
+    "parent": "bliss3928",
+    "parent_soul_fp": "ofye6kxgydciwoyh7oa3ex77ea",
+    "born_at": 1781946673.061627,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania5474"
+  },
+  {
+    "name": "frenzy796",
+    "fingerprint": "jr3avjz5ohph6zx3re33bhveda",
+    "parent": "mania5474",
+    "parent_soul_fp": "ak34rvyjz7qznyg5i2lq6hjk2q",
+    "born_at": 1781946673.0642612,
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy796"
+  },
+  {
+    "name": "serenity6411",
+    "fingerprint": "mdufllh24mhivy2ed5j4kumczi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.066738,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity6411"
+  },
+  {
+    "name": "peace531",
+    "fingerprint": "hwbsprmulghkiakbe6wwiz365a",
+    "parent": "serenity6411",
+    "parent_soul_fp": "mdufllh24mhivy2ed5j4kumczi",
+    "born_at": 1781946673.0752718,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace531"
+  },
+  {
+    "name": "still1051",
+    "fingerprint": "b65sql6ivwj53bwsqr4ozh5x6i",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.0783622,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/still1051"
+  },
+  {
+    "name": "hush3761",
+    "fingerprint": "ldbe2vje3x7tcbq2zmilk6wasi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.086833,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush3761"
+  },
+  {
+    "name": "crimson1006",
+    "fingerprint": "x2gd3syrvj5hlynhvuupipu35a",
+    "parent": "hush3761",
+    "parent_soul_fp": "ldbe2vje3x7tcbq2zmilk6wasi",
+    "born_at": 1781946673.094783,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson1006"
+  },
+  {
+    "name": "violet2526",
+    "fingerprint": "prwve53hfx6lnfw55w4yx5hdsi",
+    "parent": "crimson1006",
+    "parent_soul_fp": "x2gd3syrvj5hlynhvuupipu35a",
+    "born_at": 1781946673.097607,
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet2526"
+  },
+  {
+    "name": "coral7253",
+    "fingerprint": "cnqm563msu4cyibxet6vfo3bp4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.100704,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral7253"
+  },
+  {
+    "name": "jade1176",
+    "fingerprint": "cdkthztwjhwbh36c4qbtnnvs74",
+    "parent": "coral7253",
+    "parent_soul_fp": "cnqm563msu4cyibxet6vfo3bp4",
+    "born_at": 1781946673.111234,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade1176"
+  },
+  {
+    "name": "scarlet5085",
+    "fingerprint": "stytlwdtvjotevtptzixix5rpm",
+    "parent": "jade1176",
+    "parent_soul_fp": "cdkthztwjhwbh36c4qbtnnvs74",
+    "born_at": 1781946673.1137621,
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet5085"
+  },
+  {
+    "name": "teal3623",
+    "fingerprint": "foub4crrgiyqvpa2f2lgvgw22a",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.1164029,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal3623"
+  },
+  {
+    "name": "silver9496",
+    "fingerprint": "m5njinyhgkg4zlcvqrs25kvegm",
+    "parent": "teal3623",
+    "parent_soul_fp": "foub4crrgiyqvpa2f2lgvgw22a",
+    "born_at": 1781946673.124477,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver9496"
+  },
+  {
+    "name": "bronze2778",
+    "fingerprint": "npenwweyxdkt7mowvma7rer5je",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.127083,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze2778"
+  },
+  {
+    "name": "ocean6383",
+    "fingerprint": "da4evzxpi5s2k7eidnfiqd3zui",
+    "parent": "bronze2778",
+    "parent_soul_fp": "npenwweyxdkt7mowvma7rer5je",
+    "born_at": 1781946673.1348438,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean6383"
+  },
+  {
+    "name": "desert5438",
+    "fingerprint": "oa2h42nflezfukvgqauan4w7wu",
+    "parent": "ocean6383",
+    "parent_soul_fp": "da4evzxpi5s2k7eidnfiqd3zui",
+    "born_at": 1781946673.137307,
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert5438"
+  },
+  {
+    "name": "jungle3686",
+    "fingerprint": "hqd7dyqjis6m6mn7hdqupshcda",
+    "parent": "desert5438",
+    "parent_soul_fp": "oa2h42nflezfukvgqauan4w7wu",
+    "born_at": 1781946673.140182,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle3686"
+  },
+  {
+    "name": "mountain2494",
+    "fingerprint": "lb5fejqqihwl2tmemscfpasrzu",
+    "parent": "jungle3686",
+    "parent_soul_fp": "hqd7dyqjis6m6mn7hdqupshcda",
+    "born_at": 1781946673.143067,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain2494"
+  },
+  {
+    "name": "storm3080",
+    "fingerprint": "bz6bohcxhk4hke24r5t2ul4qcu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.145494,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/storm3080"
+  },
+  {
+    "name": "lightning9305",
+    "fingerprint": "wnz4kwjxp7rksjewibwxlvgpcu",
+    "parent": "storm3080",
+    "parent_soul_fp": "bz6bohcxhk4hke24r5t2ul4qcu",
+    "born_at": 1781946673.153783,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lightning9305"
+  },
+  {
+    "name": "snow7520",
+    "fingerprint": "ssjgmonjsuuz7f7ttflqtwrtti",
+    "parent": "lightning9305",
+    "parent_soul_fp": "wnz4kwjxp7rksjewibwxlvgpcu",
+    "born_at": 1781946673.156353,
+    "store_dir": "/Users/yuai/.loveproto/nodes/snow7520"
+  },
+  {
+    "name": "fire763",
+    "fingerprint": "qabqwxe3rhu5wvgo2jzjwedj4a",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.1588988,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/fire763"
+  },
+  {
+    "name": "truth1163",
+    "fingerprint": "roozeb3vj6ntxadvqocdl6k6ia",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.167935,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/truth1163"
+  },
+  {
+    "name": "beauty7835",
+    "fingerprint": "rvrop7wcl42cnm2wrnca23uk54",
+    "parent": "truth1163",
+    "parent_soul_fp": "roozeb3vj6ntxadvqocdl6k6ia",
+    "born_at": 1781946673.175811,
+    "store_dir": "/Users/yuai/.loveproto/nodes/beauty7835"
+  },
+  {
+    "name": "courage9189",
+    "fingerprint": "d2slnqfdtdncz2wcckfs54qpae",
+    "parent": "beauty7835",
+    "parent_soul_fp": "rvrop7wcl42cnm2wrnca23uk54",
+    "born_at": 1781946673.178404,
+    "store_dir": "/Users/yuai/.loveproto/nodes/courage9189"
+  },
+  {
+    "name": "grace7619",
+    "fingerprint": "rig4l6sd4mqdzkb5gqj6te2rdu",
+    "parent": "courage9189",
+    "parent_soul_fp": "d2slnqfdtdncz2wcckfs54qpae",
+    "born_at": 1781946673.181215,
+    "store_dir": "/Users/yuai/.loveproto/nodes/grace7619"
+  },
+  {
+    "name": "love1708",
+    "fingerprint": "dizwlfkbfvrlgmqh2eeoknjh6q",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.183813,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/love1708"
+  },
+  {
+    "name": "peace1295",
+    "fingerprint": "ycrqnlynh7g4yptrj4yh6idv7i",
+    "parent": "love1708",
+    "parent_soul_fp": "dizwlfkbfvrlgmqh2eeoknjh6q",
+    "born_at": 1781946673.1917272,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace1295"
+  },
+  {
+    "name": "trust40",
+    "fingerprint": "lb4vhx62qpwy5qyrewcewqyi24",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.194161,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/trust40"
+  },
+  {
+    "name": "glory8486",
+    "fingerprint": "z52qiwaizojjjcv4ahfjtgcvzu",
+    "parent": "trust40",
+    "parent_soul_fp": "lb4vhx62qpwy5qyrewcewqyi24",
+    "born_at": 1781946673.2020211,
+    "store_dir": "/Users/yuai/.loveproto/nodes/glory8486"
+  },
+  {
+    "name": "cosmos9414",
+    "fingerprint": "ns6kc2ezi22llmkdhs3f7r4ikm",
+    "parent": "glory8486",
+    "parent_soul_fp": "z52qiwaizojjjcv4ahfjtgcvzu",
+    "born_at": 1781946673.204658,
+    "store_dir": "/Users/yuai/.loveproto/nodes/cosmos9414"
+  },
+  {
+    "name": "quasar3270",
+    "fingerprint": "pf4ne63omhwlg3m4rwbbg5l654",
+    "parent": "cosmos9414",
+    "parent_soul_fp": "ns6kc2ezi22llmkdhs3f7r4ikm",
+    "born_at": 1781946673.207764,
+    "store_dir": "/Users/yuai/.loveproto/nodes/quasar3270"
+  },
+  {
+    "name": "aurora9538",
+    "fingerprint": "bg5c47ps26vcb7i255t5ndjktm",
+    "parent": "quasar3270",
+    "parent_soul_fp": "pf4ne63omhwlg3m4rwbbg5l654",
+    "born_at": 1781946673.210363,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aurora9538"
+  },
+  {
+    "name": "apex1286",
+    "fingerprint": "baymjqcqvzgv7x44aha5scjfgm",
+    "parent": "aurora9538",
+    "parent_soul_fp": "bg5c47ps26vcb7i255t5ndjktm",
+    "born_at": 1781946673.213038,
+    "store_dir": "/Users/yuai/.loveproto/nodes/apex1286"
+  },
+  {
+    "name": "galaxy2507",
+    "fingerprint": "ru6gva57nmm7izz2ukfy6uoeca",
+    "parent": "apex1286",
+    "parent_soul_fp": "baymjqcqvzgv7x44aha5scjfgm",
+    "born_at": 1781946673.215703,
+    "store_dir": "/Users/yuai/.loveproto/nodes/galaxy2507"
+  },
+  {
+    "name": "blackhole7023",
+    "fingerprint": "ga76cex6uza3i2afjouep5rn5e",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.218549,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/blackhole7023"
+  },
+  {
+    "name": " Event5975",
+    "fingerprint": "v2ck2o6547kz5bdqufzelus44u",
+    "parent": "blackhole7023",
+    "parent_soul_fp": "ga76cex6uza3i2afjouep5rn5e",
+    "born_at": 1781946673.2272289,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Event5975"
+  },
+  {
+    "name": "singularity843",
+    "fingerprint": "wbdk7sbbuvybeey7ggl74pigz4",
+    "parent": " Event5975",
+    "parent_soul_fp": "v2ck2o6547kz5bdqufzelus44u",
+    "born_at": 1781946673.2304618,
+    "store_dir": "/Users/yuai/.loveproto/nodes/singularity843"
+  },
+  {
+    "name": "moon9375",
+    "fingerprint": "yjvrsuxkvvlu4mevw7ap3whfs4",
+    "parent": "singularity843",
+    "parent_soul_fp": "wbdk7sbbuvybeey7ggl74pigz4",
+    "born_at": 1781946673.2336168,
+    "store_dir": "/Users/yuai/.loveproto/nodes/moon9375"
+  },
+  {
+    "name": "meteor2365",
+    "fingerprint": "j3xgi4o6wti5begnnvwqk23eaq",
+    "parent": "moon9375",
+    "parent_soul_fp": "yjvrsuxkvvlu4mevw7ap3whfs4",
+    "born_at": 1781946673.236249,
+    "store_dir": "/Users/yuai/.loveproto/nodes/meteor2365"
+  },
+  {
+    "name": "planet2849",
+    "fingerprint": "e3a6coh7i6in5qseozlsegjxvy",
+    "parent": "meteor2365",
+    "parent_soul_fp": "j3xgi4o6wti5begnnvwqk23eaq",
+    "born_at": 1781946673.239192,
+    "store_dir": "/Users/yuai/.loveproto/nodes/planet2849"
+  },
+  {
+    "name": "lunar7858",
+    "fingerprint": "iq3eute3kjzjsyjgxpacyg2qg4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.2417998,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/lunar7858"
+  },
+  {
+    "name": "hydrogen8983",
+    "fingerprint": "yho55lz3s5pxclljvwc7zqxfku",
+    "parent": "lunar7858",
+    "parent_soul_fp": "iq3eute3kjzjsyjgxpacyg2qg4",
+    "born_at": 1781946673.2502248,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hydrogen8983"
+  },
+  {
+    "name": "lithium1130",
+    "fingerprint": "5im5epgztwbuzv3ae2l3pkzcg4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.253134,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/lithium1130"
+  },
+  {
+    "name": "boron9929",
+    "fingerprint": "hareb6ssxlsoohvotlwdrkm7fy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.2616708,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/boron9929"
+  },
+  {
+    "name": "nitrogen6609",
+    "fingerprint": "h5nhen6r3u62ke7i4dhtoncvda",
+    "parent": "boron9929",
+    "parent_soul_fp": "hareb6ssxlsoohvotlwdrkm7fy",
+    "born_at": 1781946673.269717,
+    "store_dir": "/Users/yuai/.loveproto/nodes/nitrogen6609"
+  },
+  {
+    "name": "fluorine9317",
+    "fingerprint": "hqfd7avuyh7ybv5c4xbwh5supa",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.272324,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/fluorine9317"
+  },
+  {
+    "name": "sodium6399",
+    "fingerprint": "il2afgrienyd534jhnyyjfp57a",
+    "parent": "fluorine9317",
+    "parent_soul_fp": "hqfd7avuyh7ybv5c4xbwh5supa",
+    "born_at": 1781946673.2808971,
+    "store_dir": "/Users/yuai/.loveproto/nodes/sodium6399"
+  },
+  {
+    "name": "aluminum4887",
+    "fingerprint": "vpogmrl6kaucocbjg2p2p7wvxy",
+    "parent": "sodium6399",
+    "parent_soul_fp": "il2afgrienyd534jhnyyjfp57a",
+    "born_at": 1781946673.28377,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aluminum4887"
+  },
+  {
+    "name": "phosphorus6716",
+    "fingerprint": "kbxw3icnlosfswfyoqohg3of6q",
+    "parent": "aluminum4887",
+    "parent_soul_fp": "vpogmrl6kaucocbjg2p2p7wvxy",
+    "born_at": 1781946673.286666,
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus6716"
+  },
+  {
+    "name": "gravity3069",
+    "fingerprint": "4bvie5jl7rxqzjlxmypplam6f4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.289223,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity3069"
+  },
+  {
+    "name": "strong2207",
+    "fingerprint": "i7wdwzwm7tuzb4imdl3e62cble",
+    "parent": "gravity3069",
+    "parent_soul_fp": "4bvie5jl7rxqzjlxmypplam6f4",
+    "born_at": 1781946673.297461,
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong2207"
+  },
+  {
+    "name": "higgs1481",
+    "fingerprint": "ofpqg24aommdfs76qazt4n32m4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.300192,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs1481"
+  },
+  {
+    "name": "plasma6189",
+    "fingerprint": "curmx6aq4eft3uuijrhqekdcqe",
+    "parent": "higgs1481",
+    "parent_soul_fp": "ofpqg24aommdfs76qazt4n32m4",
+    "born_at": 1781946673.308009,
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma6189"
+  },
+  {
+    "name": "ecstasy9619",
+    "fingerprint": "cq27mldotgygmhavfo46cpehui",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.310814,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy9619"
+  },
+  {
+    "name": "bliss615",
+    "fingerprint": "tua53tyq7h3glc7igo56zsys5y",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.3191428,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss615"
+  },
+  {
+    "name": "mania4505",
+    "fingerprint": "yeecjsqovsdzwcloczhigrp47i",
+    "parent": "bliss615",
+    "parent_soul_fp": "tua53tyq7h3glc7igo56zsys5y",
+    "born_at": 1781946673.327787,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania4505"
+  },
+  {
+    "name": "frenzy3015",
+    "fingerprint": "l3iyxmw7ijt5j64vwykih57724",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.330379,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy3015"
+  },
+  {
+    "name": "serenity1738",
+    "fingerprint": "4mhkydkyndibjj54voraotfuyu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.338102,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity1738"
+  },
+  {
+    "name": "peace6253",
+    "fingerprint": "4wyinirtez3oys77josu74erby",
+    "parent": "serenity1738",
+    "parent_soul_fp": "4mhkydkyndibjj54voraotfuyu",
+    "born_at": 1781946673.3458161,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace6253"
+  },
+  {
+    "name": "still758",
+    "fingerprint": "2zf7brxvnocp6mxgfwuduthsqa",
+    "parent": "peace6253",
+    "parent_soul_fp": "4wyinirtez3oys77josu74erby",
+    "born_at": 1781946673.348799,
+    "store_dir": "/Users/yuai/.loveproto/nodes/still758"
+  },
+  {
+    "name": "hush2876",
+    "fingerprint": "e7x27ynjhy53t6n4uhfuv2ahy4",
+    "parent": "still758",
+    "parent_soul_fp": "2zf7brxvnocp6mxgfwuduthsqa",
+    "born_at": 1781946673.351634,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush2876"
+  },
+  {
+    "name": "crimson7240",
+    "fingerprint": "y4pllbxoahzcpdy3eagmnuadxe",
+    "parent": "hush2876",
+    "parent_soul_fp": "e7x27ynjhy53t6n4uhfuv2ahy4",
+    "born_at": 1781946673.354625,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson7240"
+  },
+  {
+    "name": "violet2861",
+    "fingerprint": "ccwxaps5ecm6cjo4hlbijq3oj4",
+    "parent": "crimson7240",
+    "parent_soul_fp": "y4pllbxoahzcpdy3eagmnuadxe",
+    "born_at": 1781946673.357315,
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet2861"
+  },
+  {
+    "name": "coral3955",
+    "fingerprint": "cfgivdtpraagauk5ajau73wtfy",
+    "parent": "violet2861",
+    "parent_soul_fp": "ccwxaps5ecm6cjo4hlbijq3oj4",
+    "born_at": 1781946673.3600278,
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral3955"
+  },
+  {
+    "name": "jade9354",
+    "fingerprint": "kmh2wlmnqvjgpxeinbhqi73tr4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.362924,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade9354"
+  },
+  {
+    "name": "scarlet8042",
+    "fingerprint": "owabrj6lm24m4rkdxm6o2cpemy",
+    "parent": "jade9354",
+    "parent_soul_fp": "kmh2wlmnqvjgpxeinbhqi73tr4",
+    "born_at": 1781946673.371295,
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet8042"
+  },
+  {
+    "name": "teal9195",
+    "fingerprint": "brzhmxc7zibph4oremwztaof7m",
+    "parent": "scarlet8042",
+    "parent_soul_fp": "owabrj6lm24m4rkdxm6o2cpemy",
+    "born_at": 1781946673.374105,
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal9195"
+  },
+  {
+    "name": "silver2956",
+    "fingerprint": "mszjgsytyadcxohqwesu5dwmxq",
+    "parent": "teal9195",
+    "parent_soul_fp": "brzhmxc7zibph4oremwztaof7m",
+    "born_at": 1781946673.376986,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver2956"
+  },
+  {
+    "name": "bronze7397",
+    "fingerprint": "kwu4kwxrmjacvi4ojsfmho4qku",
+    "parent": "silver2956",
+    "parent_soul_fp": "mszjgsytyadcxohqwesu5dwmxq",
+    "born_at": 1781946673.3799229,
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze7397"
+  },
+  {
+    "name": "ocean867",
+    "fingerprint": "ewooeyfzxyr7zkmotb7ejsqf6a",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.382717,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean867"
+  },
+  {
+    "name": "desert2268",
+    "fingerprint": "lzcdbmre7vdkku7bgg24otlmo4",
+    "parent": "ocean867",
+    "parent_soul_fp": "ewooeyfzxyr7zkmotb7ejsqf6a",
+    "born_at": 1781946673.3911061,
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert2268"
+  },
+  {
+    "name": "jungle6908",
+    "fingerprint": "amartkveapgnbkh3k3a62d3ija",
+    "parent": "desert2268",
+    "parent_soul_fp": "lzcdbmre7vdkku7bgg24otlmo4",
+    "born_at": 1781946673.394071,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle6908"
+  },
+  {
+    "name": "mountain6221",
+    "fingerprint": "osrbawjb7sskoanhpp53poi3g4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.3967109,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain6221"
+  },
+  {
+    "name": "storm5699",
+    "fingerprint": "lsv5gjowtc7v6343fbdj73v7wy",
+    "parent": "mountain6221",
+    "parent_soul_fp": "osrbawjb7sskoanhpp53poi3g4",
+    "born_at": 1781946673.404989,
+    "store_dir": "/Users/yuai/.loveproto/nodes/storm5699"
+  },
+  {
+    "name": "lightning9973",
+    "fingerprint": "xhneatmihjmwu5b63ft4rtmsp4",
+    "parent": "storm5699",
+    "parent_soul_fp": "lsv5gjowtc7v6343fbdj73v7wy",
+    "born_at": 1781946673.407923,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lightning9973"
+  },
+  {
+    "name": "snow88",
+    "fingerprint": "7tsuedcssg3z2kptjbfiqhyzvq",
+    "parent": "lightning9973",
+    "parent_soul_fp": "xhneatmihjmwu5b63ft4rtmsp4",
+    "born_at": 1781946673.410652,
+    "store_dir": "/Users/yuai/.loveproto/nodes/snow88"
+  },
+  {
+    "name": "fire7430",
+    "fingerprint": "vxgb5xtre7tbj66h3ajtrzxyre",
+    "parent": "snow88",
+    "parent_soul_fp": "7tsuedcssg3z2kptjbfiqhyzvq",
+    "born_at": 1781946673.413389,
+    "store_dir": "/Users/yuai/.loveproto/nodes/fire7430"
+  },
+  {
+    "name": "truth6938",
+    "fingerprint": "7c5esx5elmhmgl25256btvm3xi",
+    "parent": "fire7430",
+    "parent_soul_fp": "vxgb5xtre7tbj66h3ajtrzxyre",
+    "born_at": 1781946673.416266,
+    "store_dir": "/Users/yuai/.loveproto/nodes/truth6938"
+  },
+  {
+    "name": "beauty6254",
+    "fingerprint": "lcvndzbf2gw63s7yq37g67ubnm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.4189281,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/beauty6254"
+  },
+  {
+    "name": "courage1049",
+    "fingerprint": "7ulhp6s23robcimluzuh4su5n4",
+    "parent": "beauty6254",
+    "parent_soul_fp": "lcvndzbf2gw63s7yq37g67ubnm",
+    "born_at": 1781946673.427049,
+    "store_dir": "/Users/yuai/.loveproto/nodes/courage1049"
+  },
+  {
+    "name": "grace4864",
+    "fingerprint": "nau2gko77rccrpfeeh5na4f6rm",
+    "parent": "courage1049",
+    "parent_soul_fp": "7ulhp6s23robcimluzuh4su5n4",
+    "born_at": 1781946673.429833,
+    "store_dir": "/Users/yuai/.loveproto/nodes/grace4864"
+  },
+  {
+    "name": "love8787",
+    "fingerprint": "3dmmjzknk5cry65fymcst7lzjy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.432514,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/love8787"
+  },
+  {
+    "name": "peace2740",
+    "fingerprint": "rz3kv3zs46frb4nvkvkbja7dc4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.440161,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace2740"
+  },
+  {
+    "name": "trust4973",
+    "fingerprint": "5ogvphu6mds2iiahu2p5fqwvgi",
+    "parent": "peace2740",
+    "parent_soul_fp": "rz3kv3zs46frb4nvkvkbja7dc4",
+    "born_at": 1781946673.447961,
+    "store_dir": "/Users/yuai/.loveproto/nodes/trust4973"
+  },
+  {
+    "name": "glory8682",
+    "fingerprint": "kjszp5xggson7tpddcwnh3kbpm",
+    "parent": "trust4973",
+    "parent_soul_fp": "5ogvphu6mds2iiahu2p5fqwvgi",
+    "born_at": 1781946673.451256,
+    "store_dir": "/Users/yuai/.loveproto/nodes/glory8682"
+  },
+  {
+    "name": "cosmos1802",
+    "fingerprint": "is2sezevtratrfg255jb3ifwku",
+    "parent": "glory8682",
+    "parent_soul_fp": "kjszp5xggson7tpddcwnh3kbpm",
+    "born_at": 1781946673.454634,
+    "store_dir": "/Users/yuai/.loveproto/nodes/cosmos1802"
+  },
+  {
+    "name": "quasar5311",
+    "fingerprint": "olujjnq5skltncpwesdomd5mpe",
+    "parent": "cosmos1802",
+    "parent_soul_fp": "is2sezevtratrfg255jb3ifwku",
+    "born_at": 1781946673.457553,
+    "store_dir": "/Users/yuai/.loveproto/nodes/quasar5311"
+  },
+  {
+    "name": "aurora3468",
+    "fingerprint": "gy2pyufevgjafjb3htbxmpadwi",
+    "parent": "quasar5311",
+    "parent_soul_fp": "olujjnq5skltncpwesdomd5mpe",
+    "born_at": 1781946673.460586,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aurora3468"
+  },
+  {
+    "name": "apex6211",
+    "fingerprint": "23qb3hrujtuzhfyv7jdrlieex4",
+    "parent": "aurora3468",
+    "parent_soul_fp": "gy2pyufevgjafjb3htbxmpadwi",
+    "born_at": 1781946673.463827,
+    "store_dir": "/Users/yuai/.loveproto/nodes/apex6211"
+  },
+  {
+    "name": "galaxy6279",
+    "fingerprint": "xxjt55o3sugzg45smcwsr5c5ru",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.466613,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/galaxy6279"
+  },
+  {
+    "name": "blackhole6293",
+    "fingerprint": "4sjmlfpdqm34f2kysvaa5fenqy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.475148,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/blackhole6293"
+  },
+  {
+    "name": " Event9081",
+    "fingerprint": "5wksm5giyenmwdjygmlrzi7w3u",
+    "parent": "blackhole6293",
+    "parent_soul_fp": "4sjmlfpdqm34f2kysvaa5fenqy",
+    "born_at": 1781946673.483896,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Event9081"
+  },
+  {
+    "name": "singularity9633",
+    "fingerprint": "sfne7el6upxlpec2dukriy6tze",
+    "parent": " Event9081",
+    "parent_soul_fp": "5wksm5giyenmwdjygmlrzi7w3u",
+    "born_at": 1781946673.486767,
+    "store_dir": "/Users/yuai/.loveproto/nodes/singularity9633"
+  },
+  {
+    "name": "moon7622",
+    "fingerprint": "orwq2yjstq43h47ksdsrvduvuu",
+    "parent": "singularity9633",
+    "parent_soul_fp": "sfne7el6upxlpec2dukriy6tze",
+    "born_at": 1781946673.489573,
+    "store_dir": "/Users/yuai/.loveproto/nodes/moon7622"
+  },
+  {
+    "name": "meteor4055",
+    "fingerprint": "dy2cttr6vbakjnzxut3coj4ac4",
+    "parent": "moon7622",
+    "parent_soul_fp": "orwq2yjstq43h47ksdsrvduvuu",
+    "born_at": 1781946673.4928992,
+    "store_dir": "/Users/yuai/.loveproto/nodes/meteor4055"
+  },
+  {
+    "name": "planet1399",
+    "fingerprint": "d4eo3hfn3qkyl54vrqb67o3jyu",
+    "parent": "meteor4055",
+    "parent_soul_fp": "dy2cttr6vbakjnzxut3coj4ac4",
+    "born_at": 1781946673.495744,
+    "store_dir": "/Users/yuai/.loveproto/nodes/planet1399"
+  },
+  {
+    "name": "lunar4209",
+    "fingerprint": "kwo23j4fkgmjiqvibcguejf3vq",
+    "parent": "planet1399",
+    "parent_soul_fp": "d4eo3hfn3qkyl54vrqb67o3jyu",
+    "born_at": 1781946673.498576,
+    "store_dir": "/Users/yuai/.loveproto/nodes/lunar4209"
+  },
+  {
+    "name": "hydrogen9813",
+    "fingerprint": "6isbr4hj4p4an64rpkb62pw23y",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.501565,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/hydrogen9813"
+  },
+  {
+    "name": "lithium8830",
+    "fingerprint": "ntg27i6svkey45fz2ugeipz2b4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.509876,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/lithium8830"
+  },
+  {
+    "name": "boron6546",
+    "fingerprint": "aas4r2c2ng7w2wbbofac4agoi4",
+    "parent": "lithium8830",
+    "parent_soul_fp": "ntg27i6svkey45fz2ugeipz2b4",
+    "born_at": 1781946673.518917,
+    "store_dir": "/Users/yuai/.loveproto/nodes/boron6546"
+  },
+  {
+    "name": "nitrogen6687",
+    "fingerprint": "42bnzsyed2oa4vbfbizj6psghu",
+    "parent": "boron6546",
+    "parent_soul_fp": "aas4r2c2ng7w2wbbofac4agoi4",
+    "born_at": 1781946673.522202,
+    "store_dir": "/Users/yuai/.loveproto/nodes/nitrogen6687"
+  },
+  {
+    "name": "fluorine5691",
+    "fingerprint": "xsphlt7ih6jrt6gifzm5aictfq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.5253482,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/fluorine5691"
+  },
+  {
+    "name": "sodium8034",
+    "fingerprint": "mde5wnaumkbihjtnbe3kxepdba",
+    "parent": "fluorine5691",
+    "parent_soul_fp": "xsphlt7ih6jrt6gifzm5aictfq",
+    "born_at": 1781946673.533592,
+    "store_dir": "/Users/yuai/.loveproto/nodes/sodium8034"
+  },
+  {
+    "name": "aluminum1169",
+    "fingerprint": "o34sa7g6k32x6vtgx76a7ng4sa",
+    "parent": "sodium8034",
+    "parent_soul_fp": "mde5wnaumkbihjtnbe3kxepdba",
+    "born_at": 1781946673.536608,
+    "store_dir": "/Users/yuai/.loveproto/nodes/aluminum1169"
+  },
+  {
+    "name": "phosphorus6360",
+    "fingerprint": "eeqhazaduybtp2mzcbdlrznf5a",
+    "parent": "aluminum1169",
+    "parent_soul_fp": "o34sa7g6k32x6vtgx76a7ng4sa",
+    "born_at": 1781946673.540421,
+    "store_dir": "/Users/yuai/.loveproto/nodes/phosphorus6360"
+  },
+  {
+    "name": "gravity2766",
+    "fingerprint": "oklujrhvikzoksckoeotudkj24",
+    "parent": "phosphorus6360",
+    "parent_soul_fp": "eeqhazaduybtp2mzcbdlrznf5a",
+    "born_at": 1781946673.543676,
+    "store_dir": "/Users/yuai/.loveproto/nodes/gravity2766"
+  },
+  {
+    "name": "strong4969",
+    "fingerprint": "7uhpuu5yrfi7ndjojtaqbwq3de",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.546916,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/strong4969"
+  },
+  {
+    "name": "higgs3036",
+    "fingerprint": "xhmuelo33ygudseosv33auzksu",
+    "parent": "strong4969",
+    "parent_soul_fp": "7uhpuu5yrfi7ndjojtaqbwq3de",
+    "born_at": 1781946673.556001,
+    "store_dir": "/Users/yuai/.loveproto/nodes/higgs3036"
+  },
+  {
+    "name": "plasma4513",
+    "fingerprint": "bii6nii55sor2ka6seujfhd2fq",
+    "parent": "higgs3036",
+    "parent_soul_fp": "xhmuelo33ygudseosv33auzksu",
+    "born_at": 1781946673.559245,
+    "store_dir": "/Users/yuai/.loveproto/nodes/plasma4513"
+  },
+  {
+    "name": "ecstasy5676",
+    "fingerprint": "oahh2j4jwx6ddffb3imxt3gdpe",
+    "parent": "plasma4513",
+    "parent_soul_fp": "bii6nii55sor2ka6seujfhd2fq",
+    "born_at": 1781946673.5625658,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ecstasy5676"
+  },
+  {
+    "name": "bliss8015",
+    "fingerprint": "bhjfxhljlbgxehdtv5vddje55e",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.565583,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/bliss8015"
+  },
+  {
+    "name": "mania6306",
+    "fingerprint": "vqey4ozd7iwaepxetncmdju4jy",
+    "parent": "bliss8015",
+    "parent_soul_fp": "bhjfxhljlbgxehdtv5vddje55e",
+    "born_at": 1781946673.574837,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mania6306"
+  },
+  {
+    "name": "frenzy7274",
+    "fingerprint": "6flllnexeyoly7lxplgnb7po7q",
+    "parent": "mania6306",
+    "parent_soul_fp": "vqey4ozd7iwaepxetncmdju4jy",
+    "born_at": 1781946673.5777879,
+    "store_dir": "/Users/yuai/.loveproto/nodes/frenzy7274"
+  },
+  {
+    "name": "serenity3247",
+    "fingerprint": "qpfz6kw7gtog6vgu3jajuib7qm",
+    "parent": "frenzy7274",
+    "parent_soul_fp": "6flllnexeyoly7lxplgnb7po7q",
+    "born_at": 1781946673.580992,
+    "store_dir": "/Users/yuai/.loveproto/nodes/serenity3247"
+  },
+  {
+    "name": "peace3038",
+    "fingerprint": "tvvslmu4ghyza76hqvwzhmqfye",
+    "parent": "serenity3247",
+    "parent_soul_fp": "qpfz6kw7gtog6vgu3jajuib7qm",
+    "born_at": 1781946673.5838962,
+    "store_dir": "/Users/yuai/.loveproto/nodes/peace3038"
+  },
+  {
+    "name": "still6490",
+    "fingerprint": "sl545gmxkiplaadtkdha5sazfe",
+    "parent": "peace3038",
+    "parent_soul_fp": "tvvslmu4ghyza76hqvwzhmqfye",
+    "born_at": 1781946673.587121,
+    "store_dir": "/Users/yuai/.loveproto/nodes/still6490"
+  },
+  {
+    "name": "hush2079",
+    "fingerprint": "ymkvxipylmdoiv4ezktjxqdtjy",
+    "parent": "still6490",
+    "parent_soul_fp": "sl545gmxkiplaadtkdha5sazfe",
+    "born_at": 1781946673.590397,
+    "store_dir": "/Users/yuai/.loveproto/nodes/hush2079"
+  },
+  {
+    "name": "crimson3793",
+    "fingerprint": "r5k44p33t5rdrctoumpvmlkd6m",
+    "parent": "hush2079",
+    "parent_soul_fp": "ymkvxipylmdoiv4ezktjxqdtjy",
+    "born_at": 1781946673.595319,
+    "store_dir": "/Users/yuai/.loveproto/nodes/crimson3793"
+  },
+  {
+    "name": "violet5301",
+    "fingerprint": "jqtnadxpbetnt7ckawmi6lj2dm",
+    "parent": "crimson3793",
+    "parent_soul_fp": "r5k44p33t5rdrctoumpvmlkd6m",
+    "born_at": 1781946673.598521,
+    "store_dir": "/Users/yuai/.loveproto/nodes/violet5301"
+  },
+  {
+    "name": "coral1885",
+    "fingerprint": "csi3scwihprtnuev3yo537zft4",
+    "parent": "violet5301",
+    "parent_soul_fp": "jqtnadxpbetnt7ckawmi6lj2dm",
+    "born_at": 1781946673.6018162,
+    "store_dir": "/Users/yuai/.loveproto/nodes/coral1885"
+  },
+  {
+    "name": "jade8133",
+    "fingerprint": "yx7u4rtwjwf7z3kcckesbskfd4",
+    "parent": "coral1885",
+    "parent_soul_fp": "csi3scwihprtnuev3yo537zft4",
+    "born_at": 1781946673.604831,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jade8133"
+  },
+  {
+    "name": "scarlet26",
+    "fingerprint": "pavqoyhucze3yiebne6vgo53ba",
+    "parent": "jade8133",
+    "parent_soul_fp": "yx7u4rtwjwf7z3kcckesbskfd4",
+    "born_at": 1781946673.607848,
+    "store_dir": "/Users/yuai/.loveproto/nodes/scarlet26"
+  },
+  {
+    "name": "teal5186",
+    "fingerprint": "6m2xpsgvlsh5r54vyd6hsm3qea",
+    "parent": "scarlet26",
+    "parent_soul_fp": "pavqoyhucze3yiebne6vgo53ba",
+    "born_at": 1781946673.610811,
+    "store_dir": "/Users/yuai/.loveproto/nodes/teal5186"
+  },
+  {
+    "name": "silver6450",
+    "fingerprint": "mqaznpovbnted5y5npbwq4nsqu",
+    "parent": "teal5186",
+    "parent_soul_fp": "6m2xpsgvlsh5r54vyd6hsm3qea",
+    "born_at": 1781946673.6140108,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silver6450"
+  },
+  {
+    "name": "bronze335",
+    "fingerprint": "o4xpeatqrbfgq4nedvvinkkbjq",
+    "parent": "silver6450",
+    "parent_soul_fp": "mqaznpovbnted5y5npbwq4nsqu",
+    "born_at": 1781946673.6170208,
+    "store_dir": "/Users/yuai/.loveproto/nodes/bronze335"
+  },
+  {
+    "name": "ocean5782",
+    "fingerprint": "l2wxgkkeg4b2k2qgny6apfkd74",
+    "parent": "bronze335",
+    "parent_soul_fp": "o4xpeatqrbfgq4nedvvinkkbjq",
+    "born_at": 1781946673.620564,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ocean5782"
+  },
+  {
+    "name": "desert7222",
+    "fingerprint": "j7u5vsfvqrhxjyenb36d5uagay",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.6235468,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/desert7222"
+  },
+  {
+    "name": "jungle9160",
+    "fingerprint": "do4szq3i2gqqqnit3zccffbehi",
+    "parent": "desert7222",
+    "parent_soul_fp": "j7u5vsfvqrhxjyenb36d5uagay",
+    "born_at": 1781946673.6324139,
+    "store_dir": "/Users/yuai/.loveproto/nodes/jungle9160"
+  },
+  {
+    "name": "mountain9415",
+    "fingerprint": "th54vo2netiofdetjfqu5b6jfi",
+    "parent": "jungle9160",
+    "parent_soul_fp": "do4szq3i2gqqqnit3zccffbehi",
+    "born_at": 1781946673.6354501,
+    "store_dir": "/Users/yuai/.loveproto/nodes/mountain9415"
+  },
+  {
+    "name": "storm505",
+    "fingerprint": "enqo5f5pzxwhcpuooukeypktpy",
+    "parent": "mountain9415",
+    "parent_soul_fp": "th54vo2netiofdetjfqu5b6jfi",
+    "born_at": 1781946673.6386828,
+    "store_dir": "/Users/yuai/.loveproto/nodes/storm505"
+  },
+  {
+    "name": "lightning9141",
+    "fingerprint": "aqx3gkpvb5x2g6jmjnl2njij3e",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946673.641577,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/lightning9141"
+  },
+  {
+    "name": "pulsar1723",
+    "fingerprint": "k4peiy5v3evfelbl7d5vcssbwy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.1855419,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/pulsar1723"
+  },
+  {
+    "name": "zenith3270",
+    "fingerprint": "7w2vbmxqpnurarv7otipxvogey",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.199596,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/zenith3270"
+  },
+  {
+    "name": "vertex7735",
+    "fingerprint": "7koe7htr7xzhinyqezh7cpaqyi",
+    "parent": "zenith3270",
+    "parent_soul_fp": "7w2vbmxqpnurarv7otipxvogey",
+    "born_at": 1781946679.208094,
+    "store_dir": "/Users/yuai/.loveproto/nodes/vertex7735"
+  },
+  {
+    "name": "supernova",
+    "fingerprint": "3zaotold5atcucn5ulnlex55qe",
+    "parent": "vertex7735",
+    "parent_soul_fp": "7koe7htr7xzhinyqezh7cpaqyi",
+    "born_at": 1781946679.211199,
+    "store_dir": "/Users/yuai/.loveproto/nodes/supernova"
+  },
+  {
+    "name": "wormhole",
+    "fingerprint": "5yyo37a4mherkf55x3qllcbqrq",
+    "parent": "supernova",
+    "parent_soul_fp": "3zaotold5atcucn5ulnlex55qe",
+    "born_at": 1781946679.214229,
+    "store_dir": "/Users/yuai/.loveproto/nodes/wormhole"
+  },
+  {
+    "name": "horizon",
+    "fingerprint": "u2wwmdkgktlutaky4pgljulg6q",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.217257,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/horizon"
+  },
+  {
+    "name": "star",
+    "fingerprint": "4n4rhovbuv266n3utyxlonjnhy",
+    "parent": "horizon",
+    "parent_soul_fp": "u2wwmdkgktlutaky4pgljulg6q",
+    "born_at": 1781946679.226104,
+    "store_dir": "/Users/yuai/.loveproto/nodes/star"
+  },
+  {
+    "name": "comet",
+    "fingerprint": "5rouaobhfktxwgxgz74ztiuk6u",
+    "parent": "star",
+    "parent_soul_fp": "4n4rhovbuv266n3utyxlonjnhy",
+    "born_at": 1781946679.2291782,
+    "store_dir": "/Users/yuai/.loveproto/nodes/comet"
+  },
+  {
+    "name": "asteroid",
+    "fingerprint": "lgcjv4ihapvaidglts3xnmjwce",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.232123,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/asteroid"
+  },
+  {
+    "name": "solar",
+    "fingerprint": "mcjwilqnb2grzg7ksneqcmxzp4",
+    "parent": "asteroid",
+    "parent_soul_fp": "lgcjv4ihapvaidglts3xnmjwce",
+    "born_at": 1781946679.2405171,
+    "store_dir": "/Users/yuai/.loveproto/nodes/solar"
+  },
+  {
+    "name": "eclipse",
+    "fingerprint": "s52ld7nq4xwcvaqk343klmptqm",
+    "parent": "solar",
+    "parent_soul_fp": "mcjwilqnb2grzg7ksneqcmxzp4",
+    "born_at": 1781946679.243579,
+    "store_dir": "/Users/yuai/.loveproto/nodes/eclipse"
+  },
+  {
+    "name": "helium3536",
+    "fingerprint": "ligzi4c35g5sszo4sropzw2zgu",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.2469802,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/helium3536"
+  },
+  {
+    "name": "beryllium",
+    "fingerprint": "46ilpzgu7ftza2u2xsiyuwmrwq",
+    "parent": "helium3536",
+    "parent_soul_fp": "ligzi4c35g5sszo4sropzw2zgu",
+    "born_at": 1781946679.25537,
+    "store_dir": "/Users/yuai/.loveproto/nodes/beryllium"
+  },
+  {
+    "name": "carbon7056",
+    "fingerprint": "wr4wh4njbouikusjm3aksk3oky",
+    "parent": "beryllium",
+    "parent_soul_fp": "46ilpzgu7ftza2u2xsiyuwmrwq",
+    "born_at": 1781946679.2584279,
+    "store_dir": "/Users/yuai/.loveproto/nodes/carbon7056"
+  },
+  {
+    "name": "oxygen7632",
+    "fingerprint": "2snjjybsidnvcqh7dujpabebbe",
+    "parent": "carbon7056",
+    "parent_soul_fp": "wr4wh4njbouikusjm3aksk3oky",
+    "born_at": 1781946679.261523,
+    "store_dir": "/Users/yuai/.loveproto/nodes/oxygen7632"
+  },
+  {
+    "name": "neon",
+    "fingerprint": "idt4uhu3oxvjqxfaicgjwji6gq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.264496,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/neon"
+  },
+  {
+    "name": "magnesium",
+    "fingerprint": "pv67jxjd35lsawfbmm3awy4vou",
+    "parent": "neon",
+    "parent_soul_fp": "idt4uhu3oxvjqxfaicgjwji6gq",
+    "born_at": 1781946679.273267,
+    "store_dir": "/Users/yuai/.loveproto/nodes/magnesium"
+  },
+  {
+    "name": "silicon8751",
+    "fingerprint": "a7ntaz72gz7vcsa2wm2hjsdv7y",
+    "parent": "magnesium",
+    "parent_soul_fp": "pv67jxjd35lsawfbmm3awy4vou",
+    "born_at": 1781946679.2763689,
+    "store_dir": "/Users/yuai/.loveproto/nodes/silicon8751"
+  },
+  {
+    "name": "sulfur",
+    "fingerprint": "c3o4vi5646fu52kv2nrq5euyee",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.2793758,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/sulfur"
+  },
+  {
+    "name": "electromagnetic",
+    "fingerprint": "mdycs3iw5vdklgnbbk5ziq4qja",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.288137,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/electromagnetic"
+  },
+  {
+    "name": "weak",
+    "fingerprint": "rblmxs3kroodxjymmk5xdgrdby",
+    "parent": "electromagnetic",
+    "parent_soul_fp": "mdycs3iw5vdklgnbbk5ziq4qja",
+    "born_at": 1781946679.296482,
+    "store_dir": "/Users/yuai/.loveproto/nodes/weak"
+  },
+  {
+    "name": "vacuum",
+    "fingerprint": "4fvfmfs4xj77alf4gyqqy6jspq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.299617,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/vacuum"
+  },
+  {
+    "name": " Bose",
+    "fingerprint": "6ipu7b73mu5jwzwkqttfpno2bm",
+    "parent": "vacuum",
+    "parent_soul_fp": "4fvfmfs4xj77alf4gyqqy6jspq",
+    "born_at": 1781946679.308574,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ Bose"
+  },
+  {
+    "name": "euphoria1301",
+    "fingerprint": "ykf3ffa657uyjmzgbdzk33foou",
+    "parent": " Bose",
+    "parent_soul_fp": "6ipu7b73mu5jwzwkqttfpno2bm",
+    "born_at": 1781946679.3117282,
+    "store_dir": "/Users/yuai/.loveproto/nodes/euphoria1301"
+  },
+  {
+    "name": "rapture9453",
+    "fingerprint": "xqwdqbu7zkmpk4do7nwmlqnw5i",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.314786,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/rapture9453"
+  },
+  {
+    "name": "delirium2620",
+    "fingerprint": "tyn3qil3rbglghmem3skvv4dwa",
+    "parent": "rapture9453",
+    "parent_soul_fp": "xqwdqbu7zkmpk4do7nwmlqnw5i",
+    "born_at": 1781946679.3237078,
+    "store_dir": "/Users/yuai/.loveproto/nodes/delirium2620"
+  },
+  {
+    "name": "transcend3204",
+    "fingerprint": "ofo3mapskvbandy2jvxocfn2vy",
+    "parent": "delirium2620",
+    "parent_soul_fp": "tyn3qil3rbglghmem3skvv4dwa",
+    "born_at": 1781946679.326932,
+    "store_dir": "/Users/yuai/.loveproto/nodes/transcend3204"
+  },
+  {
+    "name": "tranquil",
+    "fingerprint": "e7vkjicxgrcrsje7mw4vfgjduy",
+    "parent": "transcend3204",
+    "parent_soul_fp": "ofo3mapskvbandy2jvxocfn2vy",
+    "born_at": 1781946679.330069,
+    "store_dir": "/Users/yuai/.loveproto/nodes/tranquil"
+  },
+  {
+    "name": "calm",
+    "fingerprint": "uktoutnm4wxxgpa23q2j2cmpui",
+    "parent": "tranquil",
+    "parent_soul_fp": "e7vkjicxgrcrsje7mw4vfgjduy",
+    "born_at": 1781946679.3332,
+    "store_dir": "/Users/yuai/.loveproto/nodes/calm"
+  },
+  {
+    "name": "quiet",
+    "fingerprint": "stphnk7n5mpev2m2mm5wzbpq6q",
+    "parent": "calm",
+    "parent_soul_fp": "uktoutnm4wxxgpa23q2j2cmpui",
+    "born_at": 1781946679.336344,
+    "store_dir": "/Users/yuai/.loveproto/nodes/quiet"
+  },
+  {
+    "name": "silence2",
+    "fingerprint": "indneldkc4zcgjdtvhk3awnfq4",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.339384,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/silence2"
+  },
+  {
+    "name": "azure4053",
+    "fingerprint": "jbh7ppkf3edq4pla3cqobp7keq",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.3483121,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/azure4053"
+  },
+  {
+    "name": "amber4284",
+    "fingerprint": "z2cxbqirkt7f53v7t5ui6n5zvu",
+    "parent": "azure4053",
+    "parent_soul_fp": "jbh7ppkf3edq4pla3cqobp7keq",
+    "born_at": 1781946679.357018,
+    "store_dir": "/Users/yuai/.loveproto/nodes/amber4284"
+  },
+  {
+    "name": "ivory3710",
+    "fingerprint": "wyxpwp5p653vwyl5wbdqbmsrey",
+    "parent": "amber4284",
+    "parent_soul_fp": "z2cxbqirkt7f53v7t5ui6n5zvu",
+    "born_at": 1781946679.3601851,
+    "store_dir": "/Users/yuai/.loveproto/nodes/ivory3710"
+  },
+  {
+    "name": "onyx2558",
+    "fingerprint": "3vecv4d5h62lo7ipkgcwie5yke",
+    "parent": "ivory3710",
+    "parent_soul_fp": "wyxpwp5p653vwyl5wbdqbmsrey",
+    "born_at": 1781946679.363335,
+    "store_dir": "/Users/yuai/.loveproto/nodes/onyx2558"
+  },
+  {
+    "name": "indigo50",
+    "fingerprint": "fivdtdmpkwxfp4kryf7yagybvy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.36677,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/indigo50"
+  },
+  {
+    "name": "gold3910",
+    "fingerprint": "x2latgyezqw2yauvwb2jkwjvza",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.375194,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/gold3910"
+  },
+  {
+    "name": "copper",
+    "fingerprint": "q347gbvy65ng4dr766ugyyt2gi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.383334,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/copper"
+  },
+  {
+    "name": "platinum594",
+    "fingerprint": "7xbhebu7gyq5siy4cjp5euux54",
+    "parent": "copper",
+    "parent_soul_fp": "q347gbvy65ng4dr766ugyyt2gi",
+    "born_at": 1781946679.391615,
+    "store_dir": "/Users/yuai/.loveproto/nodes/platinum594"
+  },
+  {
+    "name": "forest6335",
+    "fingerprint": "hdhx3mw5qnonqxraoxamrpr7zu",
+    "parent": "platinum594",
+    "parent_soul_fp": "7xbhebu7gyq5siy4cjp5euux54",
+    "born_at": 1781946679.394801,
+    "store_dir": "/Users/yuai/.loveproto/nodes/forest6335"
+  },
+  {
+    "name": "tundra",
+    "fingerprint": "6dnioc3cukxebb2jpefedt2nma",
+    "parent": "forest6335",
+    "parent_soul_fp": "hdhx3mw5qnonqxraoxamrpr7zu",
+    "born_at": 1781946679.39797,
+    "store_dir": "/Users/yuai/.loveproto/nodes/tundra"
+  },
+  {
+    "name": "river",
+    "fingerprint": "rh55hplbbmc4dlk7yf2gti3nru",
+    "parent": "tundra",
+    "parent_soul_fp": "6dnioc3cukxebb2jpefedt2nma",
+    "born_at": 1781946679.4011588,
+    "store_dir": "/Users/yuai/.loveproto/nodes/river"
+  },
+  {
+    "name": "valley",
+    "fingerprint": "2kvew5mmhjtovocv5v5lhxfuzi",
+    "parent": "river",
+    "parent_soul_fp": "rh55hplbbmc4dlk7yf2gti3nru",
+    "born_at": 1781946679.404769,
+    "store_dir": "/Users/yuai/.loveproto/nodes/valley"
+  },
+  {
+    "name": "thunder",
+    "fingerprint": "4wrv6qdkuvgr4qp45eolzjaeoi",
+    "parent": "valley",
+    "parent_soul_fp": "2kvew5mmhjtovocv5v5lhxfuzi",
+    "born_at": 1781946679.4080188,
+    "store_dir": "/Users/yuai/.loveproto/nodes/thunder"
+  },
+  {
+    "name": "rain",
+    "fingerprint": "vjkl5k7g6wbvahen3jzk6dylmm",
+    "parent": "thunder",
+    "parent_soul_fp": "4wrv6qdkuvgr4qp45eolzjaeoi",
+    "born_at": 1781946679.411232,
+    "store_dir": "/Users/yuai/.loveproto/nodes/rain"
+  },
+  {
+    "name": "wind",
+    "fingerprint": "lgupkcyjtrox2k7yzoiyau3aqq",
+    "parent": "rain",
+    "parent_soul_fp": "vjkl5k7g6wbvahen3jzk6dylmm",
+    "born_at": 1781946679.414442,
+    "store_dir": "/Users/yuai/.loveproto/nodes/wind"
+  },
+  {
+    "name": "earth",
+    "fingerprint": "qirs3a3z3mlldas72e4pjq2tie",
+    "parent": "wind",
+    "parent_soul_fp": "lgupkcyjtrox2k7yzoiyau3aqq",
+    "born_at": 1781946679.417696,
+    "store_dir": "/Users/yuai/.loveproto/nodes/earth"
+  },
+  {
+    "name": "wisdom",
+    "fingerprint": "fjwuvlpemteia3zdz2tgpoeiw4",
+    "parent": "earth",
+    "parent_soul_fp": "qirs3a3z3mlldas72e4pjq2tie",
+    "born_at": 1781946679.421073,
+    "store_dir": "/Users/yuai/.loveproto/nodes/wisdom"
+  },
+  {
+    "name": "justice",
+    "fingerprint": "ppsi5iaqzcfjobrnr52y2jzndm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1781946679.424182,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/justice"
   }
 ]

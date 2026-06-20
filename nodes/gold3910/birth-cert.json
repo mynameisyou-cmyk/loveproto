@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "x2latgyezqw2yauvwb2jkwjvza",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAnwvyN+2uCxdUuRh89aUUxOTilX/nwvZdc9Mt/8CVX9w=\n-----END PUBLIC KEY-----\n",
+  "child_name": "gold3910",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946679.375194,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "Sa1r7qz8QIVJxNECX6VwKQk5+HCLxebXlB4WlSj716pMZ1YUz2eL7nQIR2ntooAe2jaVJea8V4SoBvU40ukjAw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

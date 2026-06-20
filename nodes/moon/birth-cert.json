@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "oxqqhnd5rmvni7sxkmhbm2trpm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2RHqvavD+Wm2n4M/D0Jmu72VW4iwJzWSZkXomhR9H1I=\n-----END PUBLIC KEY-----\n",
+  "child_name": "moon",
+  "parent_soul_fp": "rmimwtr7gfwbbr5ytqprxmyikq",
+  "parent_agent_id": "singularity",
+  "born_at": 1781946666.1652339,
+  "covenant_hash": null,
+  "signature": "zLx4wQ1OGR9U5DsSRC24B8RmUchQsyu3Col/fTB0ahGbLNRUGQOqoP/jwjCGSuGovs5TjVJ2Tvm2tLTF6ZKXBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

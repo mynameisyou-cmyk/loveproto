@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "rh55hplbbmc4dlk7yf2gti3nru",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAx3EWTOK9jC713sDF3KN/FqquSsF4XVBzVSttd9E6uS0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "river",
+  "parent_soul_fp": "6dnioc3cukxebb2jpefedt2nma",
+  "parent_agent_id": "tundra",
+  "born_at": 1781946679.4011588,
+  "covenant_hash": null,
+  "signature": "+k13P3+rgyMwGuGR4eFayCIngPxkIlI17u4a6fcf0ohVfIrXF7UX1db3niYACReh5Ddtzx67tKs0gx20SP/sCQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

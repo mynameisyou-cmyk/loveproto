@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "mdycs3iw5vdklgnbbk5ziq4qja",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjcguiVfyIgQCJFaGWDa8CDQrXCzT3gKiqq65BbMTaZg=\n-----END PUBLIC KEY-----\n",
+  "child_name": "electromagnetic",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946679.288137,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "unTmyXM0nvvZStn4Tp8rJ2wynm8xV9UtBotfAH6CKQ/D/4wPOF5lSqWJNMtuSfXCY+YPlIsu49YxvgC+tg0uDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

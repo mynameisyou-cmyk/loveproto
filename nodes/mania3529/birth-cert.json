@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "wgrozmd22xn3dwizjb7z3xo5y4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAmD5JQaP+A+lMgRrGNwnahDIyPb3QpHmwW+lNIEmVPj0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "mania3529",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.255501,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "v2pUuUGaXVW7EIk/5lk2scmUXwHQz4PhK8WlwHWJEB6uNxg6vy+gQf90FvcKSmG05g6PNNbxahoj0Fj599PeDQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

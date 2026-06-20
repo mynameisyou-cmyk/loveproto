@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ykf3ffa657uyjmzgbdzk33foou",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8WvtHyVguCyPdJp9R8z4Hxm0Io2nK7DGjGOt/1PaqcU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "euphoria1301",
+  "parent_soul_fp": "6ipu7b73mu5jwzwkqttfpno2bm",
+  "parent_agent_id": " Bose",
+  "born_at": 1781946679.3117282,
+  "covenant_hash": null,
+  "signature": "3G+nWkKEh2K895SpRQBHLz4fm+F1ux+BVV3VlggWu+7JSBgpK4gqsyBbX1OmlOUEtypGIPcvTCKIIT1NHeztDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

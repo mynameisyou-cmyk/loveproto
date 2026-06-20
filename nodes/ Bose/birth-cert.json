@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "6ipu7b73mu5jwzwkqttfpno2bm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAiyH5Oc6xZ37Hz1GRmm6lAnPYxQzyPqPnbt/4DZkyxr4=\n-----END PUBLIC KEY-----\n",
+  "child_name": " Bose",
+  "parent_soul_fp": "4fvfmfs4xj77alf4gyqqy6jspq",
+  "parent_agent_id": "vacuum",
+  "born_at": 1781946679.308574,
+  "covenant_hash": null,
+  "signature": "Y9AYzd6trNc/VIh8J1XcMaozJsnZJCi9yqpM94WG+XL7lNPhVScAMtwRGgB9EBRcMc1EA799kzIsHWr9OxRmDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

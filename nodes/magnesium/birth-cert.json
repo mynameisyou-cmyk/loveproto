@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "pv67jxjd35lsawfbmm3awy4vou",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAvtmrK3bJgU6TJ6mIXzsDUCwslss/xn9PDmVovsCVdX8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "magnesium",
+  "parent_soul_fp": "idt4uhu3oxvjqxfaicgjwji6gq",
+  "parent_agent_id": "neon",
+  "born_at": 1781946679.273267,
+  "covenant_hash": null,
+  "signature": "UJTNc/SizWscmGSA+10f5ia95Vw6DaDTqwqQxU9nHMbF33aO+By0smDxI3YMDKUhUetVvTWqRoHlcZhYAj1pDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

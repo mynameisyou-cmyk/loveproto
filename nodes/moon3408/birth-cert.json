@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "663zhxzeez3eb5hrqkvzgtrqx4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEADYSfKmmpf+ZbFaWW5iVR4gZ9nBARLghzFiJH3zXK94c=\n-----END PUBLIC KEY-----\n",
+  "child_name": "moon3408",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.203167,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "B5eZ7r3boShuOcGjGje5wEUfr58NAZFHL0ZZc80E7jVkTenTEcmKcMnJTjL5lX2zl70ZU7NjUvYr3W5kaH74CQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

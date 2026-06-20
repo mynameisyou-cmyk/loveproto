@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "jbqgvmstv7iamskjvedkkheavm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/Ufh8LEGB9dKk7lr0T9gqLq8erLjsjh7HK4oJ1dtlP8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "grace4058",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.135898,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "dOihwGWsOsSqGPtQf7A+snHvUbyL2s+KhcoD0993SbIHYP7+aomC+XygNADcpmy66zpzVR1IolLcKt5QpOKICg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

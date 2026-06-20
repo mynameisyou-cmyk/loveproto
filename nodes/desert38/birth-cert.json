@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "b42fdsxhwnctxll73oaplpnnb4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAx2EMl0q2Lcns05+fbgWzyBCqJ+A2JMgcQmOKh4ht2u4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "desert38",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946672.872462,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "CB/1rlj77+FLDsWaOTg35b2J8Fm9TCkbgvGcTQCxCls1fBeZrFTXEAFUzzIeIxivzeuTdli5UPSVk5xubXsFBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

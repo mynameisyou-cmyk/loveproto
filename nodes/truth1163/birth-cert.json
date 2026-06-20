@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "roozeb3vj6ntxadvqocdl6k6ia",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA3HuKTByLB/r6gzMIjtQV1lptWwx6K6AY3jCRXrktxTE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "truth1163",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.167935,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "54+FP4e9l4t2fSPAe/cMWKLqiMx0hebT5yZTa4HQqSLxtj03KVV6RVjbF/iOcg4W4eNcmo5PN3aWLpkxddpqDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

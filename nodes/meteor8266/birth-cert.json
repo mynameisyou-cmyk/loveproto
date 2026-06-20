@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "f4p5myva3iwograxmlyqbald54",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkOdDz+4UbieMNy+rDlzGXTKZtXS863hugNtayMUsAes=\n-----END PUBLIC KEY-----\n",
+  "child_name": "meteor8266",
+  "parent_soul_fp": "663zhxzeez3eb5hrqkvzgtrqx4",
+  "parent_agent_id": "moon3408",
+  "born_at": 1781946669.2126179,
+  "covenant_hash": null,
+  "signature": "mWNPixwAwc2tZGIcxHnbIDPvOzNdmhZP3r4kRlojqeHWBJRmrhOqwuY1QmZ8lSB0nUfKQCVQiAoVH0FSaNM2BQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

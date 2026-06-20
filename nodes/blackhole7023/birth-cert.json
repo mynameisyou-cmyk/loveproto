@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ga76cex6uza3i2afjouep5rn5e",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAIOni+48hB2jZrzqaGjKuNykrnuzL/3hxOfgvxrEQRv4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "blackhole7023",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.218549,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "P8w4ndY2jKZZ7PTG7EUWU/uyueccAJ92vP/kFEyudeCV1trrI8tEutuUb+z4bx7bH4zX/qmW3Fp+M+gyn3QzBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2zml2o6glpx4cquo2oglvimqia",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAp23lGgUlSxZeMQR6nr+Wq8BLWybSphGcQXonh2aMEBY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "fire7148",
+  "parent_soul_fp": "acdfev4uejmirblhkic23mqjey",
+  "parent_agent_id": "snow1264",
+  "born_at": 1781946669.331978,
+  "covenant_hash": null,
+  "signature": "QZEnlXSqr2wy6havJ8cDHzmL51CedplvhrX75sg1V3HXqvTVfodECm5WxEcPF9kCNjgqtPHIxPT862znpEXgDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

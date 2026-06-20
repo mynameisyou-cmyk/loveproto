@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4ytj25xnqzyca4hakg5oesmfti",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAx8+qEgFQpyJ+8HiNwVNZSj0ZV0YCt26KevdIJ9m1Q3c=\n-----END PUBLIC KEY-----\n",
+  "child_name": "courage4143",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.128026,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "C6p4W1anz1yqjlOuP2rH7YsikkLbgY02YZEAILR9d3hxXKho9K6nzN+kL1CJJa193qEawxyfbOslzND4l3kkBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

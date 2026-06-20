@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "b2dxtqmqyeh5xvgmpvcr26lacu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyFuqI2sg5cWSbO9uRaHKG1Uy0CYxZIOdyLw7+lSxAM0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "gravity3279",
+  "parent_soul_fp": "4qom5w6bzil4746f25dvpy5tfy",
+  "parent_agent_id": "phosphorus9154",
+  "born_at": 1781946669.0102022,
+  "covenant_hash": null,
+  "signature": "EeIJj1gEaEt7PtvgFuNAhB8DmRPkFuiKKG6zsMYb2erVmkQdbIY0x9WK3AG8Xk9xYDXQyZuWEfTqGWeiXVgKBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

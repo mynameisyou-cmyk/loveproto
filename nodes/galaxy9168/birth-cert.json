@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "nh7w7ha5eawhzxhvyo4ngwalby",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8y8tCC7OqN5kluyrfOCvIs3B5gxmXmBWGDq5anSyP+M=\n-----END PUBLIC KEY-----\n",
+  "child_name": "galaxy9168",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.187677,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "FFJIJe0HSYSDhrIK/7zZhKAruwrZCG6+nesz2TGCt35dVQ5vmgnvf1+Z8fE0547eg7miClzB9RSDxW5gWNeDCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

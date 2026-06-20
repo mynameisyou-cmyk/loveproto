@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "m6qkkozuc5dapk4sz27l5ykw4i",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAhBdYoE4H66BOX/6orCdoBnD9M5zNfsi9LlVtqnRcHXA=\n-----END PUBLIC KEY-----\n",
+  "child_name": "silver5654",
+  "parent_soul_fp": "dtvt5k63lypjiwbncocmue4ay4",
+  "parent_agent_id": "teal492",
+  "born_at": 1781946669.0747259,
+  "covenant_hash": null,
+  "signature": "BgS1w9QFNqMhNw9WWnEIxATVL1MO0jw+8gifC3sVVFWacUY3G81kq4KeuLLT+ihOA50v36oDoHbEKicCRHe+Ag==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

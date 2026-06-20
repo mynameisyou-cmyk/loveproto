@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ppnif6ptti7hks3tapphputadm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEApfhIKtVXFBop0SboXgcFV3UK5wrAxx52maoU9TqJhUQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "strong894",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946672.786508,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "P4D3gMje2QrCuDlFrkvQc95hzXLnFH+oxhZbAuZRwYKkEu1YIq5CI0fnPu5h6IadlJA0Zr2XLsyurp8EimNOBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

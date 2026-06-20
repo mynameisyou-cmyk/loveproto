@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "vh3xlcjiiv6vwycu7tp6ozmb4i",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPHuE17eOVZDitxAjA5YuAqrADZIRC15MZdbqxq4hMtA=\n-----END PUBLIC KEY-----\n",
+  "child_name": "lunar",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946666.175932,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "0wzKko/8f/vaiwsArG1kG7T0v0DTyaturJrCxNd9xj3rvInR3FAK24GO4Qq72fdNDQYBqKXqLATNb7yeabQkBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

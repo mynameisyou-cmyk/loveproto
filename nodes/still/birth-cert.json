@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "qf74riy77r725kfkwme3xdfnjq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA7/JevqayRM/X84wGqtH2fTJER/UtznqEU+xCkHmg3tI=\n-----END PUBLIC KEY-----\n",
+  "child_name": "still",
+  "parent_soul_fp": "uheotrfqk4vcm4lducbqtxrjuq",
+  "parent_agent_id": "peace5861",
+  "born_at": 1781946666.2473202,
+  "covenant_hash": null,
+  "signature": "1GJZPY85WOQz7w0zPqQjt8ioDHftnpdxGPUASuVMViDuSVk6bYrLA5nh16wQ8zbz9GLv2442DRS2heRhk/dHBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

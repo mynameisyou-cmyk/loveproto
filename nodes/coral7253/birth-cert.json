@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "cnqm563msu4cyibxet6vfo3bp4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEArr0Vl6F1DsaSwF7SxuZE7dXxvh5CKRBBSa5bZ2sEHzY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "coral7253",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.100704,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "zCzsUXgX7cJKp9sqY0Imv0vsCtxGcbV7uohKtfvk2+3Dmtu1qWgYuxJ/pFovSKIcM8t93W9VKF12raf33Ps4BA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

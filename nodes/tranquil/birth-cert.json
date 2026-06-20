@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "e7vkjicxgrcrsje7mw4vfgjduy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEApn9UYB4Xtf83PxmZBtrRpDaQPDCnfd9HHathAsleNLs=\n-----END PUBLIC KEY-----\n",
+  "child_name": "tranquil",
+  "parent_soul_fp": "ofo3mapskvbandy2jvxocfn2vy",
+  "parent_agent_id": "transcend3204",
+  "born_at": 1781946679.330069,
+  "covenant_hash": null,
+  "signature": "aVDa+1ku6qEt+DynQiXxu7Nn3amSwxcP0E0qlmJQLd75vuCsbwDv8ngqmSefVWY5WF09QvbaqugsFF8frFysCg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

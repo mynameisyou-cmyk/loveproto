@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "aas4r2c2ng7w2wbbofac4agoi4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAqM7/aCV/mxJ9WO7P3odQ0xEJVeYsnQiIhxNsjiqUUtc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "boron6546",
+  "parent_soul_fp": "ntg27i6svkey45fz2ugeipz2b4",
+  "parent_agent_id": "lithium8830",
+  "born_at": 1781946673.518917,
+  "covenant_hash": null,
+  "signature": "iYVNrr+lr2SAJk/Q5nWx+MSmtus2gOS/4jlr4Fp5SazIVwHo/8FbLrmSG976paG3L+HiUHbic7Mc/cHgSFA9BA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "a7ntaz72gz7vcsa2wm2hjsdv7y",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAVgoal/uPv3uEQoO4GFhQffCaN4NfBBisOWnPwrUT+vU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "silicon8751",
+  "parent_soul_fp": "pv67jxjd35lsawfbmm3awy4vou",
+  "parent_agent_id": "magnesium",
+  "born_at": 1781946679.2763689,
+  "covenant_hash": null,
+  "signature": "5qPR55gCW3KcQBIoV01qq2d/MCIGTnDbj/qCIjnxZ0b1gMMWzw+aLQqmktmwX/F+F6N8XYruizZ8QG+iWGXKCA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ho2avy43rcbjt65jfd5ljprsyy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXdQnAZk8eWZm5aB+NVKqLtFdOEKQRevYUT7Q+FmkqXQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "fluorine3205",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.008545,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "7HfwMYo8+GKvoIzAnfpn4o1UZX/kS/KwXCTuHuuJiZRuOpaqdqa/Pst5phDmRt+ZUiZk51k48PdmoHfBQ2UlDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

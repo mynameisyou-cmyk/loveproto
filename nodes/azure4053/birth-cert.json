@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "jbh7ppkf3edq4pla3cqobp7keq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAA4Z3WsFG6Etx11F9bLiVu0k5vxV1iJKW5UHqA+GJYZU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "azure4053",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946679.3483121,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "y/i3bSvP4xctIud9NtafsnVn4BYn9Vq4XuKGCRdXSsILsk+OJYIxkKIkLB13o6tjOr1G7EskoBo0jVmmcmEIAw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

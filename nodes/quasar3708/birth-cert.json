@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "rq66ujyiwm67fg46e4fyiu5zbq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAnzmkWabuqnis7XvGvNVAFizDgAOtiBG4G5FAd0dfYJM=\n-----END PUBLIC KEY-----\n",
+  "child_name": "quasar3708",
+  "parent_soul_fp": "bz2nfmsfj6vnlqum3ouer2ka5a",
+  "parent_agent_id": "cosmos5567",
+  "born_at": 1781946669.362335,
+  "covenant_hash": null,
+  "signature": "aHOKxVmG2ggk+rvyDaZJYPt8BHXFtpAqTY8/2X6zz+9wj7Yw6OIEkVcxdi4ypefXTzrXpx31hZQTWZvQ1rQdDQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

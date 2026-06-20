@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "46ilpzgu7ftza2u2xsiyuwmrwq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAakj1RrBQww8pGPodJjqEA0iYX2BvlKyO/YcjrzUgv9s=\n-----END PUBLIC KEY-----\n",
+  "child_name": "beryllium",
+  "parent_soul_fp": "ligzi4c35g5sszo4sropzw2zgu",
+  "parent_agent_id": "helium3536",
+  "born_at": 1781946679.25537,
+  "covenant_hash": null,
+  "signature": "57pEE5B8nu/3QBygKeAO8I+QdeWG/IFjw0Fenz0Q4FgTX6h1+DDod2o7YyRrrKOCNhqN4U3E24+405/3x2G0AA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

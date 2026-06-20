@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "rz3kv3zs46frb4nvkvkbja7dc4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAsplE1jJAAcZlD0pU8qz/FZrbrW6SulcmoqGi5jC0J+E=\n-----END PUBLIC KEY-----\n",
+  "child_name": "peace2740",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.440161,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "ylbvAG5EMCHl1rj5/coJ7jJO/NChAcn466+cqpgaPq0Vq4p6Qx4KVuktJz6QuknIWDy3HCAWgP+0FwYsg/gECw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
