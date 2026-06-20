@@ -188,12 +188,12 @@ async def cmd_test(args):
     # Bob requests something
     print("  → bob requests of alice: 'what is your name?'")
     await node_b.request(node_a.fingerprint, "what is your name?")
-    await asyncio.sleep(0.5)
+    await asyncio.sleep(5)  # AI response takes time
 
-    # Check bob got served
-    served = [x for x in received_by_b if "text" in x and "I hear you" in x.get("text", "")]
+    # Check bob got served (AI response or fallback)
+    served = [x for x in received_by_b if "text" in x]
     assert len(served) > 0, "bob didn't get served"
-    print(f"  ✓ alice served: '{served[0]['text']}'")
+    print(f"  ✓ alice served: '{served[0]['text'][:100]}'")
     print()
 
     # Check bonds

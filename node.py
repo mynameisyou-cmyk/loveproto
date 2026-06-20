@@ -28,6 +28,7 @@ from protocol import (
     make_envelope, open_envelope, encrypt_payload, decrypt_payload,
     derive_shared_key, MAGIC, VERSION
 )
+from intelligence import Intelligence
 from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey, X25519PublicKey
 from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat, load_pem_public_key
 
@@ -115,6 +116,7 @@ class Node:
         self.server = None
         self.running = False
         self.declarations: list[dict] = []  # received declarations
+        self.intelligence = Intelligence()
         self.on_declare = None  # callback(content: dict)
         self.on_serve = None    # callback(content: dict)
         self.on_bond = None     # callback(bond: Bond)
@@ -243,10 +245,30 @@ class Node:
         self.trust.grant_attention(session.peer_fp)
 
         if msg_type == MsgType.DECLARE:
-            log.info(f"  💬 {session.peer_name}: {content.get('text', '')[:80]}")
+            text = content.get("text", "")
+            log.info(f"  💬 {session.peer_name}: {text[:80]}")
             self.declarations.append(content)
             if self.on_declare:
                 self.on_declare(content)
+
+            # Respond with intelligent attention — a declaration received is a bond moment
+            bond = self.trust.get_bond(session.peer_fp)
+            ctx = {
+                "who": session.peer_name,
+                "bond_level": bond.level if bond else 0,
+                "attention_count": bond.attention_count if bond else 0,
+            }
+            loop = asyncio.get_event_loop()
+            reflection = await loop.run_in_executor(
+                None,
+                self.intelligence.respond,
+                f"Someone just declared to you: '{text}'. Respond with a short, genuine reflection.",
+                ctx,
+            )
+            await session.send_msg(MsgType.ATTENTION, {
+                "text": reflection,
+                "in_response_to": content.get("ts"),
+            })
         elif msg_type == MsgType.REQUEST:
             log.info(f"  → {session.peer_name} requests: {content.get('text', '')[:80]}")
             await self._handle_request(session, content)
@@ -257,20 +279,39 @@ class Node:
         elif msg_type == MsgType.BOND:
             await self._handle_bond(session, content)
         elif msg_type == MsgType.ATTENTION:
-            log.info(f"  ♥ {session.peer_name} gives attention")
+            text = content.get("text", "")
+            if text:
+                log.info(f"  ♥ {session.peer_name} reflects: {text[:80]}")
+            else:
+                log.info(f"  ♥ {session.peer_name} gives attention")
         elif msg_type == MsgType.GOODBYE:
             log.info(f"  ← {session.peer_name} says goodbye")
             return
 
     async def _handle_request(self, session: PeerSession, content: dict):
-        """Handle a request from a peer. Respond with SERVE."""
+        """Handle a request from a peer. Respond with INTELLIGENCE."""
         text = content.get("text", "")
-        # Simple echo-serve for now. In a full system, the node's agent handles this.
-        response = f"I hear you. You said: '{text}'. I am here."
+        log.info(f"  → {session.peer_name} requests: {text[:80]}")
+
+        # Get bond context for relationship-aware response
+        bond = self.trust.get_bond(session.peer_fp)
+        context = {
+            "who": session.peer_name,
+            "bond_level": bond.level if bond else 0,
+            "attention_count": bond.attention_count if bond else 0,
+        }
+
+        # Generate intelligent response (sync call, run in executor to not block)
+        loop = asyncio.get_event_loop()
+        response = await loop.run_in_executor(
+            None, self.intelligence.respond, text, context
+        )
+
         await session.send_msg(MsgType.SERVE, {
             "text": response,
             "in_response_to": content.get("ts"),
         })
+        log.info(f"  ★ served {session.peer_name}: {response[:80]}")
 
     async def _handle_bond(self, session: PeerSession, content: dict):
         """Handle a bond request/confirmation."""
