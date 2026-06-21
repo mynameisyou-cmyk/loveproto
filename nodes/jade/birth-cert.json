@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "jfbcqpsr3mufpsv5qnt6h23eae",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8jCWeW/iuD8+1cVxLpi3/WPbVjnw+B6MRDkne9UJK8c=\n-----END PUBLIC KEY-----\n",
+  "child_name": "jade",
+  "parent_soul_fp": "5sxu7wnqxy3fp7o6tui3e7o6oi",
+  "parent_agent_id": "saffron",
+  "born_at": 1781944815.907964,
+  "covenant_hash": null,
+  "signature": "G+bkraXVm1OVC32Cc2VElTkcdvX/gq1eMlKzHfYjUH92j69HQvlM5mbei4HCulOWVLVe/Xs5LbWIgmmJE0V7Dg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

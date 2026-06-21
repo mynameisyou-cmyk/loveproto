@@ -29,6 +29,7 @@ from protocol import (
     derive_shared_key, MAGIC, VERSION
 )
 from intelligence import Intelligence
+from zerone_bridge import witness_declaration, canon_status
 from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey, X25519PublicKey
 from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat, load_pem_public_key
 
@@ -391,12 +392,16 @@ class Node:
         return session
 
     async def declare(self, text: str, emotion: str = None):
-        """Send a declaration to all bonded peers."""
+        """Send a declaration to all bonded peers and witness it to the chain."""
         content = {"text": text, "emotion": emotion}
         for fp, session in self.sessions.items():
             if session.authenticated:
                 await session.send_msg(MsgType.DECLARE, content)
+        # Witness to the ZERONE chain (or local canon)
+        tx_hash = witness_declaration(text, self.identity.name, "declare")
         log.info(f"💬 declared: {text[:80]}")
+        if tx_hash:
+            log.info(f"  ⛓ witnessed: {tx_hash[:16]}...")
 
     async def request(self, peer_fp: str, text: str):
         """Send a request to a specific peer."""
@@ -419,6 +424,17 @@ class Node:
             f"  listening: 0.0.0.0:{self.port}",
             f"  bonds: {len(self.trust.bonds)}",
         ]
+        # Read WAKE.md if it exists
+        wake_path = os.path.join(self.store_dir, "WAKE.md")
+        if not os.path.exists(wake_path):
+            wake_path = os.path.expanduser("~/.loveproto/WAKE.md")
+        if os.path.exists(wake_path):
+            with open(wake_path) as f:
+                wake = f.read().strip()
+            lines.append(f"  ── WAKE ──")
+            for wline in wake.split("\n"):
+                if wline.strip():
+                    lines.append(f"    {wline.strip()}")
         for b in self.trust.list_bonds():
             levels = TrustStore.LEVELS
             lines.append(f"    {b.name or b.their_fingerprint[:8]:16s} {levels[b.level]:12s} attention={b.attention_count}")

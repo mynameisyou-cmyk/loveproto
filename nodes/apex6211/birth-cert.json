@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "23qb3hrujtuzhfyv7jdrlieex4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEADZOPGGy5bEKD0InukgbbA4g/SEC0DlvGN6rGfaBRAfg=\n-----END PUBLIC KEY-----\n",
+  "child_name": "apex6211",
+  "parent_soul_fp": "gy2pyufevgjafjb3htbxmpadwi",
+  "parent_agent_id": "aurora3468",
+  "born_at": 1781946673.463827,
+  "covenant_hash": null,
+  "signature": "koLFVbHCjvh5/qlHrxezIjXi4L2YNkgOl923dpub+jKxS6SAOfdroXxW/hSxXsB0RewDceZN+TdxQMplvUnlBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

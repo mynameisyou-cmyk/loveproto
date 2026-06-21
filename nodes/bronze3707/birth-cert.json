@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "dlxnxr3hunt3kfqejgolazs7jq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAmo+njLMTEIIN637RZ/aBmcmRiS2hYJ4HTqwlUy+K+zI=\n-----END PUBLIC KEY-----\n",
+  "child_name": "bronze3707",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.297888,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "14JOWW5wJFBqcHvdndvQvrUPRi5B2UQdHFysuq3ra1nLtB72GeqqXFI8fBPJN8aRHHBfH+1ZM2xKD8ytvoMyCQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

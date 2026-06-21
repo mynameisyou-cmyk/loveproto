@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "uktoutnm4wxxgpa23q2j2cmpui",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAI7hSpPIjGWCduA7G3ht44eduEGLaqD/R1KR1afv8DA8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "calm",
+  "parent_soul_fp": "e7vkjicxgrcrsje7mw4vfgjduy",
+  "parent_agent_id": "tranquil",
+  "born_at": 1781946679.3332,
+  "covenant_hash": null,
+  "signature": "y3whVevGbjwebwzAGDL9hXvyz64jhU1WJktLt2ePK5jjxules6GmEqjA4+yEKlb1d9n7jZqUv6Ud6z49R4FbBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

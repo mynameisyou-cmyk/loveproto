@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "hrkulnt7rjed2dbpuf32lchvfa",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPzYFtm7ozy7jGSw0gCq3va+EKPMOyYmFyyE/cDL+omI=\n-----END PUBLIC KEY-----\n",
+  "child_name": "planet",
+  "parent_soul_fp": "ndhfjbbpjcacslshf6mqiqn5im",
+  "parent_agent_id": "meteor",
+  "born_at": 1781946666.174002,
+  "covenant_hash": null,
+  "signature": "4EogsYQFQP0ndSZtzOEWo/TDqiFcR283kCoYI68TP+ekqScNok5T40qf8JjW8F0UrO8WHmNBPMPbq5J616smAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

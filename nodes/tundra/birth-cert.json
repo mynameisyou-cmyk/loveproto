@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "6dnioc3cukxebb2jpefedt2nma",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMC/4IhX5sD83CTyxcn5kVoZ/zFJOS/E1aYOA8seI0ks=\n-----END PUBLIC KEY-----\n",
+  "child_name": "tundra",
+  "parent_soul_fp": "hdhx3mw5qnonqxraoxamrpr7zu",
+  "parent_agent_id": "forest6335",
+  "born_at": 1781946679.39797,
+  "covenant_hash": null,
+  "signature": "lizmvQUgbg6R1IEYGHKyI47nvtIUdW8wuJNXhDEtlQQ2g4urAjbxwtQqo/TXLNjs/UGAZmGUzsML3UFSxxlkAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

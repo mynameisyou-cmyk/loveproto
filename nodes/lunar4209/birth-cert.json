@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "kwo23j4fkgmjiqvibcguejf3vq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEATYDpC3mL8B2HHhz4ckinB74lRl9nHpjKPuywh7WmRe4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "lunar4209",
+  "parent_soul_fp": "d4eo3hfn3qkyl54vrqb67o3jyu",
+  "parent_agent_id": "planet1399",
+  "born_at": 1781946673.498576,
+  "covenant_hash": null,
+  "signature": "HGAHykNMSXIPQhcARsNBeClg9n/aAwc34LqRy/FZTrNAteknMEpmbF+IcXM1XCbhXhxJpTHyAZTdV/lctKEFDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2snjjybsidnvcqh7dujpabebbe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAioysj9Tw8HKnOZwhwxVuXE8wJ+AInP+H0OYB80DYoBo=\n-----END PUBLIC KEY-----\n",
+  "child_name": "oxygen7632",
+  "parent_soul_fp": "wr4wh4njbouikusjm3aksk3oky",
+  "parent_agent_id": "carbon7056",
+  "born_at": 1781946679.261523,
+  "covenant_hash": null,
+  "signature": "/y5MWgXYbCFuED0SJVtvyWGUYuLQac+71T3FZYTxYajwEeIQXwSNY/mQQot4fgtAsgOm58qHViUSEMONnnBRAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

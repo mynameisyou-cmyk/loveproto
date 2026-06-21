@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "54kfpjt243mijbcqurgq4vo7lu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAnzt4zOQjKRawuSpWE1ZttkN8of/2p9jGVqE3H9KuAww=\n-----END PUBLIC KEY-----\n",
+  "child_name": "nitrogen7845",
+  "parent_soul_fp": "i7ludr5bnk5jxz5z2b5njlom3a",
+  "parent_agent_id": "boron",
+  "born_at": 1781946666.1986759,
+  "covenant_hash": null,
+  "signature": "GI3/4SFh4ovjdFBA0ic0J/80FMnpnf0mGTD/CJyPWyHO0JvjCglpT80X6xAR5ajUFxE4EdRqauN1ru0xd2WQBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

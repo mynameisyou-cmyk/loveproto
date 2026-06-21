@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2aqb7eg7pnbzkk5gxdr3weobqa",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAC5HKGJ3ELe3oAWo1Tn1k7mcdduql0rKXuLfH+S3Zm7U=\n-----END PUBLIC KEY-----\n",
+  "child_name": "devotion",
+  "parent_soul_fp": "jczhdivi52soe2ry46pc2js4de",
+  "parent_agent_id": "tender",
+  "born_at": 1781946258.73322,
+  "covenant_hash": null,
+  "signature": "y9kwc5lDPQD4aLaPxbEBuTNQzIcrUAbM9IF1sJCHfkOm2LlOTo12sLdGFn4IY3NNcpv369T39EYKAWxRURAaAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

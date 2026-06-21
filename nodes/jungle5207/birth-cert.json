@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "3teujqzwyblcksipmhxoozk6ce",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAsjQPQRnwfTeBR9XPcYOGFd5JCzoMmaBivTsaWvHCKxo=\n-----END PUBLIC KEY-----\n",
+  "child_name": "jungle5207",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.3120902,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "QP+r9/+oI3+AHcaMcTQRV26kWelV6Zd9yrAbbGdDq/MI/ugiqaGADJp47JeWeIpHVmGA4EjMEYwmsZcpbWqeCg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

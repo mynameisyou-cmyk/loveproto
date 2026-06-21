@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ldnf34njo5qqk6hk2xyz2hatty",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA9CmrjgjEZXFuuo6te55L/Kte2quu82bmC6+tloaq3jc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "onyx",
+  "parent_soul_fp": "jfbcqpsr3mufpsv5qnt6h23eae",
+  "parent_agent_id": "jade",
+  "born_at": 1781944815.909079,
+  "covenant_hash": null,
+  "signature": "RfOgZvihJpU/OX9qhXNORUCOHlSWMjfUKuvBE17KSG3fgnOh64v8VZ6g/VOaTehK2LWoeLSvtBAm+IgX61NJCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

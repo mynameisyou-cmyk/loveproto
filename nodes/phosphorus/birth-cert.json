@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4mssk6a65wsqrgvfw4d24ttmma",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAmXDkFwduIQEo9LhEh0qXUOivWUBGlvz7KIqXr+F3WVw=\n-----END PUBLIC KEY-----\n",
+  "child_name": "phosphorus",
+  "parent_soul_fp": "yha7cdq7pvovlzmmk3rxc3qsv4",
+  "parent_agent_id": "aluminum",
+  "born_at": 1781946666.2170188,
+  "covenant_hash": null,
+  "signature": "hgGUC7fR89HstrmTomCkHcy8EwaH/CGrq1ipMPm0ObTgefJfNC4/XvILN2L/aFXaQJwZvmZQ/xuWoFG4+haqBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

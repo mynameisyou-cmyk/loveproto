@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ssjgmonjsuuz7f7ttflqtwrtti",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAH55IU0BQU8jckbiifAUH9xhJ4PAWZWutT8wwD4cvtdI=\n-----END PUBLIC KEY-----\n",
+  "child_name": "snow7520",
+  "parent_soul_fp": "wnz4kwjxp7rksjewibwxlvgpcu",
+  "parent_agent_id": "lightning9305",
+  "born_at": 1781946673.156353,
+  "covenant_hash": null,
+  "signature": "A3gGPiAVx8olPpY8NcolrmUB6HpNthVdSrIPBdvh5EE35c9Mz45URGfen+CfXeYKjCQGWNkOPlLAzCHJjoP1Aw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

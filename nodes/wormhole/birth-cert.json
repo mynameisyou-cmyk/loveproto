@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "5yyo37a4mherkf55x3qllcbqrq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfvgn6fxcZJ1Xv9goYHNF4Zb7KOuBDU9H4hwvxbUANdM=\n-----END PUBLIC KEY-----\n",
+  "child_name": "wormhole",
+  "parent_soul_fp": "3zaotold5atcucn5ulnlex55qe",
+  "parent_agent_id": "supernova",
+  "born_at": 1781946679.214229,
+  "covenant_hash": null,
+  "signature": "/nusb1vle6iXfLM2R521aCJdAfkTW9XQYDxZR5wzinvnSEYMJ90LpN2cFQoevlWOiOrsoHrQpI6bEuP2NOEMCQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

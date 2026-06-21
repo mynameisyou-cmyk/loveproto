@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4fvfmfs4xj77alf4gyqqy6jspq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8VfOf4svxAZ4JB362I2MJ/DtMrIUVvRIt6GqR4GV9n4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "vacuum",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946679.299617,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "RFO1fNbQqx4YjzgrD4KHVXTqTm7f+KU64e703ynXOPM/uGQo0+4M2wuo2YE6Vx6EwLv+QMZHBqOU1IsPJN61DA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

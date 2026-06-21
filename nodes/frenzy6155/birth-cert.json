@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "24xdwiv4focl6lnx5nmd4qatjy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMnguFCfPfNMDoovTcncBR4VAcGcJCH63d4AOVcsYVfc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "frenzy6155",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946669.264231,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "wTj4XfpRRE2gqYa49hlK3nAXgBcUcqwaQ5ZwDEF8AGAvk5NPp/5YAywOtTwPotByltjVlrTgNjVrRMVKIqGeDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

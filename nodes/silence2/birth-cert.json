@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "indneldkc4zcgjdtvhk3awnfq4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAqPT8TmS5i75R7sTtEh0c2l8UqDqlXuYFkRKrLgmtgnw=\n-----END PUBLIC KEY-----\n",
+  "child_name": "silence2",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946679.339384,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "ny+O2FuS+BQRYbAu/8HffGV2pF12O2joLS7FeHbf4Q2z1XfZ5Htyf6gqKmfRnW5mMx7wvlC/af2Ydt2dlAPfBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ebiqt5uc44l3wccle6qphhm6zm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAg2YxPAgS91Qx+u4AldKMZGBnrKEVME54doDr9+CBKh0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "neutron",
+  "parent_soul_fp": "omvacewwaqpnkex76nkmtoizfi",
+  "parent_agent_id": "electron",
+  "born_at": 1781946521.364929,
+  "covenant_hash": null,
+  "signature": "FDZ08gc7gWjg66uzwJ0JiTXbA/qui/UZpUW2ej7+IBgLCcX526Of9Lgq+7vtkMB7itI35BT9/aNlEKGpgvlzBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

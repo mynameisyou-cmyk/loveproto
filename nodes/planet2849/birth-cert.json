@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "e3a6coh7i6in5qseozlsegjxvy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEApwVgoGQ9hE/bf06n8pCMpiSMzt9cBHPBJTjw5vLkbZc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "planet2849",
+  "parent_soul_fp": "j3xgi4o6wti5begnnvwqk23eaq",
+  "parent_agent_id": "meteor2365",
+  "born_at": 1781946673.239192,
+  "covenant_hash": null,
+  "signature": "vMEsV6JW7G1kkJdkfh8wK38s+xHbqWnFOL2WJ+LT8AHEDRg249yoopVqaggEhUx1JmjYSd/6eFiqpvflhEDECQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

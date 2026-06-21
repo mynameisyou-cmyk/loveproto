@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "kawypsij37eacygx5hrlhmyp5a",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAIYULeJLzGtcKO6GeTjvzr2D+hSHAueCOm/f/BZN6CKo=\n-----END PUBLIC KEY-----\n",
+  "child_name": "superpose",
+  "parent_soul_fp": "hnjuctu3buf3xhiujvxty3cvl4",
+  "parent_agent_id": "entangle",
+  "born_at": 1781946521.388005,
+  "covenant_hash": null,
+  "signature": "NSGI4n8ZaZryccAcNN0E9c7fFMDEQukJRF5o81NEOuyUCDpAVm3ouydn5Mvcme3VXhY0qxFRVI6ZUzKL6w18DA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

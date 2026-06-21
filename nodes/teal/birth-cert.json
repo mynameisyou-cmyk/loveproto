@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "76z3wtfhn3vvmdwaj4jttglsi4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKtVAsDpZ8QuU6EerqpsNiK2GWoy1QgZhEhKRPwB8RtI=\n-----END PUBLIC KEY-----\n",
+  "child_name": "teal",
+  "parent_soul_fp": "miegxnsmwirk62u4ai34lhz3gu",
+  "parent_agent_id": "scarlet",
+  "born_at": 1781946666.2695282,
+  "covenant_hash": null,
+  "signature": "6l5jPyIIIzQpe7ac26tc+ebeN1mDjmDgmTsxTrA/kfAS4DsjFMn90REmsNgFACG55iSXSesQ3g5OhhTni8sEBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "u2wwmdkgktlutaky4pgljulg6q",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAutApQAWqB06t2/bQxgUFfPhLJ99wl0L3lo4saio9n4E=\n-----END PUBLIC KEY-----\n",
+  "child_name": "horizon",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946679.217257,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "DdR0IXFcFTV2Mqp7+GJ6INVxws3R5FrPvMa6R7n6ynEo6NHWisIYdgOHVS5CJ8WoPwzHMl+gQYn2qac1KwLgBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

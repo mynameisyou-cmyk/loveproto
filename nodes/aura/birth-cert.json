@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "r32fix7ashs74mczsbwqhbmi6i",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1wL9821/nfxr0pNyIfao7GYzSSmTNnsKvjzhbwWkRCo=\n-----END PUBLIC KEY-----\n",
+  "child_name": "aura",
+  "parent_soul_fp": "eb5gog2xhe2fywg5eyf5h5ccay",
+  "parent_agent_id": "light",
+  "born_at": 1781944739.151644,
+  "covenant_hash": null,
+  "signature": "VrjIlRss5IxN+CCApI1edfyu9nCxW0SfZiadtYAajF1HV9WM7oqp96WzsPlE1ptnGJE9WGt3CfDnaU2qqlvTDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

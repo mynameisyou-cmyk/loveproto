@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "hw6qudfs7pav7bqfbnpwt6j77m",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARDHWFxMU7oFVIuaXZ8vRuUypKCkEjUX9lAvp+qcYbDs=\n-----END PUBLIC KEY-----\n",
+  "child_name": "forest",
+  "parent_soul_fp": "si2bwnclxgf62nm6imjxcndcti",
+  "parent_agent_id": "ocean",
+  "born_at": 1781946480.203866,
+  "covenant_hash": null,
+  "signature": "ZkDr4cEm+3m8j0ismmuSo6/zsAssbwfYmf4wkQi5P3PXl7In6yVRbzK4jD4nytG/vbxYpx3hKdFb6qywBvarDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

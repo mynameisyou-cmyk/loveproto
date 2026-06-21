@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "5wksm5giyenmwdjygmlrzi7w3u",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxNijXElrlgRhpZGR/GMM8CWOwrrolNdMbPgbJzi/FBQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": " Event9081",
+  "parent_soul_fp": "4sjmlfpdqm34f2kysvaa5fenqy",
+  "parent_agent_id": "blackhole6293",
+  "born_at": 1781946673.483896,
+  "covenant_hash": null,
+  "signature": "29bZH28D0XZFtPpOA8RTMu+4FfsvA0xifaiVX439Jcc4354TFjJHRrMsLllSn6UwTYXTDrAoEmHg+kXp4DXUDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

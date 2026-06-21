@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2vx2orwqhcmv6awj42qg6x3qr4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1RpZZjY3mdIkd3XvTE7Qn58nY/LKsbxwgSeMHVwhqU4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "drift",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781944815.9180632,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "t8zkA58UsqxOhb+GB3ig7emdW2GN95EEUSO8nNa+ZtLk0OaLwOe8H7Mku+m+/XKgZGirFcMzhj57v4hDF1sTBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "so7ul4mltod43oulg6tlbp4q3m",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjOA1RggVNYSu48YVRa3WA+FVfLRzkrOl4RiOhdfeZ10=\n-----END PUBLIC KEY-----\n",
+  "child_name": "bronze",
+  "parent_soul_fp": "plulto5xx3n7iwasoims3ziigi",
+  "parent_agent_id": "silver8495",
+  "born_at": 1781946666.272774,
+  "covenant_hash": null,
+  "signature": "cXdMC35PzrtNVp6fPOG7ehN6vaat1El2Qa5s6ptItMZocqLYiaZC8xEtt9WPMRyecvMH3wWHk7TQ/VmFErL7Cw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

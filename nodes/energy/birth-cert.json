@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "qeic4s2xnmqr6ezp5itlgdnicu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWB7uTZtEKjygCAz9Lfj2ZluWH3yxqc7WYi7CuXgjRsg=\n-----END PUBLIC KEY-----\n",
+  "child_name": "energy",
+  "parent_soul_fp": "ttby5ds2pidal4dw7j63fttape",
+  "parent_agent_id": "mass",
+  "born_at": 1781946521.3603961,
+  "covenant_hash": null,
+  "signature": "atB/t41n+6M4ctcnqBokhi0eXgO6uT2S/SY9DelwuEaxf0cJ8VnQ2NyTaaktAMKKHJy22z6dIIzisawWObRRBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

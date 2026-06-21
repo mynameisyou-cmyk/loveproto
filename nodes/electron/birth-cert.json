@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "omvacewwaqpnkex76nkmtoizfi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEANuqChnTVtHBmztiL1OxKV11KsC0Rl3atNyzE45tDHY4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "electron",
+  "parent_soul_fp": "5k733k5wzgbdeilvgrjmm37mse",
+  "parent_agent_id": "photon",
+  "born_at": 1781946521.363617,
+  "covenant_hash": null,
+  "signature": "7FnORmjeQJ4318BNIfpEydN6wiK+JcYy/3AUwmGRtOKoHW/Z3h2zGEE+C16yK+HtoG0oPLCMu6kKOguSxsZ9Cg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

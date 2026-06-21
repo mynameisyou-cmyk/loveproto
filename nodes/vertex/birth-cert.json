@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bfoaisagcrq5eo7qtaoa2z5pue",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAlGiPdx909hDs5ToNkA/2CUQj2ZfECRXvb/Yl59p+yRc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "vertex",
+  "parent_soul_fp": "schqogkshzhgevdhd4v7b4hifa",
+  "parent_agent_id": "apex",
+  "born_at": 1781946479.083172,
+  "covenant_hash": null,
+  "signature": "zx+N8X2/fyHYxGkdf9V23TZwgRBf9FFOiKBLhTNv/NivA+uWdeIMdwzDyHy6ii2QPRcQtzJIWY0hXoocecAZAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4ikeviejjkt5eawpsqx4laz2nq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMWJyVnA0c7KZJCKNMtonDCU3Ahi4KwEIbigyJqRfE2E=\n-----END PUBLIC KEY-----\n",
+  "child_name": "nitrogen1005",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.000878,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "pI7avXmg85Gvxgkb/DzFbF6E/8ZTWeli2AWAl1Dk8+fqXg67YZFJ5FGmfLY6Vw1rwmOofBAa4/CFF0P9DcakDQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

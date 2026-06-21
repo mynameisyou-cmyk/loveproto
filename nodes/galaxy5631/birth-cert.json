@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bvcub2opctnd4mlpdmlwd626oi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAb7OMvzLtVvyl76UMf9kHYmPbnk53rrtr5HEClAJfo1g=\n-----END PUBLIC KEY-----\n",
+  "child_name": "galaxy5631",
+  "parent_soul_fp": "4sjoaludc7pwmcpvuprmaxdyxq",
+  "parent_agent_id": "apex9904",
+  "born_at": 1781946669.36959,
+  "covenant_hash": null,
+  "signature": "568Q+6ksCO93oF3gLqPHWewFM3G3hS7raQzNwt0o5PdmRWVTRfLO428S0fgup6Vem69HyKxlE5zCuZ4I4NT+BQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

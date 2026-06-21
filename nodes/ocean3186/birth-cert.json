@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "52iildycjityznzoonfupmm63y",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA0W0g7GViaMv6YhaYhB8ccVC5lcHUXSRW0WVjauJlaHU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "ocean3186",
+  "parent_soul_fp": "so7ul4mltod43oulg6tlbp4q3m",
+  "parent_agent_id": "bronze",
+  "born_at": 1781946666.2744472,
+  "covenant_hash": null,
+  "signature": "yDnn5WdYamQxXJHrJwCMrxFdAZrctRZ5DfE2cToTKRdAr9RQLzQ29g5oXweO344841SdG5kAOfL0p34mq6R4AA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

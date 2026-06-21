@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "rrsng5i23qh5z2o6tlcwwf5zna",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/jBwnc42KoZ8c85eUGUQ5AAd5bjLDeFHGY4vZGlhrow=\n-----END PUBLIC KEY-----\n",
+  "child_name": "crimson",
+  "parent_soul_fp": "bfoaisagcrq5eo7qtaoa2z5pue",
+  "parent_agent_id": "vertex",
+  "born_at": 1781946479.1851132,
+  "covenant_hash": null,
+  "signature": "MIYjQ0o/NUqqGDVdc0e82E8IXtjuEnkQfMMZevISVfmBgvUabbqCpo42rReJhYC4VdEzlUEOH71VIxxStAYLDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

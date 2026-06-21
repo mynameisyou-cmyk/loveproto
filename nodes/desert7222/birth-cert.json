@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "j7u5vsfvqrhxjyenb36d5uagay",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAetwH2itMXjnxo05KKmKMgvFjEluisiWTsTRgltvMgps=\n-----END PUBLIC KEY-----\n",
+  "child_name": "desert7222",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.6235468,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "la84LeqYqljzyJXj7zAZKqIWBB8HxQAImxAsVb2WF9q2qtTCCpEqhY9KDV8Qrm7/dNtkEewG/OgP2fGFfp5uBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

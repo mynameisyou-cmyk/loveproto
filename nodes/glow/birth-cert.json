@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lixdgavggcm5x6x6hizpohib4e",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2QSXGzlBmEUy5Kb3lxofzb13DVQDQU8zScbKh+cxZbk=\n-----END PUBLIC KEY-----\n",
+  "child_name": "glow",
+  "parent_soul_fp": "cgbcvrnzaiq74gwn6jhs7yailm",
+  "parent_agent_id": "solis",
+  "born_at": 1781944703.270368,
+  "covenant_hash": null,
+  "signature": "HjbFBdqEkzKu16bUdLokTsQdQvoHoNVpEgPPbRJsm6cWXgpBPIUiwmLAsDIH+JwUJJVXkpMw8ImTqpmdtvYhCA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

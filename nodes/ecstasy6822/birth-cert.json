@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "u6pwruycfxmebumej4olqdiadq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJlqjr7vePnWgrVIVEWhywS5/KrIJ7DiBIcQ5eJkXtCE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "ecstasy6822",
+  "parent_soul_fp": "4jufw7g2w7x3be5hlnwj3icspq",
+  "parent_agent_id": "plasma7983",
+  "born_at": 1781946672.8003662,
+  "covenant_hash": null,
+  "signature": "GedPKAOFQ5wktGf3miM3U+jXmhh6+4Q/QuCtuJSiA/eKOvLB2EH2kK0Tplrzvy+U8AZ1yZVJe1RqH7oVsSh7Ag==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

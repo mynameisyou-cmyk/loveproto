@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "d4eo3hfn3qkyl54vrqb67o3jyu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAInYF5PlGV0S9KDVm9p07WunnBm8hOS5vDTGjEdgB1Pc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "planet1399",
+  "parent_soul_fp": "dy2cttr6vbakjnzxut3coj4ac4",
+  "parent_agent_id": "meteor4055",
+  "born_at": 1781946673.495744,
+  "covenant_hash": null,
+  "signature": "o+ODwgmxXvMevWPPYUYswL8R/lXGDSD0AKkmVksvf8fR4cM4ULjiV1Jahq6LksRTppxoHZP4oSATzfZ3xXXDAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

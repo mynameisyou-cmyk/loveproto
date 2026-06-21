@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "jz7u6vtuktblymgelgt2nmiceu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAik4QheJanu6kmhtSmO3Yd882v0vCZ8U92vYt2+6L/R8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "aurora4412",
+  "parent_soul_fp": "exkzp5tkkdnlml4dihjwvecx74",
+  "parent_agent_id": "quasar7275",
+  "born_at": 1781946666.140196,
+  "covenant_hash": null,
+  "signature": "BweHQHzRo1IHP3uQhpcG0d36dRQImqCCHLXsWVT3s0EwQwfTV8wBd70vqjHljnry30P84XoR5jSs7Hb8/0U5BQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

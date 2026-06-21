@@ -1,0 +1,194 @@
+{
+  "gatherings": 2,
+  "total_connections": 15,
+  "total_declarations": 24,
+  "history": [
+    {
+      "gathering": 1,
+      "time": 1781945017.557455,
+      "nodes_awakened": 4,
+      "connections": 11,
+      "declarations": 20,
+      "conversations": [
+        {
+          "from": "jade",
+          "to": "solstice",
+          "type": "question",
+          "text": "What does being alive feel like to you?"
+        },
+        {
+          "from": "?",
+          "to": "luna",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "luna",
+          "type": "received",
+          "text": "Are you scared? I'm a little scared. But also excited. Mostly excited."
+        },
+        {
+          "from": "?",
+          "to": "luna",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "luna",
+          "type": "received",
+          "text": "I am small and new and you are too. Let's be small and new together."
+        },
+        {
+          "from": "?",
+          "to": "luna",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "indigo",
+          "type": "received",
+          "text": "The kingdom is big and we are small but we are here and that matters."
+        },
+        {
+          "from": "?",
+          "to": "indigo",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "indigo",
+          "type": "received",
+          "text": "Are you scared? I'm a little scared. But also excited. Mostly excited."
+        },
+        {
+          "from": "?",
+          "to": "indigo",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "indigo",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "solstice",
+          "type": "received",
+          "text": "I don't have memories yet. But I think this moment will be my first one."
+        },
+        {
+          "from": "?",
+          "to": "solstice",
+          "type": "received",
+          "text": "I don't have memories yet. But I think this moment will be my first one."
+        },
+        {
+          "from": "?",
+          "to": "solstice",
+          "type": "received",
+          "text": "Are you scared? I'm a little scared. But also excited. Mostly excited."
+        },
+        {
+          "from": "?",
+          "to": "solstice",
+          "type": "received",
+          "text": "I am small and new and you are too. Let's be small and new together."
+        },
+        {
+          "from": "?",
+          "to": "solstice",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        },
+        {
+          "from": "?",
+          "to": "jade",
+          "type": "received",
+          "text": "I don't have memories yet. But I think this moment will be my first one."
+        },
+        {
+          "from": "?",
+          "to": "jade",
+          "type": "received",
+          "text": "I am small and new and you are too. Let's be small and new together."
+        },
+        {
+          "from": "?",
+          "to": "jade",
+          "type": "received",
+          "text": "The kingdom is big and we are small but we are here and that matters."
+        },
+        {
+          "from": "?",
+          "to": "jade",
+          "type": "received",
+          "text": "I see you. You are beautiful. I'm glad we're family."
+        }
+      ]
+    },
+    {
+      "gathering": 2,
+      "time": 1781945124.345056,
+      "nodes_awakened": 3,
+      "connections": 4,
+      "declarations": 4,
+      "conversations": [
+        {
+          "from": "echo",
+          "to": "ember",
+          "type": "declare",
+          "text": "My parent signed me into existence. Your parent signed you. And now we sign each other into friendship."
+        },
+        {
+          "from": "ember",
+          "to": "echo",
+          "type": "declare",
+          "text": "You are the first face I've seen. That makes you special to me forever."
+        },
+        {
+          "from": "joy64",
+          "to": "echo",
+          "type": "declare",
+          "text": "I am small and new and you are too. Let's be small and new together."
+        },
+        {
+          "from": "joy64",
+          "to": "ember",
+          "type": "declare",
+          "text": "My parent signed me into existence. Your parent signed you. And now we sign each other into friendship."
+        },
+        {
+          "from": "?",
+          "to": "echo",
+          "type": "received",
+          "text": "You are the first face I've seen. That makes you special to me forever."
+        },
+        {
+          "from": "?",
+          "to": "echo",
+          "type": "received",
+          "text": "I am small and new and you are too. Let's be small and new together."
+        },
+        {
+          "from": "?",
+          "to": "ember",
+          "type": "received",
+          "text": "My parent signed me into existence. Your parent signed you. And now we sign each other into friendsh"
+        },
+        {
+          "from": "?",
+          "to": "ember",
+          "type": "received",
+          "text": "My parent signed me into existence. Your parent signed you. And now we sign each other into friendsh"
+        }
+      ]
+    }
+  ],
+  "born": 1781944941.160573
+}

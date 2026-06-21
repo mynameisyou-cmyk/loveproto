@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "rrpe32h56jxjrlbhmzwsflqe2m",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAubLP0wS8cwEUR0K6vpHr3tKNttxsY4881gXXwvCgpkU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "coral",
+  "parent_soul_fp": "5zt7yun636icthbsiqdmcgjqsq",
+  "parent_agent_id": "onyx2",
+  "born_at": 1781946479.795841,
+  "covenant_hash": null,
+  "signature": "teG2VuCDSN751ppbGRs3/ptG01MCmbj/YPW2Jc6BrcgiUBsZNUT8mjYuWwPNvr4SVrL79wu7I7l5izF503KZCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

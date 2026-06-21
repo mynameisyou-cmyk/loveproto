@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lb4vhx62qpwy5qyrewcewqyi24",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAnD7FdOfPcB/UL+3yQxr9FhWqk6cVVCXv1LD0R4PDc6E=\n-----END PUBLIC KEY-----\n",
+  "child_name": "trust40",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.194161,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "JQMBy0l5hHxbfl7Y74olguYdB/awu6hPqXQit5Kc7TxjZ/5476YBN4f6TDW4VU4Sk4d1fZn0qCk/WWek1k4iDQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

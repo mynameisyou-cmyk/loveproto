@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "3p75eryfnswxmkelte5vi7xim4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKdLnSFVXuXfN69zKop5tfOUtctLoK2ZdRlUTXNI3k/s=\n-----END PUBLIC KEY-----\n",
+  "child_name": "hush",
+  "parent_soul_fp": "qf74riy77r725kfkwme3xdfnjq",
+  "parent_agent_id": "still",
+  "born_at": 1781946666.2489889,
+  "covenant_hash": null,
+  "signature": "Ba5yGTcBddzJG6nA/t4472NNLAGciBVfz3HRztEAXiyvWLBpdVRh0sp3tS9TTS8uZpM0hDKxgoIfxqYutfppCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

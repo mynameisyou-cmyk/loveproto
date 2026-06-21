@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "cqjqfkhdsnunkcb7ar7hlommbq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAFVMVx2e/G0V37sE3n9RwfqTWvzEjS5aSzXmdaZ9tdwY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "gravity",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946521.348503,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "RRu8EgrM7msRIwDU5S9BNZ8N6PICe8rUYK3RQlJbDsdRLa/xemho6f4zWYq0yJdoy2oPswmSJxZlBJ4zHrixAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

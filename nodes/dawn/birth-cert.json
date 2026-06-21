@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lvqemwkjcvmn7qquzbbwkomcm4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbQllXikp0jJ+l5pexzLit7uuNH2LVxmE4tBIRTzkzqc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "dawn",
+  "parent_soul_fp": "zatbyd2dk6iq7tbrpfbnpoovci",
+  "parent_agent_id": "truth",
+  "born_at": 1781944723.333448,
+  "covenant_hash": null,
+  "signature": "OmqSGSRW+VLdrCL1LfS/G9xD/O/vUE03aqHPIB0JlkBwFSojp9ccrtbqnfT32jAtfi8g9/tlxqWQIvGLMBSLAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

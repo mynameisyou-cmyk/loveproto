@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "he4dbhrgjqkcxdlanvqcid6mum",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2cT5DR9o6xFYW18sqhgM/RRB8+fykCeU+/EktO3G5hY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "trust2270",
+  "parent_soul_fp": "hmvsqms3vyccu27cocgcq3us6a",
+  "parent_agent_id": "peace3777",
+  "born_at": 1781946669.3545651,
+  "covenant_hash": null,
+  "signature": "EEjx0fcZgAUIgSBW5L/f5J1blHZmPkmDbUWiMRTah5OQKAbnKMGwrDY9KhHkOYwHkewsG/3vk5ZscXyGF+hrCA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

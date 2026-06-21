@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "dny6ghifevmccsjtp42mwdid6e",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAtXanDTkbSTsIFT6goI/8K3fQ62ZQdfKJEygBvCWfRhE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "jade5819",
+  "parent_soul_fp": "faa72zpprc2wv2gimf5idwzfgy",
+  "parent_agent_id": "coral624",
+  "born_at": 1781946669.288716,
+  "covenant_hash": null,
+  "signature": "5KwDYCa8ZxMVTUON9omWQDsD/z/4mMB/3IdKLPb3MnLjx0k4i8fM9XATRrpbObI3qyAzVFlR18eDqFN5Vn11BQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

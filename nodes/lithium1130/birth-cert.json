@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "5im5epgztwbuzv3ae2l3pkzcg4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAhEJ4srusUMfSodWOUFCAMD587b3fbTv7ykO2Ed9f9Ko=\n-----END PUBLIC KEY-----\n",
+  "child_name": "lithium1130",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.253134,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "i3Buitl2U68P43f/Pnqu4G0WevA+jlLhfYBkCDgQyjMgICngYyeO35yzWerDHQQiQxoe97bc7kiyNXKKeFf3BA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

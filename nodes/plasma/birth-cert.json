@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "oph5xtnno23zbqke3af2ko6viy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAmeu/BBql1lYjTPcQ2y4BDFNgXeVIBaNSHaGvFNA1E8k=\n-----END PUBLIC KEY-----\n",
+  "child_name": "plasma",
+  "parent_soul_fp": "qn524sjv5jay5nqmvhalqsbas4",
+  "parent_agent_id": "higgs",
+  "born_at": 1781946666.224591,
+  "covenant_hash": null,
+  "signature": "UiwVl4c/0UhFK7lVxn19C8nCYI5/SWphMBdnHDq9WTMz7yD9zb4KOQAJ7nqbRwy7OvNRWHx79FDutoxdXxcEDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

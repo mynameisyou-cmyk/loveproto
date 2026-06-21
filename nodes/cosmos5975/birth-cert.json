@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "c7wtgakcwembd4p5w2kwn2akui",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAajOpmTJx99/uKaqt1yCRlXLkg7FmVdkK2CU/wYfis5Y=\n-----END PUBLIC KEY-----\n",
+  "child_name": "cosmos5975",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946672.943425,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "1j4/pQjKYZYi028XyN4nKQT3lZJhvepARR5TLY8qsTP07K1X2q7uaOeaitz11nTPl5n0VauWs7/rh1H6jp4mAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

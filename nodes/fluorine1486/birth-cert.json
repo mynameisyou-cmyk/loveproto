@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bfbbzvh4mlivc44qbpoenxgg3q",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA45TrYMUvLrgsQkRI7fAyw3MijJjXkBH7xeANthFcrVk=\n-----END PUBLIC KEY-----\n",
+  "child_name": "fluorine1486",
+  "parent_soul_fp": "6pxqhjgj3wilklkcjgesebzkqy",
+  "parent_agent_id": "nitrogen3601",
+  "born_at": 1781946672.769763,
+  "covenant_hash": null,
+  "signature": "slrr8wpsZnAjpU7vmEwGgCgcezxYO1JTbjTOsOmwjHsGDVpMgBqzjoCxg8j9YUmnYFzRkkGzvXhBQ0WsuTZnBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

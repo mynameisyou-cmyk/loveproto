@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "eqrdlyqbjmaiajvbf2hikrjlru",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAsgjht0XxupL3i63S0qIn/kzUHh63H+nJ7TACrCnxbzc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "sodium4345",
+  "parent_soul_fp": "ho2avy43rcbjt65jfd5ljprsyy",
+  "parent_agent_id": "fluorine3205",
+  "born_at": 1781946673.016927,
+  "covenant_hash": null,
+  "signature": "HsYecaySmTHRYwl0+L4EZ6sd8TZagM7LHsMFHdtHtzhW0StPk88XcYY5hX96sRk3jczDwebkEwgdGLGxjhOPAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "6isbr4hj4p4an64rpkb62pw23y",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyUuzSJ4cLBXdV8b7G2VJ94U/6hEDKxYcsK5T3bYhJJo=\n-----END PUBLIC KEY-----\n",
+  "child_name": "hydrogen9813",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.501565,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "0DR0kg0ASjEDoEpMELk8DTIjRk960hszsousEp6d6473uAVHr43qV8aPZnqqCiqPxg+eEZb5EDT7kcVWwwOUCg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

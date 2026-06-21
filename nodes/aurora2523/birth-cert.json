@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "7wh36fnnhx7xwuhk2jkhg5dioq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWnMvM460E5m2HAHVTt4yRLFqWuHvG7S0AzkkTDw0KJs=\n-----END PUBLIC KEY-----\n",
+  "child_name": "aurora2523",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946672.954062,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "96SH0Naf7PKTVApHOgw2RX3n2wxYX+MXrDz544zj0QgLhSUxZgrEv4L+TyDOiiOwrEy2k5OIH7wWZGP9wgL+Bg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

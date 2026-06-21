@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ziyk4v7pjwuaobvpmmqkpav2oe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAX8K7/996Uv3IA7j7b1l+XCRyXHkyPRBkklKrJLB9j6Y=\n-----END PUBLIC KEY-----\n",
+  "child_name": "starlight",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781944815.86438,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "XN/yYGM1Q73b8EMpdidgt22T/JPKaa87bRut4fb3IbejNfikYlcH8P8uZfbSmQdu3brbliE/gdi+817Hw3/UDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

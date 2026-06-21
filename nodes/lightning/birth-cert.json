@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ynluv3uin3nwcyojzpjdywxpd4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAMjZbd1OAgVft0kmiJTQPQtgpUrRDeQNberBcHVJAtU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "lightning",
+  "parent_soul_fp": "cntyukgzfkyhfteo3gfzsobbve",
+  "parent_agent_id": "storm2656",
+  "born_at": 1781946669.105957,
+  "covenant_hash": null,
+  "signature": "fimJrbJ0TEzWsw6wYiZ9nHKEjKH/hU3yWrZqVmdlwl1HZTBGP4jtXmq9n50XXZ/v8Gnxm8+ZvgwwAU0SEWRmCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "hzu5ron4jiy5bgppfweysegacy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAEJ++AMUUemDEUU/VeFixoOa9tPvTu3bbXx97//oJSGE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "nebula",
+  "parent_soul_fp": "7u5fpzhk4wdzztxjqolvdnx5n4",
+  "parent_agent_id": "cosmos",
+  "born_at": 1781946478.472264,
+  "covenant_hash": null,
+  "signature": "fGnjZnE1tMmuh5F1rPZShcFHJJdnY3gED2bQ2TGpGNVvzy6o4dRX7t1HkAUZQOckXLIIyv1beDbF+AMk3cWoCQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

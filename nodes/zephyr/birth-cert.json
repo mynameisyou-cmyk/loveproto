@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "wccq3nfgrcqicmhfjz7jieooym",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQwVaL2Tx3KFDBfvw3D+37SmntTgIiFaLA0yej2k3WV4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "zephyr",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781944815.8751638,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "hG1UohtMHsTyjKcLwZ7zslb7Jc2jy4jOCFea2HF2VBQoH9ixssotyIVLbrjcnHu0et+SUTRezMzXoVuybauhBQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

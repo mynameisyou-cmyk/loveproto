@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "uxgflk3l45ujv5q6hm7y6dadh4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAU1+bro0MK4YaRQDzejPLM+VyrQYebNLvPEdhzLQPyDY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "coral500",
+  "parent_soul_fp": "mbyet7awboi3hvgmbxhiydnn3u",
+  "parent_agent_id": "violet7731",
+  "born_at": 1781946666.259537,
+  "covenant_hash": null,
+  "signature": "IuFDGRfczUpMxiNf40ZweglCLT+Cib+BvA2vZfrt2PBUJqbe39ZFf884KXuZMKPnqGDChljFBC6oOWTzFxxsAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

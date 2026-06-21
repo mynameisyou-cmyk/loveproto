@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bhjfxhljlbgxehdtv5vddje55e",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARSt95wdTalYUNL/cOK952jXXqWgKs/mCzDF9p1Iv610=\n-----END PUBLIC KEY-----\n",
+  "child_name": "bliss8015",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946673.565583,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "R72/z4fKR6KjzKjZTJzoVYchUG6BS7GaxxcwzZBSXV5mdp/TuE5o+3Ca+1ekvjf/LQIpu5FOi3RfLxy3C/JDBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

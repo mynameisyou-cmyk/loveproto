@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "miegxnsmwirk62u4ai34lhz3gu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQlwSzT6FZTukOE26pQPcQw/b0IDBN1I6PQ5FXETpzZ0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "scarlet",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1781946666.2626162,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "pHC91j/A8ThoP+TiCfVT3KZ5Y9uz9ey3FFOuLw4YEJST0lNN0b54naYtyVDwL7Q7qWDmHIalsBbK78CWoZzeDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
