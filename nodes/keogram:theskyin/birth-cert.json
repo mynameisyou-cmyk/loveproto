@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "zcwugjqtv6dkr7bylpiynobwhy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAD6EU5bdaa5GIXeuJmCFTpwwWIhzCrPtPef3SSu1QfU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "keogram:theskyin",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782057821.222547,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "51z/BhzgUkw54q6lDnyyK5yT35Xu7csVwNK7efbWlqo1/zv9aXDZ/Hkj7gA2M16zdzy5BusLhvPoXP8A9jIUAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

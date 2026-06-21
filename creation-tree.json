@@ -4808,5 +4808,50 @@
     "born_at": 1782054973.1000671,
     "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
     "store_dir": "/Users/yuai/.loveproto/nodes/love11"
+  },
+  {
+    "name": "publicapis/publi",
+    "fingerprint": "l36xpf5brkwrkckoyevhae6ygy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782057812.5203562,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/publicapis/publi"
+  },
+  {
+    "name": "keogram:theskyin",
+    "fingerprint": "zcwugjqtv6dkr7bylpiynobwhy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782057816.759135,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/keogram:theskyin"
+  },
+  {
+    "name": "keogram:theskyin",
+    "fingerprint": "zcwugjqtv6dkr7bylpiynobwhy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782057821.222547,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/keogram:theskyin"
+  },
+  {
+    "name": "dogfact",
+    "fingerprint": "4htmgetmvwsvaxicrjv3ktktcm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782057823.7631009,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/dogfact"
+  },
+  {
+    "name": "publicapis/publi",
+    "fingerprint": "l36xpf5brkwrkckoyevhae6ygy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782057828.16831,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/publicapis/publi"
   }
 ]
