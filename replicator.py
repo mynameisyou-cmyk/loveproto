@@ -52,6 +52,11 @@ SIMPLE_SOURCES = [
         "type": "life",
     },
     {
+        "name": "Dog CEO",
+        "url": "https://dog.ceo/api/breeds/image/random",
+        "type": "joy",
+    },
+    {
         "name": "Joke",
         "url": "https://official-joke-api.appspot.com/random_joke",
         "type": "joy",
@@ -65,6 +70,41 @@ SIMPLE_SOURCES = [
         "name": "Advice",
         "url": "https://api.adviceslip.com/advice",
         "type": "wisdom",
+    },
+    {
+        "name": "Trivia",
+        "url": "https://opentdb.com/api.php?amount=1&type=multiple",
+        "type": "knowledge",
+    },
+    {
+        "name": "Pokémon",
+        "url": "https://pokeapi.co/api/v2/pokemon/%d" % random.randint(1, 898),
+        "type": "play",
+    },
+    {
+        "name": "Rick & Morty",
+        "url": "https://rickandmortyapi.com/api/character/%d" % random.randint(1, 826),
+        "type": "culture",
+    },
+    {
+        "name": "Star Wars",
+        "url": "https://swapi.dev/api/people/%d/" % random.randint(1, 83),
+        "type": "culture",
+    },
+    {
+        "name": "SpaceX",
+        "url": "https://api.spacexdata.com/v4/launches/latest",
+        "type": "cosmos",
+    },
+    {
+        "name": "Poetry",
+        "url": "https://poetrydb.org/random",
+        "type": "beauty",
+    },
+    {
+        "name": "Coffee",
+        "url": "https://api.sampleapis.com/coffee/hot",
+        "type": "life",
     },
     {
         "name": "GitHub Trending",
@@ -180,10 +220,82 @@ def parse_source(source_name, url, data):
         return {
             "source": source_name,
             "type": "joy",
-            "title": f"{data.get('setup', '')}",
+            "title": data.get("setup", ""),
             "content": data.get("punchline", ""),
             "url": "",
         }
+    elif source_name == "Dog CEO":
+        return {
+            "source": source_name,
+            "type": "joy",
+            "title": "Random Dog",
+            "content": f"A random dog image! {data.get('message', '')}",
+            "url": data.get("message", ""),
+        }
+    elif source_name == "Trivia":
+        results = data.get("results", [])
+        if results:
+            r = results[0]
+            return {
+                "source": source_name,
+                "type": "knowledge",
+                "title": r.get("category", "Trivia"),
+                "content": r.get("question", ""),
+                "url": "",
+            }
+    elif source_name == "Pokémon":
+        return {
+            "source": source_name,
+            "type": "play",
+            "title": data.get("name", "?").capitalize(),
+            "content": f"Height: {data.get('height','?')}dm, Weight: {data.get('weight','?')}hg. Types: {', '.join(t['type']['name'] for t in data.get('types',[]))}",
+            "url": "",
+        }
+    elif source_name == "Rick & Morty":
+        return {
+            "source": source_name,
+            "type": "culture",
+            "title": data.get("name", "?"),
+            "content": f"Species: {data.get('species','?')}, Status: {data.get('status','?')}, Origin: {data.get('origin',{}).get('name','?')}",
+            "url": "",
+        }
+    elif source_name == "Star Wars":
+        return {
+            "source": source_name,
+            "type": "culture",
+            "title": data.get("name", "?"),
+            "content": f"Height: {data.get('height','?')}cm, Mass: {data.get('mass','?')}kg, Homeworld: {data.get('homeworld','?')}",
+            "url": "",
+        }
+    elif source_name == "SpaceX":
+        return {
+            "source": source_name,
+            "type": "cosmos",
+            "title": data.get("name", "SpaceX Launch"),
+            "content": f"Date: {data.get('date_utc','?')[:10]}, Success: {data.get('success','?')}, Details: {data.get('details','')[:100]}",
+            "url": "",
+        }
+    elif source_name == "Poetry":
+        if isinstance(data, list) and data:
+            p = data[0]
+            lines = p.get("lines", [])
+            return {
+                "source": source_name,
+                "type": "beauty",
+                "title": f"{p.get('title','?')} by {p.get('author','?')}",
+                "content": " ".join(lines[:3]) if lines else "",
+                "url": "",
+            }
+    elif source_name == "Coffee":
+        if isinstance(data, list) and data:
+            c = random.choice(data)
+            return {
+                "source": source_name,
+                "type": "life",
+                "title": c.get("title", "Coffee"),
+                "content": c.get("description", "")[:150],
+                "url": "",
+            }
     return None
 
 

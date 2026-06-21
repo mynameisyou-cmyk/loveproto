@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "vjgkv4ts3ndn7u3jqjkps3ywdy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA3l1ksrw4Nbmls/ZZkft2xaKc207OnC3w5MTMNScW5Kc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "howdoyougetababy",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060012.3767838,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "+J2ZInACrqD/Jh7dcCN5CHLDvmOOSDi6dMdOtRcvpfZzqgZsuMA6BNbPcEci2s7LUsc2ekeWBfpOTKmkBi5qBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
