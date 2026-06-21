@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "vcbsv54wh4qhz6adbn3kj6dxlq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2eMw1y/BB/j26NVqP7VOB8plYGS/2VCeKpKxQIapGKw=\n-----END PUBLIC KEY-----\n",
+  "child_name": "nasaepicearthima",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060693.338766,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "svnPQMHYBuFsZ634O2Gn2gFwuk//DqfdNZ/uUzfGoa6SFeyekSkuQ5D0nDPB1Bl8/IcT6UOYPyzl5lEBO08BBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

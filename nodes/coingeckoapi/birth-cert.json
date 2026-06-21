@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4iolj2axxvp64c4mcxyqcpkkpe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAIk2RyEANdymucY85N1n4ZBX9TPW+oeKU+BtGJdcsiS0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "coingeckoapi",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060707.2715552,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "ZByqYUYP8hhv8/nn/iTEt3640Gn+E5qRqangTYHSOp8v7Y2rew6H8lVMcETF6r5KGhuFvs7Z7RqnhImaiLy9DA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

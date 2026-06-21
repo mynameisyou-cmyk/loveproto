@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lmvnsuvkb3acpgzyl7d7ovtv7q",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAh5/TjQZAd2OIX3JXrQXjYozth45Mc8oCiadQkBgUhWs=\n-----END PUBLIC KEY-----\n",
+  "child_name": "marcusaurelius",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060703.591022,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "UE+m9fdlPGpVAnmv9YkVYM5hKqveKCh+Iv02jZUqT8+M98Xm+annp5IAChqRPSMsE8yATJB8XPmdprD/av2LDw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

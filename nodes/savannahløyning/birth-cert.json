@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ri4jh54ba4k7gxpcfykidzkvge",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQy/xzNCHXNmpwtSWIUFYfLVM3NkmDweRvk4D05f5WeI=\n-----END PUBLIC KEY-----\n",
+  "child_name": "savannahl\u00f8yning",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060710.3142169,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "EAWgkwV+N71+greILowQQ3kTPo9TjnftWrEVHHsjcdn8jDmoosDUpC00MqYthQtJMdff5D1GmVCHyYUUPkr9Dw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
