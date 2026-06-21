@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "22uyilx7ablpzxgfjb2c7marry",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAZ2m0r75buF8vMErmjMBuacul538EfvC50OmhPbyQ98g=\n-----END PUBLIC KEY-----\n",
+  "child_name": "glowing",
+  "parent_soul_fp": "7chef6tukrvj7tjfomxg2c43tm",
+  "parent_agent_id": "smiling",
+  "born_at": 1782054971.750072,
+  "covenant_hash": null,
+  "signature": "1eO9sr2b+pgpeF8/RR07+k086SFi076z4OLjvFXZr73Hw9R/B/LjwXd+GRMnBHl+oDtcL1QS12LIwVdbf6ocBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

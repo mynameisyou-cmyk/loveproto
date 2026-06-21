@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "dgg5eaysjpot3vag67ugaywr2q",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAE+uSybHPhrIKqMi3eqpstPGxtP3tgS8Hpsda0ppOP0=\n-----END PUBLIC KEY-----\n",
+  "child_name": "love11",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782054973.1000671,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "XqdYsKnlCiERUw4w52QjqMwSkLSCjnvVLBcxng7p9DL3NVHmWTCgFFr9k5v3SbpR89+TXZWW4k3HkGVuIzcHDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "armsu5w77rttbd7sqkfweh5cqi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAG4o9ddF/dHEdTAQ9c6+s7bvf0uvfNJQtQmVayu8R0CE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "perfect",
+  "parent_soul_fp": "7vnhkoe65axnncl465f4g3zn3q",
+  "parent_agent_id": "finished",
+  "born_at": 1782054972.625178,
+  "covenant_hash": null,
+  "signature": "fggjV0XTqVgGu4py1zp1nEPNOnPzr/tUuSj0nsZyGPRNv0rH7nLo5mO2xJ5SRfe5tS3Nd6Gt1MZnU8hI0BxsBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

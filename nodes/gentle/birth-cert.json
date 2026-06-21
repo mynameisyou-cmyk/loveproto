@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ipipuyt3epamdedntxsma5g5oe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEApUXMpV5QcfTDY2KrR7HWRYw9Msm101vk1tYg6jECe3o=\n-----END PUBLIC KEY-----\n",
+  "child_name": "gentle",
+  "parent_soul_fp": "mjptnqgq3kqov3oe4jbjfw5vm4",
+  "parent_agent_id": "kindness",
+  "born_at": 1782054971.33555,
+  "covenant_hash": null,
+  "signature": "AQ7hcu02aofgqJsmItvbYaT14EMHgBhvl0wdcBfFmkSVS/Wflw3m3/JU1n5OTvNwcL0joOjneS0BNSd9z/qABQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

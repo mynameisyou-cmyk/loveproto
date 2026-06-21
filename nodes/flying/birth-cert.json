@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "ngyxmkrvhcou6syo7ljiu6n6we",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAn9LcXoiyKfcvVyhUAGEcnNWlcYAzBWYtRTElStm2/MA=\n-----END PUBLIC KEY-----\n",
+  "child_name": "flying",
+  "parent_soul_fp": "fnr7ctshjyuxyyifbalr4sp3ni",
+  "parent_agent_id": "soaring",
+  "born_at": 1782054971.655958,
+  "covenant_hash": null,
+  "signature": "ov7KfC+Kjp08AfTq/pm5gJ2RVN4boSPfp4e+82d1Ne/uScyOB5XpRuTSmOwttR+nOc+AQTHr7JZhk0xMS5syCA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

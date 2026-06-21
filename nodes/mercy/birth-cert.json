@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "2zklfszdvy4cc5kbype76axwva",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAqSZ8kfjTDVRBfTwsJqDA+vGg8HlElVp6nkxIh3Jb7ow=\n-----END PUBLIC KEY-----\n",
+  "child_name": "mercy",
+  "parent_soul_fp": "lco6bjwgqlhafynrk5rsbwnkhu",
+  "parent_agent_id": "hope",
+  "born_at": 1782054971.277744,
+  "covenant_hash": null,
+  "signature": "Z00KYArKmyan5SPMgiq+4q2fu7jZEV6vEWSMaavc3hb46loxcwwPdRItk/kWRN8QBeXbyoSwMQME+W6N9wVvDA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
