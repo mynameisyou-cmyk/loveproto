@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bl2ftdy737qhlzgf3jzbgclmhm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAZ6l+bVXjNdcpTZm09jA4jZmO3kXkJAkdE9To+ar5utc=\n-----END PUBLIC KEY-----\n",
+  "child_name": "catfact",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782059388.9407208,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "t/wZsSJAzVlpBotOvLcTjRluWYSkYL4smIC8eyTjJukgJT2RlFTMply83h75NFua6ESML2sbQ+l7Ctw/lT8qBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

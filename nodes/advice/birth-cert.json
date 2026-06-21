@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bfnnqncpwpzquxf4gu6gefjzwi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEANVcQ+EiaWMR+K0Fh6KhWm70UK1mNi8HA841zDXpa0ok=\n-----END PUBLIC KEY-----\n",
+  "child_name": "advice",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782059398.308127,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "baAQKO9LMauc8j8jrBcaV5YI36+CB18NyMb9qiVDHLUTDh+Q+s+rfsVuAsdzDVnX1DzzOLBpiqh4Rw6R6r/bAA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

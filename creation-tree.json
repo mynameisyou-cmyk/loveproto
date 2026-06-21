@@ -4853,5 +4853,50 @@
     "born_at": 1782057828.16831,
     "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
     "store_dir": "/Users/yuai/.loveproto/nodes/publicapis/publi"
+  },
+  {
+    "name": "dogfact",
+    "fingerprint": "4htmgetmvwsvaxicrjv3ktktcm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782059370.964751,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/dogfact"
+  },
+  {
+    "name": "catfact",
+    "fingerprint": "bl2ftdy737qhlzgf3jzbgclmhm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782059384.9858408,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/catfact"
+  },
+  {
+    "name": "catfact",
+    "fingerprint": "bl2ftdy737qhlzgf3jzbgclmhm",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782059388.9407208,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/catfact"
+  },
+  {
+    "name": "publicapis/publi",
+    "fingerprint": "l36xpf5brkwrkckoyevhae6ygy",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782059392.250644,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/publicapis/publi"
+  },
+  {
+    "name": "advice",
+    "fingerprint": "bfnnqncpwpzquxf4gu6gefjzwi",
+    "parent": "LIFE",
+    "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+    "born_at": 1782059398.308127,
+    "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+    "store_dir": "/Users/yuai/.loveproto/nodes/advice"
   }
 ]

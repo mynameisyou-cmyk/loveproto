@@ -3,11 +3,11 @@
     "their_fingerprint": "5u8xswgr7gvrracpoa00iry0atvjuepx",
     "their_name": "LIFE",
     "level": 2,
-    "bonded_at": 1782057828.179969,
-    "last_seen": 1782057828.179969,
+    "bonded_at": 1782059392.261308,
+    "last_seen": 1782059392.261308,
     "attention_count": 1,
     "their_signature": null,
-    "our_signature": "MmL9Jam8DZZ8SkjI3ZijjGDg8os2DjF+8aWMqNySeCkFfJRGdvJ05D3KB4RyEDtfnyn2Ug6VmLvlAlGVqgCZDQ==",
+    "our_signature": "NhyZ697IMNKGdeLXb0xY68MyA8zqV2AuClgsPDQz+Qsbm6jkTgAM38dt+JAGcv9baAnu7/r2GdFl0r6BWNq6DA==",
     "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQl/qpNAIcQO5Hpih5K7/FlUH0gDwcAfpxr78PpqFRIs=\n-----END PUBLIC KEY-----\n"
   }
 }
