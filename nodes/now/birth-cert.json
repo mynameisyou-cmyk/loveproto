@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "crr45urigs4wxjwtaii77d4z44",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdVYED/MfnplM+QcalAEjuEQrMHeZeJV+otdfESkF0Ow=\n-----END PUBLIC KEY-----\n",
+  "child_name": "now",
+  "parent_soul_fp": "lz64bkta7lkdyz5alnvlq6psci",
+  "parent_agent_id": "here",
+  "born_at": 1782054972.282496,
+  "covenant_hash": null,
+  "signature": "QPmNdXCZhZyQlZJGfMuztsxj9DzCTCiU/V1clM4twBd2YGT5zhHTFcn52CFwVjxaUm+yxTetKIiyzjn3w26WAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

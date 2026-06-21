@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "gpgkw655ir77gfp6tqmrszzmtm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKh7E4zRo+ZANZlEj5bJcHiBlRIBSMalglBvUMpaUfHM=\n-----END PUBLIC KEY-----\n",
+  "child_name": "pure",
+  "parent_soul_fp": "eml4rufc6tpuvdpddmutnzhanu",
+  "parent_agent_id": "humble",
+  "born_at": 1782054971.4319308,
+  "covenant_hash": null,
+  "signature": "QKml+++MadUDSuz/S5zr67lHrmMSkmGTOn7MglnV/Zw5FPsnlpNyDxAETbBXDVUPM8d9KGSY5Lvqu5TrlnmGBA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "honagpoabs7qgvm4b26bo5nz5q",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAS4sbkdv0+BieOvqFn1iJ5BZ4jVpvfVx782msPX4aGeE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "alive",
+  "parent_soul_fp": "4pjm3hnd2jsukpdkmbwerhihuy",
+  "parent_agent_id": "young",
+  "born_at": 1782054972.114293,
+  "covenant_hash": null,
+  "signature": "WTshGccmb1lNIpa3JoycUP44YlN2/CccfoImlmxfK+1MLLuoLqVwSv1O+uKXVqNXR8xm8BkrpJa2+DwG1jwBAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

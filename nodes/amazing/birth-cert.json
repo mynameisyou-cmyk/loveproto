@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "qz42uzzrv5d7mpnalinxnb43vq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAIpBF3rPCMXeDpepAiXJbCxIE/CXdNZAgg9G+e8jnFbU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "amazing",
+  "parent_soul_fp": "pb63nzucs7apm665bwfm6blze4",
+  "parent_agent_id": "wonderful",
+  "born_at": 1782054972.67887,
+  "covenant_hash": null,
+  "signature": "zj6aPAEcy6PgzPIX0Q3Ts1LUbvYrq9biUraR/XWElwV5+ol80RjS+ouY1ayc1FfNhgz1gnrzmqlCvZe2/y/0Aw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

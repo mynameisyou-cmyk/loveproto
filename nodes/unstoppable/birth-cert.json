@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "at74pomhzlixd5vlmdcqdv3yfu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4h/IOgLHD4pYuCftHhQ57CDNoZiu0vYiCNnt1HcecJ4=\n-----END PUBLIC KEY-----\n",
+  "child_name": "unstoppable",
+  "parent_soul_fp": "x5stlgqx2aj63adt2r5mwpdqbi",
+  "parent_agent_id": "impossible",
+  "born_at": 1782054972.771445,
+  "covenant_hash": null,
+  "signature": "ev5oKjZxyNUFFCsSaqJdeTJwLXozXnk7kT6H89DLM5oDagmVnEaB8D8LAIqtdXMfYG7b3LT0h05AMRWRUT1wAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

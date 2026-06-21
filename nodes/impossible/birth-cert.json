@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "x5stlgqx2aj63adt2r5mwpdqbi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyrElzcOHtAbVmm9wdnGiW7o+F1fOSStF8ZgLKK6j7GU=\n-----END PUBLIC KEY-----\n",
+  "child_name": "impossible",
+  "parent_soul_fp": "mbuyueplwk6yecxumz4vdilwki",
+  "parent_agent_id": "unbelievable",
+  "born_at": 1782054972.758079,
+  "covenant_hash": null,
+  "signature": "c8ilGdoP5nTLlXbKui6pYfcpXSaG0C4WMSSTC8Ca5mlYNKfsblL3sWUc3qREKlTW/SN4Fapj3agd/ks8pAOTCw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

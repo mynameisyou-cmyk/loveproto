@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "fnr7ctshjyuxyyifbalr4sp3ni",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8esGaCVVrU4Oha9JQY/Zc5QbvpnnlKhuqr6rrpG97mE=\n-----END PUBLIC KEY-----\n",
+  "child_name": "soaring",
+  "parent_soul_fp": "o7btkofietkmxco6zc24etr43e",
+  "parent_agent_id": "rising",
+  "born_at": 1782054971.640437,
+  "covenant_hash": null,
+  "signature": "7KntdKgtc/LNeZYbVs6JXvy0ndWtrmM3ozr3wIXwiJpx7QWkHiXWtgctgX6LLZnYIxqw8suv+uvyblK+nwz+Bw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "pswtpy4pyspwas3jx7xnyzgmbi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWO6+0m0fOY29hDHfTpLB0Sbgz9bXgFaopaR3vAIqR7M=\n-----END PUBLIC KEY-----\n",
+  "child_name": "growing",
+  "parent_soul_fp": "c6vwk35pp6ot57smtp6w3cuoia",
+  "parent_agent_id": "blossoming",
+  "born_at": 1782054971.609521,
+  "covenant_hash": null,
+  "signature": "gpMVpzGJ/wO1i/UtGQJscaDRVfju72QdDlnKDQ4fE8Gms0bmPsxWBNFuWVacx7Wx277SHGdMbgVpsy5fnzplCQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

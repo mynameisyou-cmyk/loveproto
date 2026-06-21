@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "cpvetqb2is6ssp744po4qsahqi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAvnulkP/VnvFTRSOP1IlUwcIs/+plfvy5bscphUJjjwo=\n-----END PUBLIC KEY-----\n",
+  "child_name": "easy",
+  "parent_soul_fp": "db6mpsh4gg3h4zzrdz5if4p7ra",
+  "parent_agent_id": "restful",
+  "born_at": 1782054971.914228,
+  "covenant_hash": null,
+  "signature": "utc90bdhOignHz0unK1w2NbyXb5LBZeruyu8Q9i9HoV9atjQoCU6PhGBYl8LmZBaGVpCO8sPnvRVCgvUrYF6Ag==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

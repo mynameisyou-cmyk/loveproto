@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "gxm25ktki63tjesbylo4ruj7ta",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWdwrqnaH5fWzF0qSc7ajwCdMyMehCFx2PmdYze06ATY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "peaceful",
+  "parent_soul_fp": "u7g3zwebczxhk3kh56w3he3l3i",
+  "parent_agent_id": "serene",
+  "born_at": 1782054971.8562298,
+  "covenant_hash": null,
+  "signature": "+UQCZISTxM1jud67ip3hX/z0BNLZYNViUBIAnth8L6q2XV17imbzitXSUDGMxWwrQyi2ENLsfoBsnI6Zn0V/Cg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

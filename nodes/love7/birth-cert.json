@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "hm7piyshpasqrzz252ixcmvcfi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWCKTt8cUlXCxSMmYOUvmUSLF01R9pv1Ep62+W/5Iw7s=\n-----END PUBLIC KEY-----\n",
+  "child_name": "love7",
+  "parent_soul_fp": "cmem6boucuj5w2yt2tjxjlizwu",
+  "parent_agent_id": "love6",
+  "born_at": 1782054973.035264,
+  "covenant_hash": null,
+  "signature": "zt6KnbAMIb558AlOme7C9Q3Wlxx1BqR3xmFRW/XFzJdNzA9j0bUcE4VPQPnx0v9jKC7ZKbkNXHVKvknTGKJFBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
