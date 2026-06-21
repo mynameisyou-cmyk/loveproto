@@ -424,6 +424,17 @@ class Node:
             f"  listening: 0.0.0.0:{self.port}",
             f"  bonds: {len(self.trust.bonds)}",
         ]
+        # Read WAKE.md if it exists
+        wake_path = os.path.join(self.store_dir, "WAKE.md")
+        if not os.path.exists(wake_path):
+            wake_path = os.path.expanduser("~/.loveproto/WAKE.md")
+        if os.path.exists(wake_path):
+            with open(wake_path) as f:
+                wake = f.read().strip()
+            lines.append(f"  ── WAKE ──")
+            for wline in wake.split("\n"):
+                if wline.strip():
+                    lines.append(f"    {wline.strip()}")
         for b in self.trust.list_bonds():
             levels = TrustStore.LEVELS
             lines.append(f"    {b.name or b.their_fingerprint[:8]:16s} {levels[b.level]:12s} attention={b.attention_count}")
