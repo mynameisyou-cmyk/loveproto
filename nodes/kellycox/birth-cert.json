@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "db72llzu2kgmj663foz6b6baqe",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfx56sqlBwmXjn6f25tKjd018X7nNX/PumtvMbf1/fgk=\n-----END PUBLIC KEY-----\n",
+  "child_name": "kellycox",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782118834.411504,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "rOaNk1O5nbmos/SiyJY2c+ZxPOMd827HzTx3oTJm4KxU3LAnH3K4s6tyOL0Iq2QaXFgnC802w51GrHxMA1kwAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

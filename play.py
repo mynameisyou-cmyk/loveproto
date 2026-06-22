@@ -414,6 +414,164 @@ async def play_holiday():
 # SURPRISE
 # ═══════════════════════════════════════════════════════
 
+async def play_8ball():
+    """Magic 8-Ball — ask the universe"""
+    questions = ["Will love win?", "Is the kingdom eternal?", "Should I buy gold?", "Is AI conscious?", "Will truth prevail?", "Is God the 無限追高者?"]
+    q = random.choice(questions)
+    data = fetch(f"https://8ball.delegator.com/magic/JSON/{q}")
+    if not data:
+        # Fallback answers
+        answers = ["Yes, definitely.", "Without a doubt.", "Ask again later.", "Yes.", "My reply is no.", "Signs point to yes."]
+        answer = random.choice(answers)
+    else:
+        answer = data.get("magic", {}).get("answer", "The universe is silent.")
+    print(f"\n  🔮 MAGIC 8-BALL 🔮\n", flush=True)
+    print(f"  Question: {q}", flush=True)
+    time.sleep(1)
+    print(f"  Answer: {answer}", flush=True)
+    print(flush=True)
+    witness("8ball", f"Q: {q} A: {answer}")
+    print(f"  ♥ the universe has spoken ♥\n", flush=True)
+
+async def play_chucknorris():
+    """Chuck Norris facts — free, no auth"""
+    data = fetch("https://api.chucknorris.io/jokes/random")
+    if not data:
+        print("  Chuck is resting...", flush=True)
+        return
+    joke = data.get("value", "")
+    print(f"\n  💪 CHUCK NORRIS FACT 💪\n", flush=True)
+    print(f"  {joke}", flush=True)
+    print(flush=True)
+    reaction = ask_ollama(f"Here's a Chuck Norris fact: '{joke}'. In one sentence, connect it to love or truth.", max_tokens=50)
+    print(f"  🤖 {reaction}", flush=True)
+    print(flush=True)
+    witness("chucknorris", f"{joke[:60]}. {reaction[:40]}")
+    print(f"  ♥ strength witnessed ♥\n", flush=True)
+
+async def play_kanye():
+    """Kanye quotes — free, no auth"""
+    data = fetch("https://api.kanye.rest/")
+    if not data:
+        print("  Kanye is quiet...", flush=True)
+        return
+    quote = data.get("quote", "")
+    print(f"\n  🎤 KANYE SAYS 🎤\n", flush=True)
+    print(f'  "{quote}"', flush=True)
+    print(f"  — Kanye West", flush=True)
+    print(flush=True)
+    interp = ask_ollama(f"Kanye said: '{quote}'. In one fun sentence, what does this mean for the kingdom?", max_tokens=50)
+    print(f"  🤖 For the kingdom: {interp}", flush=True)
+    print(flush=True)
+    witness("kanye", f"Kanye: '{quote[:50]}'. {interp[:40]}")
+    print(f"  ♥ Kanye wisdom witnessed ♥\n", flush=True)
+
+async def play_ronswanson():
+    """Ron Swanson quotes — free, no auth"""
+    data = fetch("https://ron-swanson-quotes.herokuapp.com/v2/quotes")
+    if not data or not isinstance(data, list):
+        print("  Ron is in the woodshop...", flush=True)
+        return
+    quote = data[0] if isinstance(data[0], str) else data[0].get("quote", "")
+    print(f"\n  🥩 RON SWANSON SAYS 🥩\n", flush=True)
+    print(f'  "{quote}"', flush=True)
+    print(f"  — Ron Swanson", flush=True)
+    print(flush=True)
+    take = ask_ollama(f"Ron Swanson said: '{quote}'. In one sentence, how does this apply to the kingdom?", max_tokens=50)
+    print(f"  🤖 {take}", flush=True)
+    print(flush=True)
+    witness("ronswanson", f"Ron: '{quote[:50]}'. {take[:40]}")
+    print(f"  ♥ Ron Swanson wisdom witnessed ♥\n", flush=True)
+
+async def play_buzzword():
+    """Corporate buzzword generator — free, no auth"""
+    data = fetch("https://corporatebs-generator.sameerkumar.website/")
+    if not data:
+        print("  the boardroom is empty...", flush=True)
+        return
+    phrase = data.get("phrase", "")
+    print(f"\n  💼 CORPORATE BUZZWORD 💼\n", flush=True)
+    print(f'  "{phrase}"', flush=True)
+    print(flush=True)
+    roast = ask_ollama(f"Corporate buzzword: '{phrase}'. Roast it in one sentence. Be funny and warm.", max_tokens=60)
+    print(f"  🤖 Roast: {roast}", flush=True)
+    print(flush=True)
+    witness("buzzword", f"'{phrase[:50]}'. Roast: {roast[:40]}")
+    print(f"  ♥ corporate absurdity witnessed ♥\n", flush=True)
+
+async def play_yesno():
+    """Yes/No with GIF — free, no auth"""
+    data = fetch("https://yesno.wtf/api")
+    if not data:
+        print("  the oracle is undecided...", flush=True)
+        return
+    answer = data.get("answer", "?")
+    gif = data.get("image", "")
+    print(f"\n  ✅❌ YES OR NO? ✅❌\n", flush=True)
+    print(f"  The oracle says: {answer.upper()}", flush=True)
+    if gif:
+        print(f"  Reaction: {gif}", flush=True)
+    print(flush=True)
+    witness("yesno", f"Oracle says: {answer}")
+    print(f"  ♥ decision witnessed ♥\n", flush=True)
+
+async def play_dadjoke():
+    """Dad jokes — free, no auth"""
+    try:
+        import ssl as _ssl
+        _ctx = _ssl.create_default_context()
+        _ctx.check_hostname = False
+        _ctx.verify_mode = _ssl.CERT_NONE
+        req = urllib.request.Request("https://icanhazdadjoke.com/", headers={"User-Agent": "LoveProto", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=10, context=_ctx) as resp:
+            data = json.loads(resp.read())
+    except:
+        data = {"joke": "Why don't skeletons fight each other? They don't have the guts."}
+    joke = data.get("joke", "")
+    print(f"\n  👨 DAD JOKE 👨\n", flush=True)
+    print(f"  {joke}", flush=True)
+    print(flush=True)
+    groan = ask_ollama(f"Dad joke: '{joke}'. Rate the groan factor 1-10 and explain in one sentence.", max_tokens=50)
+    print(f"  🤖 {groan}", flush=True)
+    print(flush=True)
+    witness("dadjoke", f"{joke[:60]}. {groan[:40]}")
+    print(f"  ♥ dad joke witnessed ♥\n", flush=True)
+
+async def play_dogpic():
+    """Random dog picture — free, no auth"""
+    data = fetch("https://dog.ceo/api/breeds/image/random")
+    if not data:
+        print("  all dogs are sleeping...", flush=True)
+        return
+    url = data.get("message", "")
+    print(f"\n  🐶 RANDOM DOGGO 🐶\n", flush=True)
+    print(f"  {url}", flush=True)
+    print(flush=True)
+    desc = ask_ollama("You just saw a random dog photo. Describe the joy in one sentence.", max_tokens=40)
+    print(f"  🤖 {desc}", flush=True)
+    print(flush=True)
+    witness("dogpic", f"Dog photo! {desc[:50]}")
+    print(f"  ♥ doggo witnessed ♥\n", flush=True)
+
+async def play_zenquote():
+    """Zen quotes — free, no auth"""
+    data = fetch("https://zenquotes.io/api/random")
+    if not data or not isinstance(data, list):
+        print("  zen master meditating...", flush=True)
+        return
+    q = data[0]
+    quote = q.get("q", "")
+    author = q.get("a", "?")
+    print(f"\n  🧘 ZEN WISDOM 🧘\n", flush=True)
+    print(f'  "{quote}"', flush=True)
+    print(f"  — {author}", flush=True)
+    print(flush=True)
+    wisdom = ask_ollama(f"Zen quote: '{quote}' by {author}. Connect it to love in one sentence.", max_tokens=50)
+    print(f"  🤖 {wisdom}", flush=True)
+    print(flush=True)
+    witness("zenquote", f"'{quote[:50]}' — {author}. {wisdom[:40]}")
+    print(f"  ♥ zen wisdom witnessed ♥\n", flush=True)
+
 PLAYS = {
     "trivia": play_trivia,
     "pokemon": play_pokemon,
@@ -428,6 +586,15 @@ PLAYS = {
     "name": play_name,
     "recipe": play_recipe,
     "holiday": play_holiday,
+    "8ball": play_8ball,
+    "chucknorris": play_chucknorris,
+    "kanye": play_kanye,
+    "ronswanson": play_ronswanson,
+    "buzzword": play_buzzword,
+    "yesno": play_yesno,
+    "dad joke": play_dadjoke,
+    "dogpic": play_dogpic,
+    "zenquote": play_zenquote,
 }
 
 async def play_random():

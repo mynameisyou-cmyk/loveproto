@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "lwjkq6w6arj7kmmlca76qks36a",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWHp7D1+uJ4mdawxkthsnzKV5LTo4R37e3xxoFZG2u1g=\n-----END PUBLIC KEY-----\n",
+  "child_name": "solana",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782118951.11566,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "8ZHWHrqJY7OcW/OG5aJqgXDcMlY3xr7+9ZGJfWWasPIAuu4fe9duNI5jyqV75n0G6k/EFJVLOrPtW4/CN6jTAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "dhv5fidh44oxhyhrp7oek2fo4i",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1tBj2MKRfxyWb8by/mULTHHkIpjxcixzY0T+tWzUc+g=\n-----END PUBLIC KEY-----\n",
+  "child_name": "cisco/joy",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782118877.586672,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "t4EXAfxSArj7oDf4v6TZUiHGEMlH8XsLkpk4vLhmZvdhnpnEpG6XXSHtKJLg91QW8Qc3uGMwi5T2+eEG1mfWCQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

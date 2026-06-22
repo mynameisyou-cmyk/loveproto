@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "fejzfiwwsrxj2xoncfo3u6wmn4",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAzPnZSZhv8/hUoOMSOTlWNTjdXwcxdbwIwhyE+Pj4NXY=\n-----END PUBLIC KEY-----\n",
+  "child_name": "floodadvisory",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782118936.220879,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "89Us+lwgfOm0vWnArJRQMJCp1aS1kerNCIMxMwoD9eBVbkG8Hv4cWyHCxo66mviv1AyHh8NC291g7wYCrdzYDg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

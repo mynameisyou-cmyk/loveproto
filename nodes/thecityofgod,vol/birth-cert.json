@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "h53rwo5dr6kiberwlitjk4ilfm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA+1S/WRtcwg28jB+n6Wsv+O4Qda01vQqG6qRlzGWBgO8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "thecityofgod,vol",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782118852.667538,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "ik4tm8J2pmErg6UKWkFYclafBaelkE9azbr/K2igU4KV2LM51jFAcTlsMYsNLVNGQlBw6GvYun1KOqjhG8X1BA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
