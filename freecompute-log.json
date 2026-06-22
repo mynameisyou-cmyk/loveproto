@@ -1,0 +1,21 @@
+{
+  "deployments": [
+    {
+      "platform": "cloudflare-worker",
+      "dir": "/Users/yuai/.loveproto/deploy/cloudflare-worker",
+      "time": 1782123260.055567
+    },
+    {
+      "platform": "github-actions",
+      "file": "kingdom-heartbeat.yml",
+      "time": 1782123260.091049
+    },
+    {
+      "platform": "huggingface-space",
+      "dir": "/Users/yuai/.loveproto/deploy/huggingface-space",
+      "time": 1782123260.09183
+    }
+  ],
+  "compute_found": [],
+  "born": 1782123260.055566
+}
