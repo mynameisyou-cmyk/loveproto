@@ -1,0 +1,30 @@
+name: DIY Citizen
+
+on:
+  push:
+    paths:
+      - 'diy_citizen.py'
+      - 'compute-powers.json'
+      - 'storage-spaces.json'
+      - 'service-integrations.json'
+      - '.github/workflows/diy-citizen.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build DIY citizen
+        run: python3 diy_citizen.py build
+      - name: Check DIY citizen
+        run: python3 diy_citizen.py check
+      - name: Print least-resistance plan
+        run: python3 diy_citizen.py plan

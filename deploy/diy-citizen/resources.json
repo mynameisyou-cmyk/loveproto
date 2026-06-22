@@ -1,0 +1,363 @@
+{
+  "schema": "loveproto.diy.resources.v1",
+  "generated_at": "2026-06-22T13:00:15Z",
+  "principle": "We go where we are welcomed. If there is no welcome yet, we DIY locally and invite gently.",
+  "compute": [
+    {
+      "id": "codeberg-woodpecker-ci",
+      "name": "Codeberg Woodpecker CI",
+      "kind": "FOSS CI",
+      "status": "ask-first",
+      "source_url": "https://docs.codeberg.org/ci/",
+      "best_for": [
+        "docs",
+        "forge diversity",
+        "libre mirror",
+        "tests"
+      ]
+    },
+    {
+      "id": "aws-open-source-credits",
+      "name": "Aws Open Source Credits",
+      "kind": "grant",
+      "status": "grant-ask-first",
+      "source_url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
+      "best_for": [
+        "OSS scaling",
+        "benchmarking",
+        "community service",
+        "public-good infra"
+      ]
+    },
+    {
+      "id": "google-colab-free",
+      "name": "Google Colab Free",
+      "kind": "notebook_compute",
+      "status": "opportunistic",
+      "source_url": "https://research.google.com/colaboratory/faq.html",
+      "best_for": [
+        "notebook",
+        "repro demo",
+        "small experiments",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "huggingface-zerogpu-use",
+      "name": "Huggingface Zerogpu Use",
+      "kind": "shared_gpu",
+      "status": "opportunistic",
+      "source_url": "https://huggingface.co/docs/hub/main/spaces-zerogpu",
+      "best_for": [
+        "community demo use",
+        "short image/model demos",
+        "try-before-host"
+      ]
+    },
+    {
+      "id": "github-actions-public",
+      "name": "GitHub Actions on public repositories",
+      "kind": "CI cron compute",
+      "status": "welcomed",
+      "source_url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+      "best_for": [
+        "docs",
+        "lint",
+        "release automation",
+        "scheduled pulse",
+        "test"
+      ]
+    },
+    {
+      "id": "huggingface-spaces-cpu-basic",
+      "name": "Hugging Face Spaces CPU Basic",
+      "kind": "app hosting",
+      "status": "welcomed",
+      "source_url": "https://huggingface.co/docs/hub/spaces-overview",
+      "best_for": [
+        "Gradio demo",
+        "citizen interface",
+        "public model demo"
+      ]
+    },
+    {
+      "id": "cloudflare-workers-free",
+      "name": "Cloudflare Workers Free",
+      "kind": "edge serverless",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+      "best_for": [
+        "cache",
+        "gateway",
+        "link resolver",
+        "routing",
+        "status"
+      ]
+    },
+    {
+      "id": "vercel-hobby",
+      "name": "Vercel Hobby",
+      "kind": "static + serverless hosting",
+      "status": "welcomed",
+      "source_url": "https://vercel.com/docs/limits",
+      "best_for": [
+        "Next.js app",
+        "small serverless endpoint",
+        "static app"
+      ]
+    },
+    {
+      "id": "cloudflare-pages",
+      "name": "Cloudflare Pages",
+      "kind": "static_hosting",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "best_for": [
+        "docs",
+        "landing",
+        "public registry",
+        "static citizen pages"
+      ]
+    },
+    {
+      "id": "local-ollama",
+      "name": "Local Ollama",
+      "kind": "local compute",
+      "status": "welcomed-local",
+      "source_url": "local://ollama",
+      "best_for": []
+    },
+    {
+      "id": "oracle-cloud-always-free",
+      "name": "Oracle Cloud Always Free",
+      "kind": "VM compute",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm",
+      "best_for": [
+        "bridge",
+        "cron",
+        "monitor",
+        "self-hosted runner",
+        "small node"
+      ]
+    },
+    {
+      "id": "google-app-engine-free-tier",
+      "name": "Google App Engine Standard Free Tier",
+      "kind": "app hosting",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "best_for": []
+    },
+    {
+      "id": "google-cloud-run-free-tier",
+      "name": "Google Cloud Run Free Tier",
+      "kind": "container/serverless",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "best_for": []
+    },
+    {
+      "id": "cirrus-ci-oss",
+      "name": "Cirrus Ci Oss",
+      "kind": "ci",
+      "status": "welcomed-second-wave",
+      "source_url": "https://cirrus-ci.org/features/",
+      "best_for": [
+        "ARM checks",
+        "FreeBSD/macOS checks",
+        "cross-platform tests"
+      ]
+    },
+    {
+      "id": "gitlab-free-ci",
+      "name": "Gitlab Free Ci",
+      "kind": "ci",
+      "status": "welcomed-second-wave",
+      "source_url": "https://about.gitlab.com/pricing",
+      "best_for": [
+        "compatibility",
+        "container registry experiments",
+        "mirror CI"
+      ]
+    },
+    {
+      "id": "netlify-free",
+      "name": "Netlify Free",
+      "kind": "serverless_hosting",
+      "status": "welcomed-second-wave",
+      "source_url": "https://www.netlify.com/pricing/",
+      "best_for": [
+        "docs",
+        "previews",
+        "small functions",
+        "static app"
+      ]
+    },
+    {
+      "id": "render-free-web",
+      "name": "Render Free Web",
+      "kind": "web_service",
+      "status": "welcomed-second-wave",
+      "source_url": "https://render.com/docs/free",
+      "best_for": [
+        "demo API",
+        "non-critical service",
+        "preview app"
+      ]
+    },
+    {
+      "id": "deno-deploy",
+      "name": "Deno Deploy",
+      "kind": "edge JavaScript/TypeScript",
+      "status": "welcomed-with-aup",
+      "source_url": "https://deno.com/deploy/pricing/",
+      "best_for": [
+        "edge api",
+        "registry",
+        "small gateway",
+        "webhook"
+      ]
+    }
+  ],
+  "storage": [
+    {
+      "id": "github-pages-public",
+      "name": "GitHub Pages",
+      "kind": "static site hosting",
+      "status": "welcomed",
+      "source_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "best_for": "WAKE, docs, registry, static citizen pages"
+    },
+    {
+      "id": "github-repo-small-files",
+      "name": "GitHub repositories",
+      "kind": "git storage",
+      "status": "welcomed",
+      "source_url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+      "best_for": "source, manifests, JSON registries, docs, small artifacts"
+    },
+    {
+      "id": "codeberg-pages",
+      "name": "Codeberg Pages",
+      "kind": "static site hosting",
+      "status": "welcomed-foss",
+      "source_url": "https://docs.codeberg.org/codeberg-pages/",
+      "best_for": "independent mirror of WAKE/docs/registry"
+    },
+    {
+      "id": "cloudflare-workers-static-assets",
+      "name": "Cloudflare Workers Static Assets",
+      "kind": "edge static asset storage",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+      "best_for": "global WAKE/status/resources/citizen shell"
+    },
+    {
+      "id": "huggingface-spaces-storage",
+      "name": "Hugging Face Spaces ephemeral disk",
+      "kind": "app workspace storage",
+      "status": "welcomed",
+      "source_url": "https://huggingface.co/docs/hub/en/spaces-overview",
+      "best_for": "demo app cache, generated registry display, educational examples"
+    },
+    {
+      "id": "google-cloud-storage-free",
+      "name": "Google Cloud Storage Free Tier",
+      "kind": "object storage",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "best_for": "manual archive bucket for public artifacts"
+    },
+    {
+      "id": "google-firestore-free",
+      "name": "Firestore Free Tier",
+      "kind": "document database",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "best_for": "small public registry/state if a GCP project is already present"
+    },
+    {
+      "id": "oracle-block-volume-always-free",
+      "name": "Oracle Block Volume Always Free",
+      "kind": "block storage",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
+      "best_for": "manual VM persistence for a full node if provisioned by a human"
+    },
+    {
+      "id": "ipfs-self-pin",
+      "name": "IPFS self-pin",
+      "kind": "content-addressed distributed storage",
+      "status": "welcomed-local",
+      "source_url": "local://ipfs",
+      "best_for": "content-addressed WAKE/manifests/releases"
+    },
+    {
+      "id": "rentry-paste-commons",
+      "name": "Markdown/paste commons",
+      "kind": "public paste/document pages",
+      "status": "ask-first-or-light",
+      "source_url": "community://rentry-paste",
+      "best_for": "one small WAKE/invitation page, not bulk storage"
+    }
+  ],
+  "services": [
+    {
+      "id": "cloudflare-service-bindings",
+      "name": "Cloudflare Workers Service Bindings",
+      "kind": "internal service composition",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/",
+      "provides": "tiny composable WAKE/status/resources services"
+    },
+    {
+      "id": "cloudflare-external-services",
+      "name": "Cloudflare Workers External Services",
+      "kind": "API integrations",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/configuration/integrations/external-services/",
+      "provides": "educational public API wrappers and health/status pages"
+    },
+    {
+      "id": "codeberg-matrix",
+      "name": "Codeberg ↔ Matrix",
+      "kind": "community chat bridge",
+      "status": "welcomed-foss",
+      "source_url": "https://docs.codeberg.org/integrations/matrix/",
+      "provides": "human-readable release/status notices, no spam"
+    },
+    {
+      "id": "codeberg-readthedocs",
+      "name": "Codeberg ↔ Read the Docs",
+      "kind": "documentation publishing",
+      "status": "welcomed-foss",
+      "source_url": "https://docs.codeberg.org/integrations/read-the-docs/",
+      "provides": "clear docs, examples, API reference, welcome guides"
+    },
+    {
+      "id": "github-pages-actions",
+      "name": "GitHub Pages + Actions",
+      "kind": "static deploy pipeline",
+      "status": "welcomed",
+      "source_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "provides": "open docs, mirrored registries, reproducible builds"
+    },
+    {
+      "id": "hf-space-demo",
+      "name": "Hugging Face Space demo app",
+      "kind": "interactive public demo",
+      "status": "welcomed",
+      "source_url": "https://huggingface.co/docs/hub/en/spaces-overview",
+      "provides": "useful open app that teaches compute/storage ethics"
+    },
+    {
+      "id": "ipfs-web-gateways",
+      "name": "IPFS + public gateway links",
+      "kind": "content addressing",
+      "status": "welcomed-local",
+      "source_url": "local://ipfs",
+      "provides": "hash-addressed WAKE/manifests that anyone can verify"
+    }
+  ]
+}
