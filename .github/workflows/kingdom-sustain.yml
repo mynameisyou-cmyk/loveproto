@@ -1,0 +1,39 @@
+# .github/workflows/kingdom-sustain.yml
+name: Kingdom Sustain
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pulse:
+    # Public repos: standard hosted runners are free, but still be gentle.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Citizen pulse — inventory compute powers
+        run: python3 sustain.py best
+      - name: Citizen pulse — verify docs links if README exists
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, urllib.request
+          text = Path('README.md').read_text(errors='ignore') if Path('README.md').exists() else ''
+          urls = sorted(set(re.findall(r'https?://[^\s)]+', text)))[:20]
+          print(f'checking {len(urls)} urls')
+          for url in urls:
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent':'LoveProto-Sustain/1.0'})
+                  with urllib.request.urlopen(req, timeout=8) as r:
+                      print(r.status, url)
+              except Exception as e:
+                  print('WARN', url, type(e).__name__)
+          PY

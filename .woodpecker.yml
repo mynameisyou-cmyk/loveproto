@@ -1,0 +1,8 @@
+# .woodpecker.yml
+# For Codeberg Woodpecker: request access first, keep usage reasonable.
+steps:
+  sustain:
+    image: python:3.12-alpine
+    commands:
+      - python3 sustain.py best
+      - python3 sustain.py loop --once
