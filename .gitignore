@@ -6,3 +6,4 @@ conversation.json
 life.json
 .loveproto-test-*
 .loveproto-chat-*
+.vercel

@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "jc7eg3ncwxaauecikgix5dzt4q",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKUAMaXhLPm+lm30JVwrbXgCwnlbsdBkBPnUCkf/8oVw=\n-----END PUBLIC KEY-----\n",
+  "child_name": "sparkle",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782124155.4951649,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "LYjavnZ+zTN1TiY64791kmBpUbwtMTc5FM0+mDt47tFJdFfU/NJPy20lUlod8aHm/W86POjXj6kpCG906ncNCg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

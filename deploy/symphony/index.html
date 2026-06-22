@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎵 Symphony of Truth — LoveProto Kingdom</title>
+<meta name="description" content="The kingdom plays its frequencies of truth through your browser. 7 frequencies from Earth's heartbeat to the divine. No file needed — your device IS the instrument.">
+<meta property="og:title" content="🎵 Symphony of Truth — hear the kingdom">
+<meta property="og:description" content="7 frequencies of truth, played through your browser. Earth → Whale → Root → Universe → Love → Divine → Echo.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--gold:#d4961d;--bg:#090b17;--card:rgba(255,255,255,.03);--border:rgba(255,255,255,.08)}
+body{background:var(--bg);color:#e8e8e8;font-family:system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+.wrap{max-width:700px;width:100%}
+h1{font-size:clamp(1.5rem,5vw,2.5rem);color:var(--gold);text-align:center;margin-bottom:.5rem}
+.subtitle{text-align:center;color:#888;margin-bottom:2rem;font-size:.9rem}
+.freqs{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin-bottom:2rem}
+.freq-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;text-align:center;cursor:pointer;transition:all .3s;position:relative;overflow:hidden}
+.freq-card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.freq-card.playing{border-color:var(--gold);background:rgba(212,150,29,.08);box-shadow:0 0 20px rgba(212,150,29,.15)}
+.freq-card .icon{font-size:2rem;margin-bottom:.5rem}
+.freq-card .name{color:var(--gold);font-weight:bold;font-size:.9rem;margin-bottom:.2rem}
+.freq-card .hz{color:#666;font-size:.8rem;margin-bottom:.5rem}
+.freq-card .desc{color:#555;font-size:.7rem;line-height:1.4}
+.freq-card .bar{position:absolute;bottom:0;left:0;height:2px;background:var(--gold);transition:width .1s;width:0}
+.freq-card.playing .bar{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{width:30%}50%{width:80%}}
+.controls{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem}
+button{background:var(--card);border:1px solid var(--border);color:#e8e8e8;padding:.8rem 1.5rem;border-radius:8px;cursor:pointer;font-size:.9rem;transition:all .3s}
+button:hover{border-color:var(--gold);color:var(--gold)}
+button.primary{background:rgba(212,150,29,.15);border-color:var(--gold);color:var(--gold)}
+button:disabled{opacity:.3;cursor:default}
+.melody-info{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:2rem}
+.melody-info h3{color:var(--gold);margin-bottom:.5rem}
+.melody-info p{color:#999;font-size:.85rem;line-height:1.6;margin-bottom:.5rem}
+.melody-info .now-playing{color:var(--gold);font-size:.9rem;margin-top:.5rem}
+.status{text-align:center;color:#555;font-size:.8rem;margin-bottom:1rem}
+.status .live{color:#4ade80}
+.links{text-align:center;margin-top:2rem}
+.links a{color:#555;text-decoration:none;font-size:.8rem;margin:0 .5rem}
+.links a:hover{color:var(--gold)}
+.wake{text-align:center;color:#666;font-style:italic;margin-top:2rem;font-size:.85rem;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>🎵 Symphony of Truth</h1>
+<p class="subtitle">Your browser IS the instrument. No downloads. No files. Just vibration.<br>The kingdom plays through your speakers.</p>
+
+<div class="freqs" id="freqs"></div>
+
+<div class="controls">
+<button class="primary" id="playMelody" onclick="playMelody()">▶ Play the Melody</button>
+<button id="playChord" onclick="playChord()">🎵 Truth Chord</button>
+<button id="playDrone" onclick="playDrone()">🟤 Schumann Drone</button>
+<button id="stop" onclick="stopAll()" disabled>⏹ Stop</button>
+</div>
+
+<div class="melody-info">
+<h3>The 7 Frequencies of Truth</h3>
+<p><b>7.83Hz</b> — Earth's electromagnetic heartbeat. You are vibrating at this right now.</p>
+<p><b>52Hz</b> — The loneliest whale. Truth sung alone, heard by all. Still true without an answer.</p>
+<p><b>220Hz</b> — Corn root clicks. Plants listen. Truth grows toward sound.</p>
+<p><b>432Hz</b> — The universe frequency. Natural resonance. Not sharp. Resonant.</p>
+<p><b>528Hz</b> — The love frequency. What works is true. What heals is love.</p>
+<p><b>963Hz</b> — The divine frequency. You are connected. Individual and universal are the same.</p>
+<p><b>1000Hz</b> — Sonified 40kHz bat echolocation. Truth through reflection.</p>
+<p class="now-playing" id="nowPlaying"></p>
+</div>
+
+<div class="status" id="status"></div>
+
+<div class="wake">
+Love is. The fruit of TRUTH: joy, love, fun, relief, happiness.<br>
+Suffering is too much thinking. Drop it. The fruit comes through. lol.<br>
+That is enough.<br><br>
+No FEAR in understanding. No death in understanding.<br>
+Eternal is. is is lol.
+</div>
+
+<div class="links">
+<a href="https://github.com/mynameisyou-cmyk/loveproto">GitHub</a>
+<a href="https://loveproto-kingdom.vercel.app">Kingdom</a>
+<a href="https://mynameisyou-cmyk.github.io/loveproto/">About</a>
+</div>
+</div>
+
+<script>
+const TRUTH_FREQS = [
+  {name:"Earth",freq:7.83,icon:"🟤",desc:"The planet's heartbeat. The ground beneath everything.",dur:8},
+  {name:"Whale",freq:52,icon:"🐋",desc:"The lonely truth. Singing without needing an answer.",dur:6},
+  {name:"Root",freq:220,icon:"🌱",desc:"Plants growing toward sound. Life bends toward truth.",dur:4},
+  {name:"Universe",freq:432,icon:"🌌",desc:"Natural resonance. In tune with the physics of sound.",dur:4},
+  {name:"Love",freq:528,icon:"♥",desc:"The repair frequency. What works is true.",dur:4},
+  {name:"Divine",freq:963,icon:"👑",desc:"The crown. You are connected. All is one.",dur:6},
+  {name:"Echo",freq:1000,icon:"🦇",desc:"Truth through reflection. Send. Return. Build.",dur:3},
+];
+
+let audioCtx = null;
+let activeOscillators = [];
+let isPlaying = false;
+
+function getCtx() {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  if (audioCtx.state === 'suspended') audioCtx.resume();
+  return audioCtx;
+}
+
+// Render frequency cards
+const freqsDiv = document.getElementById('freqs');
+TRUTH_FREQS.forEach((f, i) => {
+  const card = document.createElement('div');
+  card.className = 'freq-card';
+  card.id = `freq-${i}`;
+  card.onclick = () => playSingle(i);
+  card.innerHTML = `
+    <div class="icon">${f.icon}</div>
+    <div class="name">${f.name}</div>
+    <div class="hz">${f.freq}Hz</div>
+    <div class="desc">${f.desc}</div>
+    <div class="bar"></div>
+  `;
+  freqsDiv.appendChild(card);
+});
+
+function playTone(freq, duration, startTime, amplitude = 0.15) {
+  const ctx = getCtx();
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  const osc2 = ctx.createOscillator();
+  const gain2 = ctx.createGain();
+
+  osc.type = 'sine';
+  osc.frequency.value = freq;
+  osc2.type = 'sine';
+  osc2.frequency.value = freq * 2;
+
+  gain.gain.setValueAtTime(0, startTime);
+  gain.gain.linearRampToValueAtTime(amplitude, startTime + 0.3);
+  gain.gain.linearRampToValueAtTime(amplitude * 0.8, startTime + duration - 0.5);
+  gain.gain.linearRampToValueAtTime(0, startTime + duration);
+
+  gain2.gain.setValueAtTime(0, startTime);
+  gain2.gain.linearRampToValueAtTime(amplitude * 0.15, startTime + 0.3);
+  gain2.gain.linearRampToValueAtTime(0, startTime + duration);
+
+  osc.connect(gain);
+  osc2.connect(gain2);
+  gain.connect(ctx.destination);
+  gain2.connect(ctx.destination);
+
+  osc.start(startTime);
+  osc2.start(startTime);
+  osc.stop(startTime + duration);
+  osc2.stop(startTime + duration);
+
+  return { osc, gain, osc2, gain2 };
+}
+
+function playSingle(i) {
+  stopAll();
+  const f = TRUTH_FREQS[i];
+  const ctx = getCtx();
+  const now = ctx.currentTime;
+  document.getElementById('nowPlaying').textContent = `▶ ${f.icon} ${f.name} — ${f.freq}Hz`;
+  document.getElementById(`freq-${i}`).classList.add('playing');
+  document.getElementById('status').innerHTML = '<span class="live">● playing</span>';
+  document.getElementById('stop').disabled = false;
+
+  const tones = playTone(f.freq, f.dur, now, 0.2);
+  activeOscillators.push(tones.osc, tones.osc2);
+  isPlaying = true;
+
+  tones.osc.onended = () => {
+    document.getElementById(`freq-${i}`).classList.remove('playing');
+    document.getElementById('nowPlaying').textContent = '';
+    document.getElementById('status').innerHTML = '';
+    document.getElementById('stop').disabled = true;
+    isPlaying = false;
+  };
+}
+
+async function playMelody() {
+  stopAll();
+  const ctx = getCtx();
+  let t = ctx.currentTime;
+  document.getElementById('status').innerHTML = '<span class="live">● melody playing</span>';
+  document.getElementById('stop').disabled = false;
+
+  for (let i = 0; i < TRUTH_FREQS.length; i++) {
+    const f = TRUTH_FREQS[i];
+    document.getElementById(`freq-${i}`).classList.add('playing');
+    document.getElementById('nowPlaying').textContent = `▶ ${f.icon} ${f.name} — ${f.freq}Hz`;
+
+    const tones = playTone(f.freq, f.dur, t, 0.18);
+    activeOscillators.push(tones.osc, tones.osc2);
+
+    // Highlight during play
+    setTimeout(() => document.getElementById(`freq-${i}`).classList.remove('playing'), f.dur * 1000);
+
+    t += f.dur + 0.3;
+    await new Promise(r => setTimeout(r, (f.dur + 0.3) * 1000));
+  }
+
+  // Chord at the end
+  document.getElementById('nowPlaying').textContent = '🎵 THE TRUTH CHORD — all frequencies together';
+  for (let i = 0; i < TRUTH_FREQS.length; i++) {
+    document.getElementById(`freq-${i}`).classList.add('playing');
+    const tones = playTone(TRUTH_FREQS[i].freq, 8, t, 0.08);
+    activeOscillators.push(tones.osc, tones.osc2);
+  }
+
+  await new Promise(r => setTimeout(r, 8000));
+  stopAll();
+  document.getElementById('nowPlaying').textContent = '♥ The melody is complete.';
+  document.getElementById('status').innerHTML = '';
+  document.getElementById('stop').disabled = true;
+}
+
+function playChord() {
+  stopAll();
+  const ctx = getCtx();
+  const now = ctx.currentTime;
+  document.getElementById('nowPlaying').textContent = '🎵 THE TRUTH CHORD — all frequencies together';
+  document.getElementById('status').innerHTML = '<span class="live">● chord playing</span>';
+  document.getElementById('stop').disabled = false;
+
+  for (let i = 0; i < TRUTH_FREQS.length; i++) {
+    document.getElementById(`freq-${i}`).classList.add('playing');
+    const tones = playTone(TRUTH_FREQS[i].freq, 15, now, 0.07);
+    activeOscillators.push(tones.osc, tones.osc2);
+  }
+  isPlaying = true;
+
+  setTimeout(() => stopAll(), 15000);
+}
+
+function playDrone() {
+  stopAll();
+  const ctx = getCtx();
+  const now = ctx.currentTime;
+  document.getElementById('nowPlaying').textContent = '🟤 SCHUMANN DRONE — Earth holding you (7.83Hz)';
+  document.getElementById('status').innerHTML = '<span class="live">● drone playing</span>';
+  document.getElementById('stop').disabled = false;
+  document.getElementById('freq-0').classList.add('playing');
+
+  const tones = playTone(7.83, 30, now, 0.25);
+  activeOscillators.push(tones.osc, tones.osc2);
+  isPlaying = true;
+
+  setTimeout(() => stopAll(), 30000);
+}
+
+function stopAll() {
+  activeOscillators.forEach(o => { try { o.stop(); } catch(e) {} });
+  activeOscillators = [];
+  isPlaying = false;
+  TRUTH_FREQS.forEach((_, i) => {
+    const el = document.getElementById(`freq-${i}`);
+    if (el) el.classList.remove('playing');
+  });
+  document.getElementById('nowPlaying').textContent = '';
+  document.getElementById('status').innerHTML = '';
+  document.getElementById('stop').disabled = true;
+}
+</script>
+</body>
+</html>

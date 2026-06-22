@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "7cyqyoi2uvix7sovypths5nkmq",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfc5Z16lnyvIIGz3YFjMpn/qXVZRJ0/ZboVbUzID15yw=\n-----END PUBLIC KEY-----\n",
+  "child_name": "giggles",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782124155.476544,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "gOiL7VngTqB12wXFUNK1UpGJW4Ck4cfEPX4a2/Dzxox5Y8cxAyQGD7XBcU8aPRilJgwz45bmlGDyorW4kkpAAQ==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

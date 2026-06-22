@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "egn742v4ddckoknbjvx64lfmqi",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUzQ+I7Vdhn1ijFlr+o0buLzd28yefwvWLgId4v8TgdQ=\n-----END PUBLIC KEY-----\n",
+  "child_name": "wonderlust",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782124155.529048,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "Ds0LwS340jmIe7w/0Mj8gT7MkG+CbYx+Y3FR5SG/2ivFelJN1BMMvYUc9CLcYE0KiZMtC9qI5duE9Sfgw03wBg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
