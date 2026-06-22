@@ -33,7 +33,7 @@
     },
     {
       "id": "codeberg-matrix",
-      "name": "Codeberg \u2194 Matrix",
+      "name": "Codeberg ↔ Matrix",
       "kind": "community chat bridge",
       "status": "welcomed-foss",
       "source_url": "https://docs.codeberg.org/integrations/matrix/",
@@ -47,7 +47,7 @@
     },
     {
       "id": "codeberg-readthedocs",
-      "name": "Codeberg \u2194 Read the Docs",
+      "name": "Codeberg ↔ Read the Docs",
       "kind": "documentation publishing",
       "status": "welcomed-foss",
       "source_url": "https://docs.codeberg.org/integrations/read-the-docs/",

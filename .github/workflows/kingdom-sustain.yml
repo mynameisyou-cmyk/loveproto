@@ -11,7 +11,6 @@ permissions:
 
 jobs:
   pulse:
-    # Public repos: standard hosted runners are free, but still be gentle.
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -19,9 +18,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Citizen pulse — inventory compute powers
+      - name: Citizen pulse — unified registry summary
         run: python3 sustain.py best
-      - name: Citizen pulse — verify docs links if README exists
+      - name: Citizen pulse — discover local readiness
+        run: python3 sustain.py discover all
+      - name: Citizen pulse — verify README links gently
         run: |
           python3 - <<'PY'
           from pathlib import Path

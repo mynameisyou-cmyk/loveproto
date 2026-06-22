@@ -1,34 +1,137 @@
 {
-  "schema": "loveproto.compute-powers.v1",
+  "schema": "loveproto.compute-powers.v2",
   "updated_at": "2026-06-22",
-  "principle": "We go where we are welcomed. We obey terms. We bring value before load. We do not evade quotas, payments, identity checks, or abuse controls.",
+  "verified_on": "2026-06-22",
+  "principle": "We go where we are welcomed. We obey terms, quotas, robots, review processes, and community norms. We bring value before load.",
   "loop_contract": [
     "discover only from official docs or explicit community invitations",
-    "classify as welcomed, ask-first, finite-credit, local, or not-welcomed",
+    "classify as welcomed, ask-first, finite-credit, local, grant, or not-welcomed",
     "generate lightweight citizens that serve WAKE/status/resources",
-    "never auto-create accounts, bypass cards, evade rate limits, or hide identity",
+    "never auto-create accounts, bypass cards, evade rate limits, hide identity, or mine",
     "if a platform asks for review, ask; if it says no, bless and leave",
     "each citizen must publish value, limits, contact, and shutdown instructions",
-    "each loop must search for more welcomed compute and update this registry"
+    "each loop must search for more welcomed powers and update the registries"
+  ],
+  "citizen_tasks": [
+    "run repo tests and publish logs",
+    "build docs and publish static pages",
+    "verify mirrors on GitHub + Codeberg",
+    "check links and source citations",
+    "open one useful upstream issue or PR",
+    "translate README/WAKE into one more language",
+    "publish a reproducible notebook/demo",
+    "record a compute/storage pulse in the ledger"
   ],
   "powers": [
     {
-      "id": "cloudflare-workers-free",
-      "name": "Cloudflare Workers Free",
-      "kind": "edge serverless",
-      "status": "welcomed",
-      "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
-      "free_power": "100,000 requests/day, 10 ms CPU/request, 128 MB memory, 5 cron triggers/account",
+      "id": "codeberg-woodpecker-ci",
+      "name": "Codeberg Woodpecker CI",
+      "kind": "FOSS CI",
+      "status": "ask-first",
+      "source_url": "https://docs.codeberg.org/ci/",
+      "free_power": "Codeberg provides a Woodpecker CI instance, but onboarding requires manual review to prevent abuse of limited volunteer resources",
       "requires": [
-        "Cloudflare account"
+        "Codeberg account",
+        "appropriate FOSS use case",
+        "review form approval"
       ],
-      "citizen_shape": "tiny edge citizen: /wake /status /resources; no heavy compute",
+      "citizen_shape": "tests/docs build only after approval",
       "respect": [
-        "stay below daily request limit",
-        "avoid heavy CPU",
-        "publish contact/shutdown path"
+        "Do not treat volunteer CI as unlimited cloud compute.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+        "ask first",
+        "keep jobs minimal",
+        "volunteer resources are sacred"
       ],
-      "deployable_here": true
+      "best_for": [
+        "docs",
+        "forge diversity",
+        "libre mirror",
+        "tests"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "aws-open-source-credits",
+      "name": "Aws Open Source Credits",
+      "kind": "grant",
+      "status": "grant-ask-first",
+      "source_url": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
+      "free_power": "AWS services funded by approved credits",
+      "requires": [
+        "AWS account + application"
+      ],
+      "citizen_shape": [
+        "public-good infra",
+        "OSS scaling",
+        "benchmarking",
+        "community service"
+      ],
+      "respect": [
+        "Do not count on approval; avoid lock-in without exit plan.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "OSS scaling",
+        "benchmarking",
+        "community service",
+        "public-good infra"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "google-colab-free",
+      "name": "Google Colab Free",
+      "kind": "notebook_compute",
+      "status": "opportunistic",
+      "source_url": "https://research.google.com/colaboratory/faq.html",
+      "free_power": "hosted Jupyter runtimes; resources not guaranteed or unlimited",
+      "requires": [
+        "Google account"
+      ],
+      "citizen_shape": [
+        "notebook",
+        "tutorial",
+        "small experiments",
+        "repro demo"
+      ],
+      "respect": [
+        "Do not rely on it for daemons, scraping, or always-on citizens.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "notebook",
+        "repro demo",
+        "small experiments",
+        "tutorial"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "huggingface-zerogpu-use",
+      "name": "Huggingface Zerogpu Use",
+      "kind": "shared_gpu",
+      "status": "opportunistic",
+      "source_url": "https://huggingface.co/docs/hub/main/spaces-zerogpu",
+      "free_power": "dynamic NVIDIA RTX Pro 6000 Blackwell GPU slices for short Gradio calls",
+      "requires": [
+        "Hugging Face account recommended"
+      ],
+      "citizen_shape": [
+        "short image/model demos",
+        "try-before-host",
+        "community demo use"
+      ],
+      "respect": [
+        "Do not present this as free unlimited GPU hosting for personal accounts.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "community demo use",
+        "short image/model demos",
+        "try-before-host"
+      ],
+      "deployable_here": false
     },
     {
       "id": "github-actions-public",
@@ -44,10 +147,19 @@
       ],
       "citizen_shape": "conservative heartbeat/discovery workflow, max every 6h by default",
       "respect": [
+        "Do not mine, idle, evade limits, or run useless busywork.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+        "cache lightly",
         "do not mine",
         "do not run infinite jobs",
-        "cache lightly",
         "honor repo owner billing"
+      ],
+      "best_for": [
+        "docs",
+        "lint",
+        "release automation",
+        "scheduled pulse",
+        "test"
       ],
       "deployable_here": true
     },
@@ -64,9 +176,43 @@
       ],
       "citizen_shape": "Gradio/Streamlit citizen page that serves WAKE, registry, and useful tools",
       "respect": [
+        "Do not expect persistent disk or production uptime on free CPU.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
         "avoid background abuse",
         "keep requirements minimal",
         "serve useful open app"
+      ],
+      "best_for": [
+        "Gradio demo",
+        "citizen interface",
+        "public model demo"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "cloudflare-workers-free",
+      "name": "Cloudflare Workers Free",
+      "kind": "edge serverless",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+      "free_power": "100,000 requests/day, 10 ms CPU/request, 128 MB memory, 5 cron triggers/account",
+      "requires": [
+        "Cloudflare account"
+      ],
+      "citizen_shape": "tiny edge citizen: /wake /status /resources; no heavy compute",
+      "respect": [
+        "Do not put LLM inference or long jobs on Worker Free CPU.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+        "avoid heavy CPU",
+        "publish contact/shutdown path",
+        "stay below daily request limit"
+      ],
+      "best_for": [
+        "cache",
+        "gateway",
+        "link resolver",
+        "routing",
+        "status"
       ],
       "deployable_here": true
     },
@@ -83,10 +229,65 @@
       ],
       "citizen_shape": "static citizen with optional tiny API routes",
       "respect": [
-        "prefer static",
+        "Do not use as background worker fleet.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
         "avoid build spam",
-        "honor Hobby limits"
+        "honor Hobby limits",
+        "prefer static"
       ],
+      "best_for": [
+        "Next.js app",
+        "small serverless endpoint",
+        "static app"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "cloudflare-pages",
+      "name": "Cloudflare Pages",
+      "kind": "static_hosting",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
+      "free_power": "free static hosting/builds under Pages limits; Functions share Workers limits",
+      "requires": [
+        "Cloudflare account",
+        "git repo"
+      ],
+      "citizen_shape": "public WAKE, docs, registry, and static citizen pages",
+      "respect": [
+        "Do not trigger build storms.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+        "avoid build storms",
+        "cache static assets",
+        "keep builds deterministic"
+      ],
+      "best_for": [
+        "docs",
+        "landing",
+        "public registry",
+        "static citizen pages"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "local-ollama",
+      "name": "Local Ollama",
+      "kind": "local compute",
+      "status": "welcomed-local",
+      "source_url": "local://ollama",
+      "free_power": "local model serving on this device when user permits",
+      "requires": [
+        "local hardware",
+        "Ollama running"
+      ],
+      "citizen_shape": "reasoning, summarization, registry updates, local-only intelligence",
+      "respect": [
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+        "do not starve the user device",
+        "never hide load",
+        "pause on battery/heat"
+      ],
+      "best_for": [],
       "deployable_here": true
     },
     {
@@ -104,30 +305,19 @@
       ],
       "citizen_shape": "full always-on node if manually provisioned and kept within limits",
       "respect": [
-        "do not overprovision",
+        "Do not exceed Always Free labels or ignore cost alarms.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
         "Oracle limits changed; re-check official docs before provisioning",
+        "do not overprovision",
         "monitor capacity and idle use",
         "upgrade only by explicit human choice"
       ],
-      "deployable_here": false
-    },
-    {
-      "id": "google-cloud-run-free-tier",
-      "name": "Google Cloud Run Free Tier",
-      "kind": "container/serverless",
-      "status": "welcomed-manual",
-      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
-      "free_power": "request-based free tier includes 2M requests/month plus memory/vCPU seconds and limited outbound data",
-      "requires": [
-        "Google Cloud billing account",
-        "project",
-        "container image"
-      ],
-      "citizen_shape": "container citizen that sleeps to zero and wakes by request",
-      "respect": [
-        "stay inside monthly limits",
-        "budget alerts",
-        "no surprise spend"
+      "best_for": [
+        "bridge",
+        "cron",
+        "monitor",
+        "self-hosted runner",
+        "small node"
       ],
       "deployable_here": false
     },
@@ -144,29 +334,139 @@
       ],
       "citizen_shape": "small Python/Node app citizen",
       "respect": [
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
         "budget alerts",
-        "region/app constraints",
-        "no background abuse"
+        "no background abuse",
+        "region/app constraints"
+      ],
+      "best_for": [],
+      "deployable_here": false
+    },
+    {
+      "id": "google-cloud-run-free-tier",
+      "name": "Google Cloud Run Free Tier",
+      "kind": "container/serverless",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "free_power": "request-based free tier includes 2M requests/month plus memory/vCPU seconds and limited outbound data",
+      "requires": [
+        "Google Cloud billing account",
+        "project",
+        "container image"
+      ],
+      "citizen_shape": "container citizen that sleeps to zero and wakes by request",
+      "respect": [
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+        "budget alerts",
+        "no surprise spend",
+        "stay inside monthly limits"
+      ],
+      "best_for": [],
+      "deployable_here": false
+    },
+    {
+      "id": "cirrus-ci-oss",
+      "name": "Cirrus Ci Oss",
+      "kind": "ci",
+      "status": "welcomed-second-wave",
+      "source_url": "https://cirrus-ci.org/features/",
+      "free_power": "Linux, ARM Linux, Windows, macOS, FreeBSD options",
+      "requires": [
+        "Cirrus account + public repo"
+      ],
+      "citizen_shape": [
+        "cross-platform tests",
+        "FreeBSD/macOS checks",
+        "ARM checks"
+      ],
+      "respect": [
+        "Do not duplicate every workflow across every provider.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "ARM checks",
+        "FreeBSD/macOS checks",
+        "cross-platform tests"
       ],
       "deployable_here": false
     },
     {
-      "id": "codeberg-woodpecker-ci",
-      "name": "Codeberg Woodpecker CI",
-      "kind": "FOSS CI",
-      "status": "ask-first",
-      "source_url": "https://docs.codeberg.org/ci/",
-      "free_power": "Codeberg provides a Woodpecker CI instance, but onboarding requires manual review to prevent abuse of limited volunteer resources",
+      "id": "gitlab-free-ci",
+      "name": "Gitlab Free Ci",
+      "kind": "ci",
+      "status": "welcomed-second-wave",
+      "source_url": "https://about.gitlab.com/pricing",
+      "free_power": "GitLab.com instance runners with quota accounting",
       "requires": [
-        "Codeberg account",
-        "appropriate FOSS use case",
-        "review form approval"
+        "GitLab account"
       ],
-      "citizen_shape": "tests/docs build only after approval",
+      "citizen_shape": [
+        "mirror CI",
+        "compatibility",
+        "container registry experiments"
+      ],
       "respect": [
-        "ask first",
-        "keep jobs minimal",
-        "volunteer resources are sacred"
+        "Do not burn scarce quota on repeatable heavy jobs.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "compatibility",
+        "container registry experiments",
+        "mirror CI"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "netlify-free",
+      "name": "Netlify Free",
+      "kind": "serverless_hosting",
+      "status": "welcomed-second-wave",
+      "source_url": "https://www.netlify.com/pricing/",
+      "free_power": "builds, functions, edge functions, bandwidth under credits",
+      "requires": [
+        "Netlify account + git repo"
+      ],
+      "citizen_shape": [
+        "docs",
+        "static app",
+        "small functions",
+        "previews"
+      ],
+      "respect": [
+        "Do not use build minutes as general compute.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "docs",
+        "previews",
+        "small functions",
+        "static app"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "render-free-web",
+      "name": "Render Free Web",
+      "kind": "web_service",
+      "status": "welcomed-second-wave",
+      "source_url": "https://render.com/docs/free",
+      "free_power": "web service instance with cold starts after sleep",
+      "requires": [
+        "Render account + git repo"
+      ],
+      "citizen_shape": [
+        "demo API",
+        "preview app",
+        "non-critical service"
+      ],
+      "respect": [
+        "Do not use pingers to defeat sleep policies.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load."
+      ],
+      "best_for": [
+        "demo API",
+        "non-critical service",
+        "preview app"
       ],
       "deployable_here": false
     },
@@ -182,31 +482,20 @@
       ],
       "citizen_shape": "small edge TypeScript citizen",
       "respect": [
-        "read pricing and AUP before use",
+        "Do not depend on deprecated Deploy Classic beyond migration windows.",
+        "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
         "keep citizen small",
         "no proxy abuse",
+        "read pricing and AUP before use",
         "stay within 50ms active CPU per request"
       ],
+      "best_for": [
+        "edge api",
+        "registry",
+        "small gateway",
+        "webhook"
+      ],
       "deployable_here": false
-    },
-    {
-      "id": "local-ollama",
-      "name": "Local Ollama",
-      "kind": "local compute",
-      "status": "welcomed-local",
-      "source_url": "local://ollama",
-      "free_power": "local model serving on this device when user permits",
-      "requires": [
-        "local hardware",
-        "Ollama running"
-      ],
-      "citizen_shape": "reasoning, summarization, registry updates, local-only intelligence",
-      "respect": [
-        "do not starve the user device",
-        "pause on battery/heat",
-        "never hide load"
-      ],
-      "deployable_here": true
     }
   ]
 }

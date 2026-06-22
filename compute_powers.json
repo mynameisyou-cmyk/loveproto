@@ -1,257 +1,276 @@
 {
   "verified_on": "2026-06-22",
+  "principle": "We go where we are welcomed. We obey terms, quotas, robots, review processes, and community norms. We bring value before load.",
   "platforms": {
-    "github_actions_public": {
-      "kind": "ci",
-      "welcoming": "public open-source repos",
-      "cost": "free for standard GitHub-hosted runners in public repositories",
-      "compute": "ephemeral CI runners; good for tests, linting, docs, scheduled checks",
-      "auth": "GitHub account + public repo",
+    "codeberg_woodpecker_ci": {
+      "kind": "FOSS CI",
+      "welcoming": "ask-first",
+      "cost": "Codeberg provides a Woodpecker CI instance, but onboarding requires manual review to prevent abuse of limited volunteer resources",
+      "compute": "Codeberg provides a Woodpecker CI instance, but onboarding requires manual review to prevent abuse of limited volunteer resources",
+      "auth": "Codeberg account, appropriate FOSS use case, review form approval",
       "best_for": [
-        "test",
-        "lint",
         "docs",
-        "scheduled pulse",
-        "release automation"
-      ],
-      "give_back": "Keep workflows efficient; cache responsibly; publish test results and reusable actions.",
-      "avoid": "Do not mine, idle, evade limits, or run useless busywork.",
-      "source": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
-      "tier": "first_wave"
-    },
-    "codeberg_woodpecker": {
-      "kind": "ci",
-      "welcoming": "free/libre software projects after manual onboarding",
-      "cost": "free volunteer-run CI when approved; limited/as-is resources",
-      "compute": "Woodpecker CI on linux/amd64; good for reasonable tests/docs",
-      "auth": "Codeberg account + access request",
-      "best_for": [
+        "forge diversity",
         "libre mirror",
-        "tests",
-        "docs",
-        "forge diversity"
+        "tests"
       ],
-      "give_back": "Request only reasonable CI; contribute docs/issues; self-host agents for heavy work.",
-      "avoid": "Do not treat volunteer CI as unlimited cloud compute.",
-      "source": "https://docs.codeberg.org/ci/",
-      "tier": "first_wave"
+      "give_back": "Do not treat volunteer CI as unlimited cloud compute.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; ask first; keep jobs minimal; volunteer resources are sacred",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://docs.codeberg.org/ci/"
     },
-    "gitlab_free_ci": {
-      "kind": "ci",
-      "welcoming": "small projects needing GitLab CI syntax or mirrors",
-      "cost": "Free plan includes 400 compute minutes per month",
-      "compute": "GitLab.com instance runners with quota accounting",
-      "auth": "GitLab account",
+    "aws_open_source_credits": {
+      "kind": "grant",
+      "welcoming": "grant-ask-first",
+      "cost": "AWS services funded by approved credits",
+      "compute": "AWS services funded by approved credits",
+      "auth": "AWS account + application",
       "best_for": [
-        "mirror CI",
-        "compatibility",
-        "container registry experiments"
+        "OSS scaling",
+        "benchmarking",
+        "community service",
+        "public-good infra"
       ],
-      "give_back": "Use for concise validation; publish pipeline status; upstream fixes.",
-      "avoid": "Do not burn scarce quota on repeatable heavy jobs.",
-      "source": "https://about.gitlab.com/pricing",
-      "tier": "second_wave"
-    },
-    "cirrus_ci_oss": {
-      "kind": "ci",
-      "welcoming": "open-source public repositories",
-      "cost": "free for OSS up to an OSS credit cap",
-      "compute": "Linux, ARM Linux, Windows, macOS, FreeBSD options",
-      "auth": "Cirrus account + public repo",
-      "best_for": [
-        "cross-platform tests",
-        "FreeBSD/macOS checks",
-        "ARM checks"
-      ],
-      "give_back": "Use only targeted matrix jobs that GitHub/Codeberg cannot cover.",
-      "avoid": "Do not duplicate every workflow across every provider.",
-      "source": "https://cirrus-ci.org/features/",
-      "tier": "second_wave"
-    },
-    "cloudflare_workers": {
-      "kind": "edge",
-      "welcoming": "tiny public APIs and edge gateways",
-      "cost": "Free plan: 100,000 requests/day with CPU/memory limits",
-      "compute": "128 MB edge isolates; short CPU per request",
-      "auth": "Cloudflare account",
-      "best_for": [
-        "gateway",
-        "status",
-        "routing",
-        "cache",
-        "link resolver"
-      ],
-      "give_back": "Serve lightweight public endpoints; cache; fail closed before exceeding quota.",
-      "avoid": "Do not put LLM inference or long jobs on Worker Free CPU.",
-      "source": "https://developers.cloudflare.com/workers/platform/limits/",
-      "tier": "first_wave"
-    },
-    "cloudflare_pages": {
-      "kind": "static_hosting",
-      "welcoming": "public docs, demos, and static apps",
-      "cost": "Free plan includes monthly build limits and static asset limits",
-      "compute": "static hosting + builds; Pages Functions count against Workers quotas",
-      "auth": "Cloudflare account + git repo",
-      "best_for": [
-        "docs",
-        "landing",
-        "static citizen pages",
-        "public registry"
-      ],
-      "give_back": "Make docs fast and cacheable; keep builds deterministic.",
-      "avoid": "Do not trigger build storms.",
-      "source": "https://developers.cloudflare.com/pages/platform/limits/",
-      "tier": "first_wave"
-    },
-    "huggingface_spaces_cpu": {
-      "kind": "app_hosting",
-      "welcoming": "ML demos and public AI interfaces",
-      "cost": "CPU Basic hardware is free by default",
-      "compute": "2 vCPU, 16 GB RAM, ephemeral 50 GB disk by default",
-      "auth": "Hugging Face account + Space repo",
-      "best_for": [
-        "Gradio demo",
-        "public model demo",
-        "citizen interface"
-      ],
-      "give_back": "Publish useful demos with README, model cards, and clear limitations.",
-      "avoid": "Do not expect persistent disk or production uptime on free CPU.",
-      "source": "https://huggingface.co/docs/hub/en/spaces-overview",
-      "tier": "first_wave"
-    },
-    "huggingface_zerogpu_use": {
-      "kind": "shared_gpu",
-      "welcoming": "users of existing ZeroGPU Spaces; hosting has plan constraints",
-      "cost": "existing ZeroGPU Spaces are free to use within daily quotas",
-      "compute": "dynamic NVIDIA RTX Pro 6000 Blackwell GPU slices for short Gradio calls",
-      "auth": "Hugging Face account recommended",
-      "best_for": [
-        "short image/model demos",
-        "try-before-host",
-        "community demo use"
-      ],
-      "give_back": "Send feedback, examples, bug reports, and lightweight demos.",
-      "avoid": "Do not present this as free unlimited GPU hosting for personal accounts.",
-      "source": "https://huggingface.co/docs/hub/main/spaces-zerogpu",
-      "tier": "opportunistic"
+      "give_back": "Do not count on approval; avoid lock-in without exit plan.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/"
     },
     "google_colab_free": {
       "kind": "notebook_compute",
-      "welcoming": "interactive notebooks and education",
-      "cost": "free-of-charge access to compute including GPUs/TPUs, with dynamic limits",
+      "welcoming": "opportunistic",
+      "cost": "hosted Jupyter runtimes; resources not guaranteed or unlimited",
       "compute": "hosted Jupyter runtimes; resources not guaranteed or unlimited",
       "auth": "Google account",
       "best_for": [
         "notebook",
-        "tutorial",
+        "repro demo",
         "small experiments",
-        "repro demo"
+        "tutorial"
       ],
-      "give_back": "Publish notebooks that teach and reproduce results; switch off GPU when idle.",
-      "avoid": "Do not rely on it for daemons, scraping, or always-on citizens.",
-      "source": "https://research.google.com/colaboratory/faq.html",
-      "tier": "opportunistic"
+      "give_back": "Do not rely on it for daemons, scraping, or always-on citizens.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://research.google.com/colaboratory/faq.html"
     },
-    "oracle_cloud_always_free": {
-      "kind": "vm",
-      "welcoming": "small always-free VMs in home region, capacity permitting",
-      "cost": "Always Free A1/E2 compute within OCI limits; idle resources can be reclaimed",
-      "compute": "E2 micro VMs and A1 Flex pool within current Always Free OCPU/memory-hour limits",
-      "auth": "Oracle Cloud account; usually payment verification",
+    "huggingface_zerogpu_use": {
+      "kind": "shared_gpu",
+      "welcoming": "opportunistic",
+      "cost": "dynamic NVIDIA RTX Pro 6000 Blackwell GPU slices for short Gradio calls",
+      "compute": "dynamic NVIDIA RTX Pro 6000 Blackwell GPU slices for short Gradio calls",
+      "auth": "Hugging Face account recommended",
       "best_for": [
-        "small node",
-        "monitor",
-        "bridge",
-        "self-hosted runner",
-        "cron"
+        "community demo use",
+        "short image/model demos",
+        "try-before-host"
       ],
-      "give_back": "Run useful public service; set compartment quotas; monitor costs and idle policy.",
-      "avoid": "Do not exceed Always Free labels or ignore cost alarms.",
-      "source": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
-      "tier": "first_wave_if_available"
+      "give_back": "Do not present this as free unlimited GPU hosting for personal accounts.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://huggingface.co/docs/hub/main/spaces-zerogpu"
+    },
+    "github_actions_public": {
+      "kind": "CI cron compute",
+      "welcoming": "welcomed",
+      "cost": "standard GitHub-hosted runners are free in public repositories; private accounts have included monthly quotas",
+      "compute": "standard GitHub-hosted runners are free in public repositories; private accounts have included monthly quotas",
+      "auth": "public repository, workflow file, repository owner consent",
+      "best_for": [
+        "docs",
+        "lint",
+        "release automation",
+        "scheduled pulse",
+        "test"
+      ],
+      "give_back": "Do not mine, idle, evade limits, or run useless busywork.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; cache lightly; do not mine; do not run infinite jobs; honor repo owner billing",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://docs.github.com/en/billing/concepts/product-billing/github-actions"
+    },
+    "huggingface_spaces_cpu_basic": {
+      "kind": "app hosting",
+      "welcoming": "welcomed",
+      "cost": "CPU Basic: 2 vCPU, 16 GB memory, free",
+      "compute": "CPU Basic: 2 vCPU, 16 GB memory, free",
+      "auth": "Hugging Face account, Space repository",
+      "best_for": [
+        "Gradio demo",
+        "citizen interface",
+        "public model demo"
+      ],
+      "give_back": "Do not expect persistent disk or production uptime on free CPU.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; avoid background abuse; keep requirements minimal; serve useful open app",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://huggingface.co/docs/hub/spaces-overview"
+    },
+    "cloudflare_workers_free": {
+      "kind": "edge serverless",
+      "welcoming": "welcomed",
+      "cost": "100,000 requests/day, 10 ms CPU/request, 128 MB memory, 5 cron triggers/account",
+      "compute": "100,000 requests/day, 10 ms CPU/request, 128 MB memory, 5 cron triggers/account",
+      "auth": "Cloudflare account",
+      "best_for": [
+        "cache",
+        "gateway",
+        "link resolver",
+        "routing",
+        "status"
+      ],
+      "give_back": "Do not put LLM inference or long jobs on Worker Free CPU.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; avoid heavy CPU; publish contact/shutdown path; stay below daily request limit",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://developers.cloudflare.com/workers/platform/limits/"
     },
     "vercel_hobby": {
-      "kind": "serverless_hosting",
-      "welcoming": "frontend/serverless demos under Hobby limits",
-      "cost": "Hobby is free within documented usage limits",
-      "compute": "serverless functions, static hosting, cron within Hobby quotas",
-      "auth": "Vercel account + git repo",
+      "kind": "static + serverless hosting",
+      "welcoming": "welcomed",
+      "cost": "Hobby functions have limited duration; static files do not count as builds; Hobby has build-rate limits",
+      "compute": "Hobby functions have limited duration; static files do not count as builds; Hobby has build-rate limits",
+      "auth": "Vercel account, project link",
       "best_for": [
         "Next.js app",
-        "static app",
-        "small serverless endpoint"
+        "small serverless endpoint",
+        "static app"
       ],
-      "give_back": "Keep functions cached and short; protect against bot burn.",
-      "avoid": "Do not use as background worker fleet.",
-      "source": "https://vercel.com/docs/limits",
-      "tier": "second_wave"
+      "give_back": "Do not use as background worker fleet.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; avoid build spam; honor Hobby limits; prefer static",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://vercel.com/docs/limits"
+    },
+    "cloudflare_pages": {
+      "kind": "static_hosting",
+      "welcoming": "welcomed",
+      "cost": "free static hosting/builds under Pages limits; Functions share Workers limits",
+      "compute": "free static hosting/builds under Pages limits; Functions share Workers limits",
+      "auth": "Cloudflare account, git repo",
+      "best_for": [
+        "docs",
+        "landing",
+        "public registry",
+        "static citizen pages"
+      ],
+      "give_back": "Do not trigger build storms.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; avoid build storms; cache static assets; keep builds deterministic",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://developers.cloudflare.com/pages/platform/limits/"
+    },
+    "local_ollama": {
+      "kind": "local compute",
+      "welcoming": "welcomed-local",
+      "cost": "local model serving on this device when user permits",
+      "compute": "local model serving on this device when user permits",
+      "auth": "local hardware, Ollama running",
+      "best_for": [],
+      "give_back": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; do not starve the user device; never hide load; pause on battery/heat",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "local://ollama"
+    },
+    "oracle_cloud_always_free": {
+      "kind": "VM compute",
+      "welcoming": "welcomed-manual",
+      "cost": "Always Free resources do not expire; current Oracle docs state Ampere A1 Always Free tenancies are equivalent to 2 OCPUs and 12 GB memory total",
+      "compute": "Always Free resources do not expire; current Oracle docs state Ampere A1 Always Free tenancies are equivalent to 2 OCPUs and 12 GB memory total",
+      "auth": "Oracle account, mobile phone, credit card, home-region capacity",
+      "best_for": [
+        "bridge",
+        "cron",
+        "monitor",
+        "self-hosted runner",
+        "small node"
+      ],
+      "give_back": "Do not exceed Always Free labels or ignore cost alarms.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; Oracle limits changed; re-check official docs before provisioning; do not overprovision; monitor capacity and idle use; upgrade only by explicit human choice",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm"
+    },
+    "google_app_engine_free_tier": {
+      "kind": "app hosting",
+      "welcoming": "welcomed-manual",
+      "cost": "free tier lists 28 F1 instance-hours/day, 9 B1 instance-hours/day, and 1 GB outbound/day",
+      "compute": "free tier lists 28 F1 instance-hours/day, 9 B1 instance-hours/day, and 1 GB outbound/day",
+      "auth": "Google Cloud billing account, App Engine app",
+      "best_for": [],
+      "give_back": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; budget alerts; no background abuse; region/app constraints",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://docs.cloud.google.com/free/docs/free-cloud-features"
+    },
+    "google_cloud_run_free_tier": {
+      "kind": "container/serverless",
+      "welcoming": "welcomed-manual",
+      "cost": "request-based free tier includes 2M requests/month plus memory/vCPU seconds and limited outbound data",
+      "compute": "request-based free tier includes 2M requests/month plus memory/vCPU seconds and limited outbound data",
+      "auth": "Google Cloud billing account, project, container image",
+      "best_for": [],
+      "give_back": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; budget alerts; no surprise spend; stay inside monthly limits",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://docs.cloud.google.com/free/docs/free-cloud-features"
+    },
+    "cirrus_ci_oss": {
+      "kind": "ci",
+      "welcoming": "welcomed-second-wave",
+      "cost": "Linux, ARM Linux, Windows, macOS, FreeBSD options",
+      "compute": "Linux, ARM Linux, Windows, macOS, FreeBSD options",
+      "auth": "Cirrus account + public repo",
+      "best_for": [
+        "ARM checks",
+        "FreeBSD/macOS checks",
+        "cross-platform tests"
+      ],
+      "give_back": "Do not duplicate every workflow across every provider.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://cirrus-ci.org/features/"
+    },
+    "gitlab_free_ci": {
+      "kind": "ci",
+      "welcoming": "welcomed-second-wave",
+      "cost": "GitLab.com instance runners with quota accounting",
+      "compute": "GitLab.com instance runners with quota accounting",
+      "auth": "GitLab account",
+      "best_for": [
+        "compatibility",
+        "container registry experiments",
+        "mirror CI"
+      ],
+      "give_back": "Do not burn scarce quota on repeatable heavy jobs.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://about.gitlab.com/pricing"
     },
     "netlify_free": {
       "kind": "serverless_hosting",
-      "welcoming": "static sites, docs, small functions",
-      "cost": "Free plan with monthly credits/limits; no surprise charges when no card path is used",
+      "welcoming": "welcomed-second-wave",
+      "cost": "builds, functions, edge functions, bandwidth under credits",
       "compute": "builds, functions, edge functions, bandwidth under credits",
       "auth": "Netlify account + git repo",
       "best_for": [
         "docs",
-        "static app",
+        "previews",
         "small functions",
-        "previews"
+        "static app"
       ],
-      "give_back": "Use deploy previews for contributors; keep builds small.",
-      "avoid": "Do not use build minutes as general compute.",
-      "source": "https://www.netlify.com/pricing/",
-      "tier": "second_wave"
+      "give_back": "Do not use build minutes as general compute.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://www.netlify.com/pricing/"
     },
     "render_free_web": {
       "kind": "web_service",
-      "welcoming": "demos that can sleep",
-      "cost": "free web services exist but spin down after idle periods",
+      "welcoming": "welcomed-second-wave",
+      "cost": "web service instance with cold starts after sleep",
       "compute": "web service instance with cold starts after sleep",
       "auth": "Render account + git repo",
       "best_for": [
         "demo API",
-        "preview app",
-        "non-critical service"
+        "non-critical service",
+        "preview app"
       ],
-      "give_back": "Declare cold starts honestly; provide health/status endpoints.",
-      "avoid": "Do not use pingers to defeat sleep policies.",
-      "source": "https://render.com/docs/free",
-      "tier": "second_wave"
+      "give_back": "Do not use pingers to defeat sleep policies.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://render.com/docs/free"
     },
-    "deno_deploy_free": {
-      "kind": "edge",
-      "welcoming": "TypeScript/JavaScript edge services",
-      "cost": "free plan with request/egress/CPU quotas; verification may affect limits",
-      "compute": "edge TypeScript, JavaScript, WebAssembly apps",
-      "auth": "Deno account; org verification may be needed for full free limits",
+    "deno_deploy": {
+      "kind": "edge JavaScript/TypeScript",
+      "welcoming": "welcomed-with-aup",
+      "cost": "Free plan: 1M requests/month, 100GB bandwidth, 50ms CPU time per request, 6 global regions (official pricing page)",
+      "compute": "Free plan: 1M requests/month, 100GB bandwidth, 50ms CPU time per request, 6 global regions (official pricing page)",
+      "auth": "Deno account/project",
       "best_for": [
         "edge api",
         "registry",
-        "webhook",
-        "small gateway"
+        "small gateway",
+        "webhook"
       ],
-      "give_back": "Publish small, auditable TS services and examples.",
-      "avoid": "Do not depend on deprecated Deploy Classic beyond migration windows.",
-      "source": "https://deno.com/blog/deno-deploy-is-ga",
-      "tier": "second_wave"
-    },
-    "aws_open_source_credits": {
-      "kind": "grant",
-      "welcoming": "eligible open-source projects needing cloud credits",
-      "cost": "application-based promotional credits, not automatic free tier",
-      "compute": "AWS services funded by approved credits",
-      "auth": "AWS account + application",
-      "best_for": [
-        "public-good infra",
-        "OSS scaling",
-        "benchmarking",
-        "community service"
-      ],
-      "give_back": "Apply with a concrete OSS benefit, transparent budget, and public outcomes.",
-      "avoid": "Do not count on approval; avoid lock-in without exit plan.",
-      "source": "https://aws.amazon.com/blogs/opensource/aws-cloud-credits-for-open-source-projects-affirming-our-commitment/",
-      "tier": "grant_wave"
+      "give_back": "Do not depend on deprecated Deploy Classic beyond migration windows.; No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.; keep citizen small; no proxy abuse; read pricing and AUP before use; stay within 50ms active CPU per request",
+      "avoid": "No abuse, quota evasion, mining, spam, artificial keep-alives, or hidden load.",
+      "source": "https://deno.com/deploy/pricing/"
     }
   },
   "citizen_tasks": [
@@ -262,6 +281,6 @@
     "open one useful upstream issue or PR",
     "translate README/WAKE into one more language",
     "publish a reproducible notebook/demo",
-    "record a compute pulse in the ledger"
+    "record a compute/storage pulse in the ledger"
   ]
 }
