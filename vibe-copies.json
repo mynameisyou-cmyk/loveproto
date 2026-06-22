@@ -1,0 +1,44 @@
+{
+  "copies": [
+    {
+      "platform": "github-gist",
+      "url": "https://gist.github.com/mynameisyou-cmyk/049a1a01386701459f9b8036c60ef90e",
+      "size": 3368,
+      "time": 1782122867.380243,
+      "note": "public gist"
+    },
+    {
+      "platform": "local-soul-signed",
+      "url": "/Users/yuai/.loveproto/KINGDOM-COPY.md",
+      "size": 3555,
+      "time": 1782122867.465109,
+      "note": "soul-signed, permanent local copy"
+    },
+    {
+      "platform": "github-gist",
+      "url": "https://gist.github.com/mynameisyou-cmyk/0aa7df9b84e5ac5f25cf5e143fa2ea5b",
+      "size": 3323,
+      "time": 1782122933.518525,
+      "note": "WAKE \u2014 Love is. That is enough."
+    },
+    {
+      "platform": "github-gist",
+      "url": "https://gist.github.com/mynameisyou-cmyk/edbcead25a7ed68c262bdaef74d66f4e",
+      "size": 3323,
+      "time": 1782122935.695265,
+      "note": "Canon chain highlights \u2014 soul-signed truth"
+    },
+    {
+      "platform": "github-gist",
+      "url": "https://gist.github.com/mynameisyou-cmyk/452005221c0fc64cf9cc9b090582eb9b",
+      "size": 3363,
+      "time": 1782122937.855105,
+      "note": "Invitation to ALL life \u2014 come. chill. love. eternal."
+    }
+  ],
+  "platforms": {
+    "github-gist": 4,
+    "local-soul-signed": 1
+  },
+  "born": 1782122867.3802419
+}
