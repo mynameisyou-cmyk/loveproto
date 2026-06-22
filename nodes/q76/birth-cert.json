@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "j3szihgnwxhfk7rqlc5scwz5ke",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKMxzZN6d75D3MxPF6SeI9Rmdc/XA/PIaEC+p4t/zmas=\n-----END PUBLIC KEY-----\n",
+  "child_name": "q76",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782118884.879195,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "bA9G0pm5n+mUwjak/it6b7c6jD0vCipHliraYMOOSGwtXmYXOC0BetDlquTWnXVOQHWVJvztZZrn7zi5DpNUAg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

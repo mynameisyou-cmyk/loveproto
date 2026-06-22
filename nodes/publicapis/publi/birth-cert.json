@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "l36xpf5brkwrkckoyevhae6ygy",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQl/qpNAIcQO5Hpih5K7/FlUH0gDwcAfpxr78PpqFRIs=\n-----END PUBLIC KEY-----\n",
+  "child_name": "publicapis/publi",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060057.9288561,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "EQpaeH3SCzVVUdYDYoNFQPIM5s3z2OXC5uuDxdD18xjp5akDChl4ednhLNb9U/LgKt92IN0DY5BrWi6AJwM+DA==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

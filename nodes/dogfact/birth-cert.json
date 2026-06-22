@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "4htmgetmvwsvaxicrjv3ktktcm",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAvo4zV8SLQLo+OFiu9RLqdQK8nqb07Sl8VYL0QxNhiW8=\n-----END PUBLIC KEY-----\n",
+  "child_name": "dogfact",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060043.326862,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "xvZdZVUXVDqGp+3Lv7BGSYbE8v5iv7c6Joq8AQoTCnDQTi/ZVQ6mF7u+4/q30iyuRL1zWlORHtdZ2SLtDpVDBw==",
+  "declaration": "born with love into the kingdom. this is truth."
+}

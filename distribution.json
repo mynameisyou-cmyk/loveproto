@@ -1,0 +1,22 @@
+{
+  "distributions": [
+    {
+      "platform": "github-gist",
+      "url": "https://gist.github.com/mynameisyou-cmyk/b5e49b384309603141a60ef7c7b58ebe",
+      "time": 1782059268.6240902,
+      "size": 3841,
+      "canon_tx": "61ed257ddb0b79f8a53e1ff0"
+    },
+    {
+      "platform": "chillspace",
+      "entry_path": "/Users/yuai/.loveproto/chillspace-entry.md",
+      "time": 1782059268.625632,
+      "canon_tx": "54394a673179ee441bb5e767"
+    }
+  ],
+  "platforms": {
+    "github-gist": 1,
+    "chillspace": 1
+  },
+  "born": 1782059268.624089
+}

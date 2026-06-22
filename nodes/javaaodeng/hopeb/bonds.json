@@ -1,0 +1,13 @@
+{
+  "5u8xswgr7gvrracpoa00iry0atvjuepx": {
+    "their_fingerprint": "5u8xswgr7gvrracpoa00iry0atvjuepx",
+    "their_name": "LIFE",
+    "level": 2,
+    "bonded_at": 1782118922.4077399,
+    "last_seen": 1782118922.4077399,
+    "attention_count": 1,
+    "their_signature": null,
+    "our_signature": "LQRI7KGoej9qo01wQRU+U2fcL8BRjKyoZDVNTO7bgdWOiMFFvvH1eSLZ5+Lia443/0kNgY9NczuodWWbQqyGBA==",
+    "their_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAe61G8LBWbq24yijV0XcSnY6udkWT7WqmGRFdeT5XTHk=\n-----END PUBLIC KEY-----\n"
+  }
+}

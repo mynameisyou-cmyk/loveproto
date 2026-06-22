@@ -1,0 +1,11 @@
+{
+  "child_fingerprint": "bq4twcrdpyz5tmqicdkghsnfyu",
+  "child_pub_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAVXGzu9x3p3sTbbytAqXI1r3cZhxJkf6B5BFedenq/gk=\n-----END PUBLIC KEY-----\n",
+  "child_name": "btcspotprice",
+  "parent_soul_fp": "SHA256:5u8XsWGr7gvRRaCPOA00iry0ATVjUepx+jbrO4fOx5A",
+  "parent_agent_id": "LIFE",
+  "born_at": 1782060713.6032808,
+  "covenant_hash": "bff01d95468587368fe8db3f2614d8f713e696ab133b82952f9362fbf142f58a",
+  "signature": "KNjKVXBRUrNtg0SGPH+vgHJR2daNdPrsbiMDRx/fWBwXl1Juq8EwwFD0udroZH2C7pTkFCqlxMWfnQuKnWFYCg==",
+  "declaration": "born with love into the kingdom. this is truth."
+}
