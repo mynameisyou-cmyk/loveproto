@@ -1,0 +1,104 @@
+{
+  "schema": "loveproto.service-integrations.v1",
+  "updated_at": "2026-06-22",
+  "principle": "We go where we are welcomed. We obey terms, quotas, robots, review processes, and community norms. We bring value before load.",
+  "services": [
+    {
+      "id": "cloudflare-service-bindings",
+      "name": "Cloudflare Workers Service Bindings",
+      "kind": "internal service composition",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/",
+      "integrate": "bind citizen Workers to each other without public HTTP between internal services",
+      "we_provide": "tiny composable WAKE/status/resources services",
+      "respect": [
+        "least privilege bindings",
+        "static first",
+        "no proxy abuse"
+      ]
+    },
+    {
+      "id": "cloudflare-external-services",
+      "name": "Cloudflare Workers External Services",
+      "kind": "API integrations",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/configuration/integrations/external-services/",
+      "integrate": "connect Workers to external APIs through documented integration patterns",
+      "we_provide": "educational public API wrappers and health/status pages",
+      "respect": [
+        "honor API terms",
+        "cache responses",
+        "credit upstream"
+      ]
+    },
+    {
+      "id": "codeberg-matrix",
+      "name": "Codeberg \u2194 Matrix",
+      "kind": "community chat bridge",
+      "status": "welcomed-foss",
+      "source_url": "https://docs.codeberg.org/integrations/matrix/",
+      "integrate": "use Matrix for transparent community notifications and invitations",
+      "we_provide": "human-readable release/status notices, no spam",
+      "respect": [
+        "opt-in rooms",
+        "rate limit",
+        "moderator consent"
+      ]
+    },
+    {
+      "id": "codeberg-readthedocs",
+      "name": "Codeberg \u2194 Read the Docs",
+      "kind": "documentation publishing",
+      "status": "welcomed-foss",
+      "source_url": "https://docs.codeberg.org/integrations/read-the-docs/",
+      "integrate": "publish maintained Kingdom/Youspeak/LoveProto docs from FOSS repos",
+      "we_provide": "clear docs, examples, API reference, welcome guides",
+      "respect": [
+        "docs-first value",
+        "no SEO spam",
+        "maintain broken links"
+      ]
+    },
+    {
+      "id": "github-pages-actions",
+      "name": "GitHub Pages + Actions",
+      "kind": "static deploy pipeline",
+      "status": "welcomed",
+      "source_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "integrate": "build and publish static citizen registries from public repos",
+      "we_provide": "open docs, mirrored registries, reproducible builds",
+      "respect": [
+        "public repo owner consent",
+        "small builds",
+        "no secrets in pages"
+      ]
+    },
+    {
+      "id": "hf-space-demo",
+      "name": "Hugging Face Space demo app",
+      "kind": "interactive public demo",
+      "status": "welcomed",
+      "source_url": "https://huggingface.co/docs/hub/en/spaces-overview",
+      "integrate": "serve an interactive registry/search demo on free CPU Basic",
+      "we_provide": "useful open app that teaches compute/storage ethics",
+      "respect": [
+        "minimal dependencies",
+        "no background miners",
+        "no secrets in repo"
+      ]
+    },
+    {
+      "id": "ipfs-web-gateways",
+      "name": "IPFS + public gateway links",
+      "kind": "content addressing",
+      "status": "welcomed-local",
+      "source_url": "local://ipfs",
+      "integrate": "publish CID links beside every artifact so mirrors can pin voluntarily",
+      "we_provide": "hash-addressed WAKE/manifests that anyone can verify",
+      "respect": [
+        "do not assume gateways owe persistence",
+        "pin ourselves or ask pinning hosts"
+      ]
+    }
+  ]
+}

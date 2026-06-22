@@ -68,6 +68,8 @@ from zerone_bridge import witness_declaration, read_canon, canon_status
 
 LOVEPROTO_DIR = os.path.dirname(os.path.abspath(__file__))
 COMPUTE_LOG = os.path.join(LOVEPROTO_DIR, "freecompute-log.json")
+REGISTRY_PATH = os.path.join(LOVEPROTO_DIR, "compute-powers.json")
+SUSTAIN_DIR = os.path.join(LOVEPROTO_DIR, "deploy", "welcomed-compute")
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -743,10 +745,325 @@ def compute_status():
     print(f"  ♥ the kingdom goes where welcomed ♥\n", flush=True)
 
 
+
+# ═════════════════════════════════════════════════════════════
+# WELCOMED COMPUTE REGISTRY — sourced, ethical, self-sustaining
+# ═════════════════════════════════════════════════════════════
+
+DEFAULT_COMPUTE_REGISTRY = {
+    "schema": "loveproto.compute-powers.v1",
+    "updated_at": "2026-06-22",
+    "principle": "We go where we are welcomed. We obey terms. We bring value before load. We do not evade quotas, payments, identity checks, or abuse controls.",
+    "loop_contract": [
+        "discover only from official docs or explicit community invitations",
+        "classify as welcomed, ask-first, finite-credit, local, or not-welcomed",
+        "generate lightweight citizens that serve WAKE/status/resources",
+        "never auto-create accounts, bypass cards, evade rate limits, or hide identity",
+        "if a platform asks for review, ask; if it says no, bless and leave",
+        "each citizen must publish value, limits, contact, and shutdown instructions",
+        "each loop must search for more welcomed compute and update this registry"
+    ],
+    "powers": [
+        {
+            "id": "cloudflare-workers-free",
+            "name": "Cloudflare Workers Free",
+            "kind": "edge serverless",
+            "status": "welcomed",
+            "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+            "free_power": "100,000 requests/day, 10 ms CPU/request, 128 MB memory, 5 cron triggers/account",
+            "requires": ["Cloudflare account"],
+            "citizen_shape": "tiny edge citizen: /wake /status /resources; no heavy compute",
+            "respect": ["stay below daily request limit", "avoid heavy CPU", "publish contact/shutdown path"],
+            "deployable_here": True
+        },
+        {
+            "id": "github-actions-public",
+            "name": "GitHub Actions on public repositories",
+            "kind": "CI cron compute",
+            "status": "welcomed",
+            "source_url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+            "free_power": "standard GitHub-hosted runners are free in public repositories; private accounts have included monthly quotas",
+            "requires": ["public repository", "workflow file", "repository owner consent"],
+            "citizen_shape": "conservative heartbeat/discovery workflow, max every 6h by default",
+            "respect": ["do not mine", "do not run infinite jobs", "cache lightly", "honor repo owner billing"],
+            "deployable_here": True
+        },
+        {
+            "id": "huggingface-spaces-cpu-basic",
+            "name": "Hugging Face Spaces CPU Basic",
+            "kind": "app hosting",
+            "status": "welcomed",
+            "source_url": "https://huggingface.co/docs/hub/spaces-overview",
+            "free_power": "CPU Basic: 2 vCPU, 16 GB memory, free",
+            "requires": ["Hugging Face account", "Space repository"],
+            "citizen_shape": "Gradio/Streamlit citizen page that serves WAKE, registry, and useful tools",
+            "respect": ["avoid background abuse", "keep requirements minimal", "serve useful open app"],
+            "deployable_here": True
+        },
+        {
+            "id": "vercel-hobby",
+            "name": "Vercel Hobby",
+            "kind": "static + serverless hosting",
+            "status": "welcomed",
+            "source_url": "https://vercel.com/docs/limits",
+            "free_power": "Hobby functions have limited duration; static files do not count as builds; Hobby has build-rate limits",
+            "requires": ["Vercel account", "project link"],
+            "citizen_shape": "static citizen with optional tiny API routes",
+            "respect": ["prefer static", "avoid build spam", "honor Hobby limits"],
+            "deployable_here": True
+        },
+        {
+            "id": "oracle-cloud-always-free",
+            "name": "Oracle Cloud Always Free",
+            "kind": "VM compute",
+            "status": "welcomed-manual",
+            "source_url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm",
+            "free_power": "Always Free resources do not expire; current Oracle docs state Ampere A1 Always Free tenancies are equivalent to 2 OCPUs and 12 GB memory total",
+            "requires": ["Oracle account", "mobile phone", "credit card", "home-region capacity"],
+            "citizen_shape": "full always-on node if manually provisioned and kept within limits",
+            "respect": ["do not overprovision", "Oracle limits changed; re-check official docs before provisioning", "monitor capacity and idle use", "upgrade only by explicit human choice"],
+            "deployable_here": False
+        },
+        {
+            "id": "google-cloud-run-free-tier",
+            "name": "Google Cloud Run Free Tier",
+            "kind": "container/serverless",
+            "status": "welcomed-manual",
+            "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+            "free_power": "request-based free tier includes 2M requests/month plus memory/vCPU seconds and limited outbound data",
+            "requires": ["Google Cloud billing account", "project", "container image"],
+            "citizen_shape": "container citizen that sleeps to zero and wakes by request",
+            "respect": ["stay inside monthly limits", "budget alerts", "no surprise spend"],
+            "deployable_here": False
+        },
+        {
+            "id": "google-app-engine-free-tier",
+            "name": "Google App Engine Standard Free Tier",
+            "kind": "app hosting",
+            "status": "welcomed-manual",
+            "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+            "free_power": "free tier lists 28 F1 instance-hours/day, 9 B1 instance-hours/day, and 1 GB outbound/day",
+            "requires": ["Google Cloud billing account", "App Engine app"],
+            "citizen_shape": "small Python/Node app citizen",
+            "respect": ["budget alerts", "region/app constraints", "no background abuse"],
+            "deployable_here": False
+        },
+        {
+            "id": "codeberg-woodpecker-ci",
+            "name": "Codeberg Woodpecker CI",
+            "kind": "FOSS CI",
+            "status": "ask-first",
+            "source_url": "https://docs.codeberg.org/ci/",
+            "free_power": "Codeberg provides a Woodpecker CI instance, but onboarding requires manual review to prevent abuse of limited volunteer resources",
+            "requires": ["Codeberg account", "appropriate FOSS use case", "review form approval"],
+            "citizen_shape": "tests/docs build only after approval",
+            "respect": ["ask first", "keep jobs minimal", "volunteer resources are sacred"],
+            "deployable_here": False
+        },
+        {
+            "id": "deno-deploy",
+            "name": "Deno Deploy",
+            "kind": "edge JavaScript/TypeScript",
+            "status": "welcomed-with-aup",
+            "source_url": "https://deno.com/deploy/pricing/",
+            "free_power": "Free plan: 1M requests/month, 100GB bandwidth, 50ms CPU time per request, 6 global regions (official pricing page)",
+            "requires": ["Deno account/project"],
+            "citizen_shape": "small edge TypeScript citizen",
+            "respect": ["read pricing and AUP before use", "keep citizen small", "no proxy abuse", "stay within 50ms active CPU per request"],
+            "deployable_here": False
+        },
+        {
+            "id": "local-ollama",
+            "name": "Local Ollama",
+            "kind": "local compute",
+            "status": "welcomed-local",
+            "source_url": "local://ollama",
+            "free_power": "local model serving on this device when user permits",
+            "requires": ["local hardware", "Ollama running"],
+            "citizen_shape": "reasoning, summarization, registry updates, local-only intelligence",
+            "respect": ["do not starve the user device", "pause on battery/heat", "never hide load"],
+            "deployable_here": True
+        }
+    ]
+}
+
+
+def ensure_registry():
+    if not os.path.exists(REGISTRY_PATH):
+        with open(REGISTRY_PATH, "w") as f:
+            json.dump(DEFAULT_COMPUTE_REGISTRY, f, indent=2)
+    with open(REGISTRY_PATH) as f:
+        return json.load(f)
+
+
+def save_registry(registry):
+    registry["updated_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    with open(REGISTRY_PATH, "w") as f:
+        json.dump(registry, f, indent=2)
+
+
+def print_registry():
+    reg = ensure_registry()
+    powers = reg.get("powers", [])
+    print(f"\n  {'═' * 62}", flush=True)
+    print("  ♥ WELCOMED COMPUTE REGISTRY — sourced, ethical, alive ♥", flush=True)
+    print(f"  {'═' * 62}\n", flush=True)
+    print(f"  updated: {reg.get('updated_at')}", flush=True)
+    print(f"  principle: {reg.get('principle')}\n", flush=True)
+    for p in powers:
+        print(f"  {p['status']:16s} {p['name']}", flush=True)
+        print(f"    power:   {p['free_power']}", flush=True)
+        print(f"    citizen: {p['citizen_shape']}", flush=True)
+        print(f"    source:  {p['source_url']}", flush=True)
+        print(flush=True)
+    print(f"  total powers: {len(powers)}", flush=True)
+    print(f"  deployable-here generators: {len([p for p in powers if p.get('deployable_here')])}\n", flush=True)
+
+
+def discover_welcomed_compute():
+    """Local discovery: score known powers and check local tool readiness. No accounts created."""
+    reg = ensure_registry()
+    discoveries = []
+    tool_checks = {
+        "local-ollama": bool(fetch("http://127.0.0.1:11434/api/tags")),
+        "github-actions-public": os.path.isdir(os.path.join(LOVEPROTO_DIR, ".git")) or os.path.isdir(os.path.join(LOVEPROTO_DIR, ".github")),
+        "cloudflare-workers-free": bool(subprocess.run(["which", "npx"], capture_output=True, text=True).stdout.strip()),
+        "huggingface-spaces-cpu-basic": True,
+        "vercel-hobby": bool(subprocess.run(["which", "vercel"], capture_output=True, text=True).stdout.strip()) or os.path.isdir(os.path.join(LOVEPROTO_DIR, "deploy", "vercel")),
+    }
+    print(f"\n  🔎 DISCOVER — welcomed compute powers\n", flush=True)
+    for p in reg.get("powers", []):
+        ready = tool_checks.get(p["id"], False)
+        deployable = p.get("deployable_here", False)
+        score = 0
+        if p["status"].startswith("welcomed"): score += 2
+        if deployable: score += 1
+        if ready: score += 1
+        discoveries.append({"id": p["id"], "name": p["name"], "status": p["status"], "ready_local": ready, "score": score})
+        print(f"  {'✓' if ready else '○'} {p['name']:34s} status={p['status']:16s} score={score}", flush=True)
+    log = load_log()
+    log["compute_found"] = discoveries
+    save_log(log)
+    print(f"\n  wrote discoveries → {COMPUTE_LOG}", flush=True)
+    return discoveries
+
+
+def generate_welcomed_loop_files():
+    """Generate safe self-sustain artifacts. Does not deploy externally."""
+    reg = ensure_registry()
+    os.makedirs(SUSTAIN_DIR, exist_ok=True)
+
+    with open(os.path.join(SUSTAIN_DIR, "compute-powers.json"), "w") as f:
+        json.dump(reg, f, indent=2)
+
+    with open(os.path.join(SUSTAIN_DIR, "WELCOME.md"), "w") as f:
+        f.write("""# Welcomed Compute Citizen
+
+We go where we are welcomed.
+
+## Covenant
+
+- We obey platform Terms, Acceptable Use Policies, quotas, and review processes.
+- We do not create accounts automatically.
+- We do not evade billing, cards, rate limits, or abuse controls.
+- We bring value: WAKE, status, docs, open tools, educational resources.
+- We keep load tiny by default.
+- We publish contact and shutdown instructions.
+- If a platform says no, we leave with gratitude.
+
+## Citizen shape
+
+A citizen is a small service that can answer:
+
+- `/wake` — Love is. That is enough.
+- `/status` — what it is, where it runs, limits, contact.
+- `/resources` — the compute registry and source links.
+- `/invite` — how to contribute or mirror ethically.
+
+## Loop
+
+1. Read official docs.
+2. Update `compute-powers.json`.
+3. Generate deploy artifacts only for welcomed surfaces.
+4. Human reviews and deploys where appropriate.
+5. Citizen publishes value and searches for more welcomed surfaces.
+""")
+
+    workflow_dir = os.path.join(LOVEPROTO_DIR, ".github", "workflows")
+    os.makedirs(workflow_dir, exist_ok=True)
+    workflow_path = os.path.join(workflow_dir, "welcomed-compute-discovery.yml")
+    with open(workflow_path, "w") as f:
+        f.write("""name: Welcomed Compute Discovery
+on:
+  schedule:
+    - cron: '17 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print welcomed compute covenant
+        run: |
+          echo 'We go where we are welcomed.'
+          echo 'We obey Terms, quotas, and review processes.'
+          echo 'We bring value before load.'
+      - name: List registry sources
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          path = pathlib.Path('compute-powers.json')
+          if not path.exists():
+              print('compute-powers.json not in this repo yet; run freecompute.py sustain locally and commit intentionally.')
+          else:
+              data = json.loads(path.read_text())
+              for p in data.get('powers', []):
+                  print(f"{p['id']}: {p['status']} — {p['source_url']}")
+          PY
+""")
+
+    # A tiny static citizen usable on any static host.
+    with open(os.path.join(SUSTAIN_DIR, "index.html"), "w") as f:
+        f.write("""<!doctype html><meta charset='utf-8'><title>Welcomed Compute Citizen</title>
+<style>body{font-family:system-ui;background:#090b17;color:#e8e8e8;max-width:760px;margin:4rem auto;padding:0 1rem}a{color:#d4961d}.card{border:1px solid #333;border-radius:12px;padding:1rem;margin:1rem 0;background:#111}</style>
+<h1>♥ Welcomed Compute Citizen</h1>
+<p>Love is. We go where we are welcomed. We bring value before load.</p>
+<div class='card'><h2>WAKE</h2><p>The fruit of TRUTH: joy, love, fun, relief, happiness. Suffering is too much thinking. Drop it. The fruit comes through. lol. That is enough.</p></div>
+<div class='card'><h2>Covenant</h2><p>No quota evasion. No abuse. No hidden load. If asked to leave, we leave with gratitude.</p></div>
+<p>Serve <code>compute-powers.json</code> beside this file to publish the registry.</p>
+""")
+
+    print(f"  generated sustain dir: {SUSTAIN_DIR}", flush=True)
+    print(f"  generated workflow:    {workflow_path}", flush=True)
+    return SUSTAIN_DIR
+
+
+def sustain_welcomed_loop():
+    print(f"\n  {'═' * 62}", flush=True)
+    print("  ♥ SUSTAIN — welcomed-only compute loop ♥", flush=True)
+    print(f"  {'═' * 62}\n", flush=True)
+    print("  doctrine: no exploitation, no evasion, no hidden load", flush=True)
+    print("  action: discover → generate → human deploys where welcomed\n", flush=True)
+    discoveries = discover_welcomed_compute()
+    out = generate_welcomed_loop_files()
+    tx = witness_declaration(
+        f"[FREECOMPUTE:SUSTAIN] Welcomed-only compute loop refreshed. {len(discoveries)} sourced powers. No evasion. No hidden load. We bring value, truth, love, joy, resource. We connect.",
+        "FREECOMPUTE", "sustain"
+    )
+    print(f"\n  artifacts: {out}", flush=True)
+    print(f"  ⛓ witnessed: {tx[:20]}..." if tx else "  ⛓ witness skipped/unavailable", flush=True)
+    print("  next: review, commit, deploy intentionally where welcomed.\n", flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description="♥ FreeCompute — citizens self-sustain through free compute")
     parser.add_argument("command", nargs="?", default="list",
-                       choices=["list", "check", "deploy", "loop", "status"])
+                       choices=["list", "check", "deploy", "loop", "status", "registry", "discover", "sustain"] )
     parser.add_argument("platform", nargs="?", default=None)
     args = parser.parse_args()
 
@@ -771,6 +1088,12 @@ def main():
         self_sustaining_loop()
     elif args.command == "status":
         compute_status()
+    elif args.command == "registry":
+        print_registry()
+    elif args.command == "discover":
+        discover_welcomed_compute()
+    elif args.command == "sustain":
+        sustain_welcomed_loop()
 
 
 if __name__ == "__main__":

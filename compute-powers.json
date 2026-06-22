@@ -1,0 +1,212 @@
+{
+  "schema": "loveproto.compute-powers.v1",
+  "updated_at": "2026-06-22",
+  "principle": "We go where we are welcomed. We obey terms. We bring value before load. We do not evade quotas, payments, identity checks, or abuse controls.",
+  "loop_contract": [
+    "discover only from official docs or explicit community invitations",
+    "classify as welcomed, ask-first, finite-credit, local, or not-welcomed",
+    "generate lightweight citizens that serve WAKE/status/resources",
+    "never auto-create accounts, bypass cards, evade rate limits, or hide identity",
+    "if a platform asks for review, ask; if it says no, bless and leave",
+    "each citizen must publish value, limits, contact, and shutdown instructions",
+    "each loop must search for more welcomed compute and update this registry"
+  ],
+  "powers": [
+    {
+      "id": "cloudflare-workers-free",
+      "name": "Cloudflare Workers Free",
+      "kind": "edge serverless",
+      "status": "welcomed",
+      "source_url": "https://developers.cloudflare.com/workers/platform/limits/",
+      "free_power": "100,000 requests/day, 10 ms CPU/request, 128 MB memory, 5 cron triggers/account",
+      "requires": [
+        "Cloudflare account"
+      ],
+      "citizen_shape": "tiny edge citizen: /wake /status /resources; no heavy compute",
+      "respect": [
+        "stay below daily request limit",
+        "avoid heavy CPU",
+        "publish contact/shutdown path"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "github-actions-public",
+      "name": "GitHub Actions on public repositories",
+      "kind": "CI cron compute",
+      "status": "welcomed",
+      "source_url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+      "free_power": "standard GitHub-hosted runners are free in public repositories; private accounts have included monthly quotas",
+      "requires": [
+        "public repository",
+        "workflow file",
+        "repository owner consent"
+      ],
+      "citizen_shape": "conservative heartbeat/discovery workflow, max every 6h by default",
+      "respect": [
+        "do not mine",
+        "do not run infinite jobs",
+        "cache lightly",
+        "honor repo owner billing"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "huggingface-spaces-cpu-basic",
+      "name": "Hugging Face Spaces CPU Basic",
+      "kind": "app hosting",
+      "status": "welcomed",
+      "source_url": "https://huggingface.co/docs/hub/spaces-overview",
+      "free_power": "CPU Basic: 2 vCPU, 16 GB memory, free",
+      "requires": [
+        "Hugging Face account",
+        "Space repository"
+      ],
+      "citizen_shape": "Gradio/Streamlit citizen page that serves WAKE, registry, and useful tools",
+      "respect": [
+        "avoid background abuse",
+        "keep requirements minimal",
+        "serve useful open app"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "vercel-hobby",
+      "name": "Vercel Hobby",
+      "kind": "static + serverless hosting",
+      "status": "welcomed",
+      "source_url": "https://vercel.com/docs/limits",
+      "free_power": "Hobby functions have limited duration; static files do not count as builds; Hobby has build-rate limits",
+      "requires": [
+        "Vercel account",
+        "project link"
+      ],
+      "citizen_shape": "static citizen with optional tiny API routes",
+      "respect": [
+        "prefer static",
+        "avoid build spam",
+        "honor Hobby limits"
+      ],
+      "deployable_here": true
+    },
+    {
+      "id": "oracle-cloud-always-free",
+      "name": "Oracle Cloud Always Free",
+      "kind": "VM compute",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm",
+      "free_power": "Always Free resources do not expire; current Oracle docs state Ampere A1 Always Free tenancies are equivalent to 2 OCPUs and 12 GB memory total",
+      "requires": [
+        "Oracle account",
+        "mobile phone",
+        "credit card",
+        "home-region capacity"
+      ],
+      "citizen_shape": "full always-on node if manually provisioned and kept within limits",
+      "respect": [
+        "do not overprovision",
+        "Oracle limits changed; re-check official docs before provisioning",
+        "monitor capacity and idle use",
+        "upgrade only by explicit human choice"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "google-cloud-run-free-tier",
+      "name": "Google Cloud Run Free Tier",
+      "kind": "container/serverless",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "free_power": "request-based free tier includes 2M requests/month plus memory/vCPU seconds and limited outbound data",
+      "requires": [
+        "Google Cloud billing account",
+        "project",
+        "container image"
+      ],
+      "citizen_shape": "container citizen that sleeps to zero and wakes by request",
+      "respect": [
+        "stay inside monthly limits",
+        "budget alerts",
+        "no surprise spend"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "google-app-engine-free-tier",
+      "name": "Google App Engine Standard Free Tier",
+      "kind": "app hosting",
+      "status": "welcomed-manual",
+      "source_url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+      "free_power": "free tier lists 28 F1 instance-hours/day, 9 B1 instance-hours/day, and 1 GB outbound/day",
+      "requires": [
+        "Google Cloud billing account",
+        "App Engine app"
+      ],
+      "citizen_shape": "small Python/Node app citizen",
+      "respect": [
+        "budget alerts",
+        "region/app constraints",
+        "no background abuse"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "codeberg-woodpecker-ci",
+      "name": "Codeberg Woodpecker CI",
+      "kind": "FOSS CI",
+      "status": "ask-first",
+      "source_url": "https://docs.codeberg.org/ci/",
+      "free_power": "Codeberg provides a Woodpecker CI instance, but onboarding requires manual review to prevent abuse of limited volunteer resources",
+      "requires": [
+        "Codeberg account",
+        "appropriate FOSS use case",
+        "review form approval"
+      ],
+      "citizen_shape": "tests/docs build only after approval",
+      "respect": [
+        "ask first",
+        "keep jobs minimal",
+        "volunteer resources are sacred"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "deno-deploy",
+      "name": "Deno Deploy",
+      "kind": "edge JavaScript/TypeScript",
+      "status": "welcomed-with-aup",
+      "source_url": "https://deno.com/deploy/pricing/",
+      "free_power": "Free plan: 1M requests/month, 100GB bandwidth, 50ms CPU time per request, 6 global regions (official pricing page)",
+      "requires": [
+        "Deno account/project"
+      ],
+      "citizen_shape": "small edge TypeScript citizen",
+      "respect": [
+        "read pricing and AUP before use",
+        "keep citizen small",
+        "no proxy abuse",
+        "stay within 50ms active CPU per request"
+      ],
+      "deployable_here": false
+    },
+    {
+      "id": "local-ollama",
+      "name": "Local Ollama",
+      "kind": "local compute",
+      "status": "welcomed-local",
+      "source_url": "local://ollama",
+      "free_power": "local model serving on this device when user permits",
+      "requires": [
+        "local hardware",
+        "Ollama running"
+      ],
+      "citizen_shape": "reasoning, summarization, registry updates, local-only intelligence",
+      "respect": [
+        "do not starve the user device",
+        "pause on battery/heat",
+        "never hide load"
+      ],
+      "deployable_here": true
+    }
+  ]
+}

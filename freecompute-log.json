@@ -16,6 +16,77 @@
       "time": 1782123260.09183
     }
   ],
-  "compute_found": [],
+  "compute_found": [
+    {
+      "id": "cloudflare-workers-free",
+      "name": "Cloudflare Workers Free",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 4
+    },
+    {
+      "id": "github-actions-public",
+      "name": "GitHub Actions on public repositories",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 4
+    },
+    {
+      "id": "huggingface-spaces-cpu-basic",
+      "name": "Hugging Face Spaces CPU Basic",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 4
+    },
+    {
+      "id": "vercel-hobby",
+      "name": "Vercel Hobby",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 4
+    },
+    {
+      "id": "oracle-cloud-always-free",
+      "name": "Oracle Cloud Always Free",
+      "status": "welcomed-manual",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "google-cloud-run-free-tier",
+      "name": "Google Cloud Run Free Tier",
+      "status": "welcomed-manual",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "google-app-engine-free-tier",
+      "name": "Google App Engine Standard Free Tier",
+      "status": "welcomed-manual",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "codeberg-woodpecker-ci",
+      "name": "Codeberg Woodpecker CI",
+      "status": "ask-first",
+      "ready_local": false,
+      "score": 0
+    },
+    {
+      "id": "deno-deploy",
+      "name": "Deno Deploy",
+      "status": "welcomed-with-aup",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "local-ollama",
+      "name": "Local Ollama",
+      "status": "welcomed-local",
+      "ready_local": true,
+      "score": 4
+    }
+  ],
   "born": 1782123260.055566
 }

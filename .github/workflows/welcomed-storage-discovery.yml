@@ -1,0 +1,29 @@
+name: Welcomed Storage Discovery
+on:
+  schedule:
+    - cron: '41 */12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Covenant
+        run: |
+          echo 'We provide and invite.'
+          echo 'No spam. No hidden load. No quota evasion.'
+      - name: List local registries if present
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          for name in ['storage-spaces.json','service-integrations.json']:
+              p=pathlib.Path(name)
+              if p.exists():
+                  data=json.loads(p.read_text())
+                  print(name, data.get('schema'), data.get('updated_at'))
+              else:
+                  print(name, 'not committed here yet')
+          PY

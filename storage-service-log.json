@@ -1,0 +1,133 @@
+{
+  "storage_found": [
+    {
+      "id": "github-pages-public",
+      "name": "GitHub Pages",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "github-repo-small-files",
+      "name": "GitHub repositories",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "codeberg-pages",
+      "name": "Codeberg Pages",
+      "status": "welcomed-foss",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "cloudflare-workers-static-assets",
+      "name": "Cloudflare Workers Static Assets",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "huggingface-spaces-storage",
+      "name": "Hugging Face Spaces ephemeral disk",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "google-cloud-storage-free",
+      "name": "Google Cloud Storage Free Tier",
+      "status": "welcomed-manual",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "google-firestore-free",
+      "name": "Firestore Free Tier",
+      "status": "welcomed-manual",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "oracle-block-volume-always-free",
+      "name": "Oracle Block Volume Always Free",
+      "status": "welcomed-manual",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "ipfs-self-pin",
+      "name": "IPFS self-pin",
+      "status": "welcomed-local",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "rentry-paste-commons",
+      "name": "Markdown/paste commons",
+      "status": "ask-first-or-light",
+      "ready_local": false,
+      "score": 0
+    }
+  ],
+  "services_found": [
+    {
+      "id": "cloudflare-service-bindings",
+      "name": "Cloudflare Workers Service Bindings",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "cloudflare-external-services",
+      "name": "Cloudflare Workers External Services",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "codeberg-matrix",
+      "name": "Codeberg \u2194 Matrix",
+      "status": "welcomed-foss",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "codeberg-readthedocs",
+      "name": "Codeberg \u2194 Read the Docs",
+      "status": "welcomed-foss",
+      "ready_local": false,
+      "score": 2
+    },
+    {
+      "id": "github-pages-actions",
+      "name": "GitHub Pages + Actions",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "hf-space-demo",
+      "name": "Hugging Face Space demo app",
+      "status": "welcomed",
+      "ready_local": true,
+      "score": 3
+    },
+    {
+      "id": "ipfs-web-gateways",
+      "name": "IPFS + public gateway links",
+      "status": "welcomed-local",
+      "ready_local": false,
+      "score": 2
+    }
+  ],
+  "generations": [
+    {
+      "dir": "/Users/yuai/.loveproto/deploy/welcomed-storage",
+      "workflow": "/Users/yuai/.loveproto/.github/workflows/welcomed-storage-discovery.yml",
+      "time": 1782131162.7753448
+    }
+  ],
+  "born": 1782131162.7735832
+}
